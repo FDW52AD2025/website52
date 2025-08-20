@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+
+}
+
+div {
+    border-radius: 10px;
+    border: 3px solid #260000;
+    padding: 10px;
+    width: 600px;
+    background-color: #F5F5DC   ;
+}
+
+body{
+    background-color: #E3DAC9;
+}
+
+.boton {
+    /* Diseño y tamaño */
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    
+    /* Colores */
+    background-color: beige; /* Azul principal */
+    color: white;
+    
+    /* Texto */
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    
+    /* Bordes y efectos */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    
+    /* Transiciones suaves */
+    transition: all 0.3s ease;
+    
+    /* Sombras */
+    box-shadow: 0 4px 6px #a5635c;
+}
+
+/* BOTÓN CON BORDE (OUTLINE) */
+.boton.outline {
+    background-color: transparent;
+    border: 2px solid #824942;
+    color: #824942;
+}
+
+.boton.outline:hover {
+    background-color: #824942;
+    color: white;
+}
+
+/* EFECTO AL PRESIONAR (ACTIVE) */
+.boton.boton.outline:active {
+    transform: translateY(0); /* Vuelve a su posición */
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.2);
+}
+/* ESTADO DESHABILITADO */
+.boton:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.boton:disabled:hover {
+    background-color: #6c757d;
+    transform: none;
+    box-shadow: none;
+}
