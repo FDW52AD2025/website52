@@ -5,6 +5,121 @@ h1{
 
 div {
     border-radius: 10px;
-    border: 3px solid black;
+    border: 3px solid #260000;
     padding: 10px;
+    width: 600px;
+    background-color: #F5F5DC   ;
+}
+
+body{
+    background-color: #E3DAC9;
+}
+
+.boton {
+    /* Diseño y tamaño */
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    
+    /* Colores */
+    background-color: #a5635c; /* Azul principal */
+    color: white;
+    
+    /* Texto */
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    
+    /* Bordes y efectos */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    
+    /* Transiciones suaves */
+    transition: all 0.3s ease;
+    
+    /* Sombras */
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.3);
+}
+
+/* EFECTO AL PASAR EL MOUSE (HOVER) */
+.boton:hover {
+    background-color: #0056b3; /* Azul más oscuro */
+    transform: translateY(-2px); /* Se eleva un poco */
+    box-shadow: 0 6px 12px rgba(0, 123, 255, 0.4);
+}
+
+/* EFECTO AL PRESIONAR (ACTIVE) */
+.boton:active {
+    transform: translateY(0); /* Vuelve a su posición */
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.2);
+}
+
+/* VARIANTES DE COLOR */
+.boton.verde {
+    background-color: #28a745;
+    box-shadow: 0 4px 6px rgba(40, 167, 69, 0.3);
+}
+
+.boton.verde:hover {
+    background-color: #218838;
+    box-shadow: 0 6px 12px rgba(40, 167, 69, 0.4);
+}
+
+.boton.rojo {
+    background-color: #dc3545;
+    box-shadow: 0 4px 6px rgba(220, 53, 69, 0.3);
+}
+
+.boton.rojo:hover {
+    background-color: #c82333;
+    box-shadow: 0 6px 12px rgba(220, 53, 69, 0.4);
+}
+
+.boton.naranja {
+    background-color: #fd7e14;
+    box-shadow: 0 4px 6px rgba(253, 126, 20, 0.3);
+}
+
+.boton.naranja:hover {
+    background-color: #e66a00;
+    box-shadow: 0 6px 12px rgba(253, 126, 20, 0.4);
+}
+
+/* TAMAÑOS DIFERENTES */
+.boton.pequeno {
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+.boton.grande {
+    padding: 20px 40px;
+    font-size: 18px;
+}
+
+/* BOTÓN CON BORDE (OUTLINE) */
+.boton.outline {
+    background-color: transparent;
+    border: 2px solid #824942;
+    color: #824942;
+}
+
+.boton.outline:hover {
+    background-color: #824942;
+    color: white;
+}
+
+/* ESTADO DESHABILITADO */
+.boton:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.boton:disabled:hover {
+    background-color: #6c757d;
+    transform: none;
+    box-shadow: none;
 }
