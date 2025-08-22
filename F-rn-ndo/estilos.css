@@ -1,0 +1,62 @@
+/* Fondo de pagina */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("images/fondo.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+/* Encabezados */
+h1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin: 0;
+    font-size: 2em;
+}
+
+h2 {
+    color: #ffcc00;
+    margin-top: 20px;
+}
+
+/* Secciones */
+section {
+    background: rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(255,255,255,0.3);
+}
+
+/* css links */
+.links {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    margin: 10px 0;
+}
+
+.links a {
+    text-decoration: none;
+    color: #ffcc00;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #ffffff;
+}
+
+/* Pie de pagina */
+.main-footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
