@@ -1,32 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evidencias</title>
+    <title>Página Principal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* hace que el body tenga toda la altura de la pantalla */
+        }
+
+        header {
+            background: #eb88ff;
+            color: rgb(0, 0, 0);
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            flex: 1; /* ocupa todo el espacio disponible para empujar el footer abajo */
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }   
+
+        section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        a {
+            display: inline-block;
+            margin: 10px 10px 0 0;
+            padding: 8px 15px;
+            background: #eb88ff;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background: #005fa3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #000000;
+            color: #c300ff;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h2>Evidencias Fundamentos de Desarrollo Web - Alejandro Santiago Coronado</h2>
+        <h1>Evidencias Fundamentos de desarrollo web</h1>
     </header>
     <main>
-        <main>
-        <h2>Evidencia 1</h2>
-        <article>
-            <header>
-                <h3>Practica 1 - 13/08/2025 al 15/08/2025</h3>
-            </header>
-            <p>Para la practica 1 desarrolle una pagina web sencilla con tematica de 4 pasatiempos mios, estuve contando con la estructura base, header, main, footer. Además de utilizar etiquetas como article, section para separar cada pasatiempo. Todo fue subido a un repositorio personal alojado en GitHub, además se subio a la internet por medio de GitHub y también se tomaron en cuenta las fechas de los commit, teniendo que quedar en un rango del 13/08/2025 al 15/08/2025.</p>
-            <section>
-                <ul>
-                <li><a href="https://github.com/AscuOnTop/WebPrograms">Mi repositorio</a></li>
-                <li><a href="https://ascuontop.github.io/WebPrograms/pagina2.html">Pagina web</a></li>
-                <li><a href="https://github.com/AscuOnTop/WebPrograms/commits?since=2025-08-13&until=2025-08-15">Commits 13/08/2025 al 15/08/2025</a></li>
-                </ul>
-            </section>
-        </article>
+        <section>
+            <h2>Evidencia 1</h2>
+            <a href="https://github.com/AscuOnTop/WebPrograms">Mi repositorio</a>
+            <a href="https://ascuontop.github.io/WebPrograms/pagina2.html">Pagina web</a>
+            <a href="https://github.com/AscuOnTop/WebPrograms/commits?since=2025-08-13&until=2025-08-15">Commits 13/08/2025 al 15/08/2025</a>
+        </section>
     </main>
-    <aside></aside>
-    <footer></footer>
+    <footer>
+        <address>
+            <p>desarrollado por braian de jesus rios vega</p>
+            <p>San nicolas de los garza</p>
+        </address>
+    </footer>
 </body>
 </html>
