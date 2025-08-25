@@ -1,49 +1,58 @@
-h1{
-    text-align: center;
-
+body {
+    background-color: #E3DAC9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
 }
 
-div {
+h1 {
+    text-align: center;
+    color: #260000;
+    margin-bottom: 30px;
+}
+
+.contenedor-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.caja {
     border-radius: 10px;
     border: 3px solid #260000;
-    padding: 10px;
-    width: 600px;
-    background-color: #F5F5DC   ;
+    margin-top: 1%;
+    padding: 20px;
+    background-color: #F5F5DC;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-width: 300px; /* Ancho mínimo para mantener legibilidad */
 }
 
-body{
-    background-color: #E3DAC9;
+.caja:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(38, 0, 0, 0.2);
 }
 
 .boton {
-    /* Diseño y tamaño */
     display: inline-block;
     padding: 15px 30px;
     margin: 10px;
-    
-    /* Colores */
-    background-color: beige; /* Azul principal */
-    color: white;
-    
-    /* Texto */
+    background-color: beige;
+    color: #260000;
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
-    
-    /* Bordes y efectos */
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    
-    /* Transiciones suaves */
     transition: all 0.3s ease;
-    
-    /* Sombras */
     box-shadow: 0 4px 6px #a5635c;
 }
 
-/* BOTÓN CON BORDE (OUTLINE) */
 .boton.outline {
     background-color: transparent;
     border: 2px solid #824942;
@@ -55,12 +64,11 @@ body{
     color: white;
 }
 
-/* EFECTO AL PRESIONAR (ACTIVE) */
-.boton.boton.outline:active {
-    transform: translateY(0); /* Vuelve a su posición */
+.boton:active {
+    transform: translateY(2px);
     box-shadow: 0 2px 4px rgba(0, 123, 255, 0.2);
 }
-/* ESTADO DESHABILITADO */
+
 .boton:disabled {
     background-color: #6c757d;
     cursor: not-allowed;
@@ -72,4 +80,24 @@ body{
     background-color: #6c757d;
     transform: none;
     box-shadow: none;
+}
+
+/* Responsive para tablets */
+@media (max-width: 900px) {
+    .caja {
+        flex: 0 0 calc(100% - 20px); /* Una columna en tablets */
+    }
+}
+
+/* Responsive para móviles */
+@media (max-width: 600px) {
+    .caja {
+        flex: 0 0 100%; /* Una columna en móviles */
+        min-width: unset;
+    }
+    
+    .boton {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
 }
