@@ -25,8 +25,14 @@ section {
 }
 
 h3 {
+    background-color: navy;
+    color: aliceblue;
     font-family: monospace;
     margin: 10px;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 p {
