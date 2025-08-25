@@ -16,7 +16,7 @@ h1 {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    max-width: 1300px;
+    max-width: 100px;
     margin: 0 auto;
 }
 
@@ -28,7 +28,10 @@ h1 {
     background-color: #F5F5DC;
     box-sizing: border-box;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    min-width: 300px; /* Ancho mínimo para mantener legibilidad */
+    min-width: 100px; /* Ancho mínimo para mantener legibilidad */
+    max-width: 700px;
+    /* Añadido para que las cajas se coloquen lado a lado */
+    flex: 1 0 calc(33.333% - 40px); /* Tres columnas por defecto */
 }
 
 .caja:hover {
