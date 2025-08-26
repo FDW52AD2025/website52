@@ -1,0 +1,25 @@
+body {
+    background-color: lightcyan;
+}
+
+header h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+address {
+    margin-left: 20px;
+}
+
+section {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+
+
