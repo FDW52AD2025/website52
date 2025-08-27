@@ -1,0 +1,22 @@
+h1 {
+    border: 3px double rgb(136, 3, 136);
+    background-color: rgb(223, 194, 223);
+    color: rgb(96, 3, 96);
+}
+
+section {
+    border:3px double rgb(162, 103, 162);
+    background-color: rgb(231, 215, 231);
+}
+
+h3 {
+    color: rgb(109, 4, 109);
+}
+
+img {
+    border: 3px double rgb(129, 0, 129);
+}
+
+header {
+    color: rgb(11, 11, 11);
+}
