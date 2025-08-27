@@ -1,0 +1,53 @@
+img{
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+
+.navLink{
+padding: 0 10px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    width: 600px;
+    text-align: center;
+}
+
+section{
+    display: grid;
+    justify-content: center;
+    border-radius: 10px;
+   padding: 10px 
+}
+
+    header{
+        display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.code{
+    color: green;
+}
+
+.musica{
+    color: blue;
+}
+
+.videojuegos{
+    color: red;
+}
+
+.mtb{
+    color: orange;
+}
