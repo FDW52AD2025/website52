@@ -11,7 +11,7 @@
 .caja_sombreada_futbol {
     padding: 20px;
     border-radius: 8px;
-    background-color: rgb(30, 141, 48);
+    background-color: rgb(2, 51, 116);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
     color: #ffffff;
 }
@@ -19,4 +19,9 @@
 .centro{
     text-align: center;
     font-size: 40px;
+}
+
+.imagen{
+    float:right;
+    margin-right: 300px;
 }
