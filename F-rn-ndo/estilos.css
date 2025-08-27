@@ -5,8 +5,9 @@ body {
     padding: 0;
     background: url("images/fondo.jpg") no-repeat center center fixed;
     background-size: cover;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
+    font-weight: bold;
 }
 
 /* Encabezados */
