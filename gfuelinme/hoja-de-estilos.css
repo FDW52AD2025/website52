@@ -1,0 +1,44 @@
+body {
+    background-color: #47846E;
+}
+
+#titulo-principal {
+    font-family: monospace;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+
+#header-practicas {
+    font-family: monospace;
+    color: black;
+    background-color: darkgray;
+    text-align: center;
+    border: 2px solid grey;
+    padding: 20px;
+    margin: 20px;
+}
+
+section {
+    font-family: monospace;
+    background-color: darkgray;
+    border: 3px solid grey;
+    margin: 20px;
+}
+
+h3 {
+    background-color: navy;
+    color: aliceblue;
+    font-family: monospace;
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+p {
+    font-family: monospace;
+    font-size: 15px;
+    margin: 10px;
+}
