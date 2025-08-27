@@ -129,10 +129,29 @@ main h2 {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
+main h3 {
+    color: #260000;
+    font-size: 1.8rem;
+    padding-bottom: 5px;
+    border-bottom: #260000 solid 5px;
+    
+}
+
 main p {
     color: #330505;
     line-height: 1.6;
     font-size: 1.1rem;
+}
+
+.contenedor {
+    display: flex;
+    align-items: top; /* centra verticalmente */
+    gap: 15px; /* espacio entre texto e imagen */
+}
+
+.contenedor img {
+    width: 150px; /* ajusta el tamaño */
+    height: auto;
 }
 
 aside {
@@ -151,6 +170,7 @@ aside h3 {
     font-size: 1.3rem;
     margin-bottom: 15px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    text-align: center;
 }
 
 aside ul {
