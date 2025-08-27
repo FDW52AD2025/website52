@@ -1,0 +1,44 @@
+body {
+    background-color: #0084ff;
+}
+
+#titulo-principal {
+    font-family: Arial;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+
+#header-practicas {
+    font-family: Arial;
+    color: black;
+    background-color: darkgray;
+    text-align: center;
+    border: 2px solid rgb(0, 153, 255);
+    padding: 20px;
+    margin: 20px;
+}
+
+section {
+    font-family: Arial;
+    background-color: darkgray;
+    border: 3px solid grey;
+    margin: 20px;
+}
+
+h3 {
+    background-color: rgb(22, 80, 107);
+    color: aliceblue;
+    font-family: Arial;
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+p {
+    font-family: Arial;
+    font-size: 15px;
+    margin: 10px;
+}
