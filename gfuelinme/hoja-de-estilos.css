@@ -16,12 +16,14 @@ body {
     text-align: center;
     border: 2px solid grey;
     padding: 20px;
+    margin: 20px;
 }
 
 section {
     font-family: monospace;
     background-color: darkgray;
     border: 3px solid grey;
+    margin: 20px;
 }
 
 h3 {
@@ -37,5 +39,6 @@ h3 {
 
 p {
     font-family: monospace;
+    font-size: 15px;
     margin: 10px;
 }
