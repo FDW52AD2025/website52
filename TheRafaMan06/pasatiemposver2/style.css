@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #E3DAC9;
     min-height: 100vh;
     display: grid;
     grid-template-areas: 
@@ -23,7 +23,7 @@ body {
 header {
     grid-area: header;
     background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(90px);
     border-radius: 15px;
     padding: 30px;
     text-align: center;
@@ -32,7 +32,7 @@ header {
 }
 
 header h1 {
-    color: white;
+    color: #260000;
     font-size: 2.5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     animation: glow 2s ease-in-out infinite alternate;
@@ -97,45 +97,14 @@ nav {
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
 }
 
-.menu-button:nth-child(1) {
-    background: linear-gradient(145deg, #4fc3f7, #2196f3);
+.menu-button {
+    background: linear-gradient(145deg, #81514b, #6e3730);
 }
 
-.menu-button:nth-child(1):hover {
-    background: linear-gradient(145deg, #42a5f5, #1976d2);
+.menu-button {
+    background: linear-gradient(145deg, #6e3730, #81514b);
 }
 
-.menu-button:nth-child(2) {
-    background: linear-gradient(145deg, #81c784, #4caf50);
-}
-
-.menu-button:nth-child(2):hover {
-    background: linear-gradient(145deg, #66bb6a, #388e3c);
-}
-
-.menu-button:nth-child(3) {
-    background: linear-gradient(145deg, #ffb74d, #ff9800);
-}
-
-.menu-button:nth-child(3):hover {
-    background: linear-gradient(145deg, #ffa726, #f57c00);
-}
-
-.menu-button:nth-child(4) {
-    background: linear-gradient(145deg, #ba68c8, #9c27b0);
-}
-
-.menu-button:nth-child(4):hover {
-    background: linear-gradient(145deg, #ab47bc, #7b1fa2);
-}
-
-.menu-button:nth-child(5) {
-    background: linear-gradient(145deg, #f06292, #e91e63);
-}
-
-.menu-button:nth-child(5):hover {
-    background: linear-gradient(145deg, #ec407a, #c2185b);
-}
 
 .menu-icon {
     font-size: 1.3rem;
@@ -154,14 +123,14 @@ main {
 }
 
 main h2 {
-    color: white;
+    color: #260000;
     font-size: 1.8rem;
     margin-bottom: 20px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 main p {
-    color: rgba(255, 255, 255, 0.9);
+    color: #330505;
     line-height: 1.6;
     font-size: 1.1rem;
 }
@@ -178,7 +147,7 @@ aside {
 }
 
 aside h3 {
-    color: white;
+    color: #260000;
     font-size: 1.3rem;
     margin-bottom: 15px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
@@ -194,7 +163,7 @@ aside li {
     margin: 8px 0;
     padding: 10px;
     border-radius: 8px;
-    color: rgba(255, 255, 255, 0.9);
+    color: #330505;
     transition: background 0.3s ease;
 }
 
@@ -211,7 +180,7 @@ footer {
     text-align: center;
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    color: rgba(255, 255, 255, 0.8);
+    color: #330505;
 }
 
 @media (max-width: 768px) {

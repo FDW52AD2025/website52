@@ -1,0 +1,21 @@
+h1 {
+  color: rgb(0, 0, 0);
+  background-color: rgb(39, 68, 148);
+  border: 3px solid rgb(7, 2, 88);
+}
+
+h2 {
+  color: rgb(2, 71, 2);
+}
+
+img {
+    width: 400px;
+}
+
+footer {
+  font-style: italic;
+}
+
+body {
+    background-color: rgb(139, 160, 177);
+}
