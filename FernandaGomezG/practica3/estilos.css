@@ -1,0 +1,11 @@
+.titulos {
+    border: 2px solid black;
+    margin: 10px;
+    background-color: pink;
+}
+.concertimg {
+    float: left;
+    width: 300px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
