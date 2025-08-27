@@ -1,0 +1,32 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    color: rgb(134, 107, 71);
+    background-color: rgba(224, 191, 150, 0.603);
+    font-family: 'Franklin Gothic Medium';
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    font-style: oblique;
+    color: rgb(134, 107, 71);
+}
+
+.subtitulo {
+    color: rgb(134, 107, 71);
+    font-family: 'Lucida Sans Regular';
+    font-size: x-large;
+}
+
+p {
+    font-family: 'Lucida sans';
+    color: rgb(44, 26, 4);
+}
+
+footer {
+    color: rgb(44, 26, 4);
+    font-style: italic;
+}
