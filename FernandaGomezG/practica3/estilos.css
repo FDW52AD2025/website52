@@ -9,10 +9,10 @@
 
 .textostyle {
     border-radius: 15px ;
-    background-color: rgb(233, 233, 156);
+    background-color: rgb(226, 226, 157);
     border: 2px solid black;
     display: inline-block;
-    margin: 15px;
+    margin: 10px;
     padding: 10px;
     position: relative;
 }
@@ -23,6 +23,6 @@
     width: 300px;
     margin-left: 20px;
     position: relative;
-    bottom: 70px;
+    bottom: 5px;
 }
 
