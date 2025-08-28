@@ -1,0 +1,27 @@
+body {
+    background-color: lightcyan;
+}
+
+header h1 {
+    text-align: center;
+}
+
+address {
+    margin-left: 20px;
+}
+
+article {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+form {
+    text-align: center;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+}
