@@ -42,9 +42,12 @@
     <main>
         <h2>Deportes que Amo</h2>
         <h3>Futbol</h3>
-        
         <br>
-        <p>Desde que tengo recuerdo de memoria tengo un gusto muy grande de jugar futbol; participando asi en equipos de fut.</p>
+        <div class="contenedor">
+            <p>El futbol es uno de los deportes que mas practico actualmente, ya sea con amigos o familiares. Hace mucho salia con mis vecinos a jugar, pero por las actividades diarias ya no puedo ir a jugar.</p>
+            <img src="img/fut.jpg" alt="Imagen de basquetbol">
+        </div>
+
         <br>
 
         <h3>Voleibol</h3>
@@ -67,16 +70,30 @@
     </main>
     
     <aside>
-        <h3>Formulario</h3>
-        <ul>
-            <li>⚽ Sección de Deportes</li>
-            <li>📺 Sección de Series</li>
-            <li>💥 Sección de Comics</li>
-            <li>🎮 Sección de Videojuegos</li>
-            <li>🎵 Sección de Música</li>
-            <li>🔗 Enlaces disponibles</li>
-            <li>📄 Contenido actualizado</li>
-        </ul>
+    <h2>¿Cuál es tu deporte favorito?</h2><br>
+    <form>
+        <label for="nombre">Tu nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br>
+
+        <label for="deporte">Elige un deporte:</label>
+        <select id="deporte" name="deporte" required>
+        <option value="">-- Selecciona --</option>
+        <option value="futbol">Fútbol</option>
+        <option value="basquetbol">Básquetbol</option>
+        <option value="beisbol">Béisbol</option>
+        <option value="tenis">Tenis</option>
+        <option value="natacion">Natación</option>
+        <option value="otro">Otro</option>
+        </select><br>
+
+        <label for="frecuencia">¿Cuántas veces practicas a la semana?</label>
+        <input type="number" id="frecuencia" name="frecuencia" min="0" max="7"><br>
+
+        <label for="comentarios">Comentarios:</label>
+        <textarea id="comentarios" name="comentarios" rows="4" placeholder="Cuéntanos más sobre tu deporte favorito..."></textarea><br>
+
+        <button type="submit">Enviar</button>
+    </form>
     </aside>
     
     <footer>
