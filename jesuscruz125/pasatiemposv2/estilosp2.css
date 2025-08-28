@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #c4dafa;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header, footer{
+    background-color: #84b6f4;
+    padding: 10;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+h2, h3{
+    color: #005187;
+}
+
+mark{
+    background-color: #fcffff;
+}
+
+img, iframe {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+
+p.deporte{
+    color: #000000;
+}

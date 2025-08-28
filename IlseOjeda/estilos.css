@@ -53,3 +53,16 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px; /* espacio entre el texto y el logo */
+    margin: 0;
+}
+
+footer .logo-footer {
+    width: 30px;  /* tamaño chiquito */
+    height: auto;
+}
