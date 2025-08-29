@@ -1,0 +1,281 @@
+/* Fondo de pagina */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background: url("images/atardecer.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Encabezados */
+h1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin: 0;
+    font-size: 2em;
+}
+
+h2 {
+    color: #dadada;
+    margin-top: 20px;
+}
+
+/* css links */
+.links {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    margin: 10px 0;
+}
+
+.links a {
+    text-decoration: none;
+    color: #a4a4a4;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #ffffff;
+}
+
+/* Pie de pagina */
+.main-footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+/* CSS para articulos (parecido al de secciones solo que con diferentes sentencias)*/
+
+/* Estilo base para articulo */
+article {
+    background: rgba(87, 87, 87, 0.5);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(255,255,255,0.3);
+}
+
+/* Headers dentro de articulo */
+article header {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(58, 58, 58, 0.3);
+    position: relative;
+}
+
+/* Títulos h2 dentro de articulo */
+article h2 {
+    color: #dadada;
+    margin: 25px 0 15px 0;
+    font-size: 1.4em;
+    text-shadow: 0 0 10px rgba(181, 181, 181, 0.5);
+    position: relative;
+}
+
+/* Párrafos dentro de articulo */
+article p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+/* Nav dentro de articulo */
+article nav {
+    margin: 30px 0;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    border: 1px solid rgba(73, 73, 73, 0.2);
+}
+
+/* Links de nav mejorados */
+article nav .links li {
+    margin: 15px 0;
+    transform: translateX(0);
+    transition: transform 0.3s ease;
+}
+
+article nav .links li:hover {
+    transform: translateX(10px);
+}
+
+article nav .links a {
+    display: block;
+    padding: 12px 20px;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(220, 220, 220, 0.3));
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+}
+
+article nav .links a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(150, 150, 150, 0.2), transparent);
+    transition: left 0.4s ease;
+}
+
+article nav .links a:hover::before {
+    left: 100%;
+}
+
+article nav .links a:hover {
+    color: #cbcbcb;
+    background: linear-gradient(135deg, rgba(80, 80, 80, 0.4), rgba(61, 61, 61, 0.4));
+    border-color: rgba(80, 80, 80, 0.4);
+    box-shadow: 0 5px 15px rgba(80, 80, 80, 0.4);
+    transform: translateY(-2px);
+}
+
+/* Aside dentro de articulo */
+article aside {
+    margin: 25px 0;
+    padding: 20px;
+    border-radius: 15px;
+    border-left: 4px solid #606060;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+/* Tablas dentro de articulo */
+article table {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+article table tr:nth-child(even) {
+    background: rgba(0, 217, 255, 0.1);
+}
+
+article table td, article table th {
+    transition: background 0.3s ease;
+}
+
+article table tr:hover td {
+    background: rgba(81, 81, 81, 0.2);
+}
+
+/* CSS para formulario */
+
+/* Contenedor del formulario */
+form {
+    background: rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(255,255,255,0.3);
+}
+
+/* Etiquetas del formulario */
+form label {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Campos de entrada de texto */
+form input[type="text"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px 12px;
+    margin: 8px 0 15px 0;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+/* Efectos hover y focus en campos */
+form input[type="text"]:hover,
+form select:hover,
+form textarea:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+form input[type="text"]:focus,
+form select:focus,
+form textarea:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    border-color: #676767;
+    box-shadow: 0 0 10px rgba(210, 210, 210, 0.3);
+}
+
+/* Placeholder text */
+form input::placeholder,
+form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: italic;
+}
+
+/* Opciones del select */
+form option {
+    background: #585858;
+    color: #ffffff;
+    padding: 5px;
+}
+
+/* Botón de envío */
+form input[type="submit"] {
+    background: linear-gradient(45deg, #515151, #71717171);
+    color: #ffffff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(134, 134, 134, 0.3);
+}
+
+/* Efectos hover y active en botón */
+form input[type="submit"]:hover {
+    background: linear-gradient(45deg, #505050, #606060);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(53, 53, 53, 0.4);
+}
+
+form input[type="submit"]:active {
+    transform: translateY(0px);
+    box-shadow: 0 2px 10px rgba(155, 155, 155, 0.3);
+}
+
+/* Área de texto específica */
+form textarea {
+    resize: vertical;
+    min-height: 80px;
+    max-height: 200px;
+}
