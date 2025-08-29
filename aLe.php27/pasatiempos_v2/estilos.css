@@ -8,9 +8,10 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.h1headerindex {
-    background-color: chocolate;
-    border: 3px double black;
+.headerindex {
+    background: #ea343c;
+    color: black;
+    padding: 2px;
     text-align: center;
 }
 .imgindexgeto{
@@ -119,6 +120,57 @@ li .aindex:hover {
     width: 100%;
     border: 3px solid black;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+/* clases de pasatiempo 3 series */
+
+.contenedor-pasatiempos {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 20px;
+      gap: 20px;
+}
+
+.galeria-peliculas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 15px;
+}
+
+.poster-peliculas {
+      width: 150px;
+      border-radius: 10px;
+      border: 3px solid black;
+      box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease;
+}
+
+.poster-peliculas:hover {
+      transform: scale(1.05);
+}
+
+.form-series {
+      margin-top: 10px;
+}
+
+.form-series input, 
+.form-series button {
+      padding: 8px;
+      margin-top: 8px;
+      border: none;
+      border-radius: 6px;
+}
+
+.form-series button {
+      background: #222;
+      color: #fff;
+      cursor: pointer;
+}
+
+.form-series button:hover {
+      background: #444;
 }
 
 /* Clases de Test */
