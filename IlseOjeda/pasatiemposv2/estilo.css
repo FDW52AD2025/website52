@@ -79,3 +79,21 @@ footer .logo-footer {
     width: 30px;  
     height: auto;
 }
+
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+video {
+  display: block;
+  margin: 0 auto;
+}
+
+
+table {
+  margin-top: 20px; /* espacio sobre la tabla */
+  border-collapse: collapse;
+}
