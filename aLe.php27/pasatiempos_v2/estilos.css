@@ -173,6 +173,65 @@ li .aindex:hover {
       background: #444;
 }
 
+/* Clases de Estilo libre */
+
+.mainpasatiempos_estilolibre {
+  padding: 20px;
+  line-height: 1.6;
+  font-family: Georgia, serif;
+}
+
+.img-jokers {
+  display: block;
+  margin: 20px auto;
+  max-width: 90%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.tabla-jokers {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+  font-size: 15px;
+  background: #fafafa;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tabla-jokers th {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+.tabla-jokers td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabla-jokers tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+.lista-jokers {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.lista-jokers li {
+  margin: 5px 0;
+}
+
+.img-asideestilolibre {
+  margin-top: 10px;
+  max-width: 200px;
+  border-radius: 15px;
+  display: block;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+}
+
 /* Clases de Test */
 .bodytest {
       font-family: Arial, sans-serif;
