@@ -36,3 +36,8 @@ img, iframe {
 p.deporte{
     color: #000000;
 }
+
+header .volver {
+    margin: 0;
+    font-size: 0.9rem;
+}
