@@ -1,0 +1,46 @@
+body {
+    background-color: #fff9db; 
+}
+
+aside {
+    padding: 20px;
+    background: #ffe8a3; 
+    border: 3px dotted #f6ad55; 
+}
+
+hr {
+    border: none;
+    border-top: 3px dotted #dd6b20;
+    height: 3px;
+    margin: 20px 0;
+}
+
+li {
+    text-align: justify;
+}
+
+h1 {
+    color: #7b341e; 
+    text-align: center;
+}
+
+h2 {
+    color: #c05621; 
+    text-align: center;
+    font-style: italic;
+}
+
+p {
+    text-align: justify;
+    color: #5f370e; 
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}

@@ -41,3 +41,28 @@
     float:right;
     margin-right: 150px;
 }
+
+.caja_sombreada_musica {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    color: #ffffff;
+    margin-bottom: 20px;
+    width: 1470px;
+    height: 800px;
+}
+
+.acomodo {
+    float: right;
+    width: 500px; 
+    margin-left: 500px;
+    margin-right: 600px;
+}
+
+.imagen2 {
+    float: right;
+    width: 500px; 
+    margin-left: 500px;
+    margin-right: 600px;
+}
