@@ -81,6 +81,12 @@ footer .logo-footer {
 }
 
 
+.nombre {
+    font-weight: bold;
+    color: #f1989b; 
+}
+
+
 img {
   display: block;
   margin: 0 auto;
@@ -94,6 +100,6 @@ video {
 
 
 table {
-  margin-top: 20px; /* espacio sobre la tabla */
+  margin-top: 20px; 
   border-collapse: collapse;
 }
