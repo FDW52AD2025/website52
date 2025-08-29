@@ -24,6 +24,7 @@ body.menu{
     text-align: center;
 }
 
+
 .contenido {
     grid-area: aside;
     background: rgba(91, 80, 5, 0.323);
