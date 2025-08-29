@@ -46,3 +46,30 @@ li .aindex:hover {
          1px  1px 0 black;
     text-align: center;
 }
+
+/* Clases de Test */
+.bodytest {
+      font-family: Arial, sans-serif;
+      background-color: #f8f1e5;
+      margin: 0;
+      padding: 20px;
+    }
+
+.h1headertest {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.maintest {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.huevitodecoracion {
+    max-width: 280px;
+    border: 3px solid black;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
