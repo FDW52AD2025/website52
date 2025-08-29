@@ -37,6 +37,7 @@ nav {
 }
 
 aside {
+    grid-area: aside;
     background-color: #05204A;
     color: #F4FDFF;
     padding: 15px;
