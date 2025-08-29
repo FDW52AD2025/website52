@@ -117,17 +117,153 @@ main {
     color: white;
 }
 
-main h2 {
+
+main h1 {
     color: #260000;
-    font-size: 1.8rem;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+main h2 {
+    color: #d1b6a8;
+    margin: 25px 0 15px;
+    border-bottom: 2px solid #d1b6a8;
+    padding-bottom: 8px;
+}
+main p {
     margin-bottom: 20px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    font-size: 1.1rem;
 }
 
-main p {
-    color: #330505;
-    line-height: 1.6;
-    font-size: 1.1rem;
+#oscuro {
+    color: #260000;
+    border-bottom: 2px solid #260000;
+
+}
+
+.intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    font-size: 1.2rem;
+}
+main table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: rgba(15, 52, 96, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+main th, td {
+    border: 1px solid #260000;
+    padding: 15px;
+    text-align: left;
+}
+main th {
+    background-color: #8a593d;
+    color: #1a1a2e;
+    font-size: 1.2rem;
+}
+.primera {
+    background-color: rgba(26, 26, 46, 0.7);
+}
+.segunda {
+    background-color: rgba(22, 33, 62, 0.7);
+}
+.tercera {
+    background-color: rgba(15, 52, 96, 0.7);
+}
+.cuarta {
+    background-color: rgba(76, 201, 240, 0.2);
+}
+.footer-cell {
+    background-color: #4cc9f0;
+    color: #1a1a2e;
+    font-weight: bold;
+    text-align: center;
+}
+.games-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 40px 0;
+}
+.game-card {
+    background: linear-gradient(to bottom, #381d0f, #1c0f07);
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.game-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
+}
+.game-title {
+    color: #d1b6a8;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.game-image {
+    width: 100%;
+    height: 160px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    overflow: hidden; 
+}
+
+.game-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 8px;
+}
+.game-info {
+    text-align: left;
+    margin-top: 10px;
+}
+.game-info p {
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+.rating {
+    color: #a3d6d3;
+    font-weight: bold;
+}
+.highlight {
+    color: #d1b6a8;
+    font-weight: bold;
+}
+.section {
+    background: #1c0f07;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+@media (max-width: 768px) {
+    .game-card {
+        width: 100%;
+        max-width: 350px;
+    }
 }
 
 aside {
