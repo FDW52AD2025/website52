@@ -94,10 +94,17 @@
 .caja_sombreada_lucha{
     padding: 20px;
     border-radius: 8px;
-    background-color: rgb(226, 241, 157);
+    background-color: rgb(191, 200, 223);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
     color: #000000;
     margin-bottom: 20px;
     width: 1470px;
     height: 800px;
+}
+
+.imagen3{
+    
+    width: 500px; 
+    margin-left: 500px;
+    margin-right: 600px;    
 }
