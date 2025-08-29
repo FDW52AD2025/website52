@@ -35,6 +35,15 @@
     text-align: center;
 }
 
+.textostylearticle {
+    border-radius: 15px ;
+    background-color: rgb(156, 179, 233);
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
 .img {
     float: left;
     width: 300px;
