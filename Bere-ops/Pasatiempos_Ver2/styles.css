@@ -126,3 +126,10 @@ iframe {
   margin: 0 auto;     
   border-radius: 10px;
 }
+
+.videos {
+  display: flex;
+  justify-content: center; 
+  gap: 10px;              
+  flex-wrap: wrap;         
+}
