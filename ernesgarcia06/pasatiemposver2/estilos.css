@@ -16,7 +16,11 @@ body.menu{
     background-color: rgba(5, 151, 151, 0.377);
 }
 
-.menu-videoj{
+.menu-pag{
+    text-align: center;
+}
+
+.imagenes {
     text-align: center;
 }
 
@@ -32,4 +36,14 @@ body.menu{
     position: absolute;
     right: 120px;
     top: 80px; 
+}
+
+@media (max-widht: 768px) {
+    main, aside {
+        float: none;
+        width: 100%;
+    }
+    aside{
+        margin-top: 20px;
+    }
 }
