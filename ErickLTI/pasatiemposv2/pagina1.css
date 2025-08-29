@@ -1,0 +1,30 @@
+body {
+    background-color: lightcyan;
+}
+
+header h1 {
+    text-align: center;
+}
+
+button {
+    font-size: larger;
+    background-color: lightblue;
+    border: solid black;
+    border-radius: 8px;
+    margin-left: 140px;
+}
+
+
+main h3 {
+    text-align: center;
+}
+
+video{
+    display: block;
+    margin: 0 auto;
+}
+
+address{
+    margin-left: 20px;
+    margin-top: 10px;
+}
