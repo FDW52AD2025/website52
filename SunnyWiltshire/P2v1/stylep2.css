@@ -14,6 +14,10 @@ hr{
     margin: 20px 0;            
 }
 
+li{
+    text-align: justify;
+}
+
 h1{
     color: #0b1f3a;
     text-align: center;

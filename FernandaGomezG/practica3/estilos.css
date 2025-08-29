@@ -2,14 +2,12 @@
     border-radius: 15px ;
     margin: 15px;
     background-color: rgb(233, 233, 156);
-    border-color: black;
-    border: 3px;
-    border-style: solid;
+    border: 3px solid black;
 }
 
 .textostyle {
     border-radius: 15px ;
-    background-color: rgb(226, 226, 157);
+    background-color: rgb(143, 192, 140);
     border: 2px solid black;
     display: inline-block;
     margin: 10px;
@@ -17,10 +15,46 @@
     position: relative;
 }
 
+.titulosarticle{
+    border-radius: 15px ;
+    background-color: rgb(233, 233, 156);
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+.section {
+    border-radius: 15px ;
+    margin: 20px;
+    background-color: rgb(156, 179, 233);
+    border-color: black;
+    border: 3px;
+    border-style: solid;
+    position: relative;
+    text-align: center;
+}
 
-.concertimg {
+.textostylearticle {
+    border-radius: 15px ;
+    background-color: rgb(156, 179, 233);
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+.img {
     float: left;
     width: 300px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 5px;
+}
+
+.img2 {
+    float: left;
+    width: 400px;
     margin-left: 20px;
     position: relative;
     bottom: 5px;

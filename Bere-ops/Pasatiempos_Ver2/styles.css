@@ -1,44 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+
 body {
-  background-color: gray;
-  font-family: Arial, sans-serif;
-  margin: 25px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-  color: black;
-  border: 2px dotted rgb(3, 3, 0);
-  padding: 10px;
-  border-radius: 8px;
-  display: inline-block;
-}
-
-p {
-  color: black;
-}
-
-
-article,
-.libros, .series, .mitologia, .juegos {
-  background-color: gray;
-  padding: 15px;
-  margin-bottom: 15px;
-  border-radius: 8px;
-}
-
-
-article img,
-#libros img, #series img, #mitologia img, #juegos img {
-  max-width: 30%;
-  border-radius: 5px;
-  display: block;
-}
-
-
-header, footer {
+header {
   text-align: center;
-  margin-bottom: 16px;
+  background: palevioletred;
+  border-bottom: 2px solid gray;
+  padding: 14px;
 }
 
-footer p {
-  color: silver;
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 8px 72px;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+
+main {
+  padding: 16px;
+}
+
+
+.layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+}
+
+
+aside {
+  background: pink;
+  border: 1px solid wheat;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+
+footer {
+  margin-top: 20px;
+  padding: 16px;
+  border-top: 2px solid wheat;
+  background: lightpink;
+  text-align: center;
+}
+
+article {
+  background: wheat;
+  border: 1px solid whitesmoke;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  background: wheat;
+  margin: 0 auto;   
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+caption {
+  caption-side: top;
+  font-weight: 700;
+  padding: 8px;
+}
+
+form {
+  background: pink;
+  border: 3px solid white;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+}
+
+img {
+  display: block;      
+  margin: 0 auto; 
+  border-radius: 8px; 
+}
+
+.imagenes {
+  display: flex;             
+  justify-content: center;    
+  gap: 20px;                 
+}
+
+.imagenes img {
+  width: 300px;   
+  border-radius: 8px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+iframe {
+  display: block;      
+  margin: 0 auto;     
+  border-radius: 10px;
+}
+
+.videos {
+  display: flex;
+  justify-content: center; 
+  gap: 10px;              
+  flex-wrap: wrap;         
 }

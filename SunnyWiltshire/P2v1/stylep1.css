@@ -13,6 +13,9 @@ hr{
     height: 3px;
     margin: 20px 0;            
 }
+li{
+    text-align: justify;
+}
 
 h1{
     color: rgb(23, 13, 51);
