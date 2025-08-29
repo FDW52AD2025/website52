@@ -1,35 +1,41 @@
 body{
-    background-color: rgb(171, 126, 219);
+    background-color: #e9d8fd;
 }
 
 aside{
     padding: 20px;
-    background: #6b4295;
-    border: 3px dotted purple;
+    background: #d6bcfa;
+    border: 3px dotted #805ad5;
 }
 hr{
     border: none;
-    border-top: 3px dotted rgba(128, 0, 128, 0.673);
+    border-top: 3px dotted #553c9a;
     height: 3px;
     margin: 20px 0;            
 }
+
 li{
     text-align: justify;
 }
 
 h1{
-    color: rgb(23, 13, 51);
+    color: #322659;
     text-align: center;
 }
 
 h2{
-    color: rgb(92, 8, 92);
+    color: #5a3ea6;
     text-align: center;
     font-style: italic;
 }
 
+h3{
+    color: #5a3ea6;
+    font-style: italic;
+}
 p{
     text-align: justify;
+    color: #2d165d;
 }
 iframe{
     display: block;
