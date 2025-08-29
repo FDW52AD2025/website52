@@ -1,0 +1,21 @@
+.body {
+    display: flex;
+    justify-content: center;
+    background-color: #f0f2f5; 
+}
+
+.form {
+    background: rgb(106, 180, 162);
+    padding: 20px;
+    margin-block-end: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(255, 255, 255);
+    width: 1000px;
+    height: 500px;
+    
+}
+.label, .input, .input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}

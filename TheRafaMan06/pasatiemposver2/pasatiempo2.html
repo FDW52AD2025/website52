@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deportes</title>
+    <title>Series</title>
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
                 Inicio
             </a>
             
-            <a href="pasatiempo2.html" class="menu-button">
+            <a href="pasatiempo1.html" class="menu-button">
                 <span class="menu-icon">⚽</span>
                 Deportes
             </a>
@@ -40,25 +40,96 @@
     </nav>
     
     <main>
-        <h2>Contenido Principal</h2>
-        <p>Selecciona una de las categorías disponibles en el menú de navegación para explorar el contenido de tu interés.</p>
-        <br>
-        <p>Cada sección contiene información especializada y actualizada sobre el tema seleccionado.</p>
-        <br>
-        <p>Utiliza los botones del menú superior para navegar entre las diferentes secciones disponibles.</p>
+        <h2>Mi Biblioteca de Series</h2>
+        <p>Pasa el cursor sobre cada tarjeta para descubrir más información sobre cada serie.</p>
+        
+        <div class="series-grid">
+            <!-- Serie 1 -->
+            <div class="serie-card">
+                <img src="img/strtg.jpg" alt="Stranger Things" class="serie-image">
+                <div class="serie-info">
+                    <h3 class="serie-title">Stranger Things</h3>
+                    <p class="serie-details">Cuando un niño desaparece, una pequeña villa descubre un misterio que involucra experimentos secretos, fuerzas sobrenaturales y una niña muy especial.</p>
+                    <div class="rating">⭐ 8.7/10</div>
+                </div>
+            </div>
+            
+            <!-- Serie 2 -->
+            <div class="serie-card">
+                <img src="img/bb.jpeg" alt="Breaking Bad" class="serie-image">
+                <div class="serie-info">
+                    <h3 class="serie-title">Breaking Bad</h3>
+                    <p class="serie-details">Un profesor de química con cáncer se asocia a un exalumno para fabricar y vender metanfetamina para asegurar el futuro económico de su familia.</p>
+                    <div class="rating">⭐ 9.5/10</div>
+                </div>
+            </div>
+            
+            <!-- Serie 3 -->
+            <div class="serie-card">
+                <img src="img/tbbt.jpeg" alt="The Big Bang Theory" class="serie-image">
+                <div class="serie-info">
+                    <h3 class="serie-title">The Big Bang Theory</h3>
+                    <p class="serie-details">Dos amigos expertos en física tienen dificultades para navegar en el mundo real. Esta exitosa serie combina ciencia y comedia de una manera única.</p>
+                    <div class="rating">⭐ 8.7/10</div>
+                </div>
+            </div>
+            
+            <!-- Serie 4 -->
+            <div class="serie-card">
+                <img src="img/swat.jpg" alt="S.W.A.T." class="serie-image">
+                <div class="serie-info">
+                    <h3 class="serie-title">S.W.A.T</h3>
+                    <p class="serie-details">Un teniente de policía se debate entre la fidelidad al cuerpo y la vinculación que mantiene con los amigos junto a los que creció en las calles más duras de Los Ángeles, para quienes, a menudo, la policía es el enemigo.</p>
+                    <div class="rating">⭐ 9.2/10</div>
+                </div>
+            </div>
+            
+            <!-- Serie 5 -->
+            <div class="serie-card">
+                <img src="img/zoo.jpg" alt="Zoo" class="serie-image">
+                <div class="serie-info">
+                    <h3 class="serie-title"> Zoo</h3>
+                    <p class="serie-details">Cuando animales en todo el mundo comienzan a atacar a los humanos, un zoólogo intenta resolver el misterio detrás de la pandemia y detenerlo antes de que no haya lugar para los humanos en la Tierra.</p>
+                    <div class="rating">⭐ 8.8/10</div>
+                </div>
+            </div>
+            
+            <!-- Serie 6 -->
+            <div class="serie-card">
+                <img src="img/sf.jpg" alt="Smiling Friends " class="serie-image">
+                <div class="serie-info">
+                    <h3 class="serie-title">Smiling Friends</h3>
+                    <p class="serie-details">Una pequeña empresa dedicada a traer felicidad al mundo recibe una simple solicitud para ayudar a que el hijo infeliz de una mujer vuelva a sonreír, pero el trabajo resulta ser más complicado de lo que parece.</p>
+                    <div class="rating">⭐ 8.2/10</div>
+                </div>
+            </div>
+        </div>
     </main>
     
     <aside>
-        <h3>Información</h3>
-        <ul>
-            <li>⚽ Sección de Deportes</li>
-            <li>📺 Sección de Series</li>
-            <li>💥 Sección de Comics</li>
-            <li>🎮 Sección de Videojuegos</li>
-            <li>🎵 Sección de Música</li>
-            <li>🔗 Enlaces disponibles</li>
-            <li>📄 Contenido actualizado</li>
-        </ul>
+    <form>
+        <label for="nombre">Tu nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br>
+
+        <label for="deporte">Elige una serie:</label>
+        <select id="deporte" name="deporte" required>
+        <option value="">-- Selecciona --</option>
+        <option value="futbol">Breaking Bad</option>
+        <option value="basquetbol">Friends</option>
+        <option value="beisbol">The Oficce</option>
+        <option value="tenis">Grey's Anatomy</option>
+        <option value="natacion">Stranger Things</option>
+        <option value="otro">Otro</option>
+        </select><br>
+
+        <label for="frecuencia">¿Cuántas horas ves series en un día?</label>
+        <input type="number" id="frecuencia" name="frecuencia" min="0" max="24"><br>
+
+        <label for="comentarios">Recomendaciones:</label>
+        <textarea id="comentarios" name="comentarios" rows="4" placeholder="Recomiendame una serie..."></textarea><br>
+
+        <button type="submit">Enviar</button>
+    </form>
     </aside>
     
     <footer>
