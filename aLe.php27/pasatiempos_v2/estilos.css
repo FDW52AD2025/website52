@@ -94,6 +94,33 @@ li .aindex:hover {
   border-radius: 10px;
 }
 
+/* clases de pasatiempo 2 musica*/
+
+.mainpasatiempos_musica {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    min-height: 300px;
+    border-radius: 8px;
+}
+.asidepasatiempos_musica {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #eee;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.artistasdecoracion {
+    display: block;
+    margin: 15px auto;
+    max-width: 800px;
+    width: 100%;
+    border: 3px solid black;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
 /* Clases de Test */
 .bodytest {
       font-family: Arial, sans-serif;
