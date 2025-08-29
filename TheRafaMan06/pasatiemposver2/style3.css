@@ -1,10 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #E3DAC9;
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "nav nav"
+        "main aside"
+        "footer footer";
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
 header {
     grid-area: header;
     background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(90px);
     border-radius: 15px;
     padding: 30px;
     text-align: center;
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: #260000;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from { text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 0 0 10px rgba(255, 255, 255, 0.5); }
+    to { text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(255, 255, 255, 0.8); }
+}
+
+nav {
+    grid-area: nav;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+}
+
+.menu-button {
+    background: linear-gradient(145deg, #ff6b6b, #ee5a24);
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.menu-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transition: left 0.5s;
+}
+
+.menu-button:hover::before {
+    left: 100%;
+}
+
+.menu-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+.menu-button {
+    background: linear-gradient(145deg, #81514b, #6e3730);
+}
+
+
+.menu-icon {
+    font-size: 1.3rem;
+    margin-right: 8px;
+}
+
+main {
+    grid-area: main;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+main h2 {
+    color: #260000;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+main p {
+    color: #330505;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+aside {
+    grid-area: aside;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+aside h3 {
+    color: #260000;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside li {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 8px;
+    color: #330505;
+    transition: background 0.3s ease;
+}
+
+aside li:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+footer {
+    grid-area: footer;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: #330505;
+}
+
+@media (max-width: 768px) {
+    body {
+        grid-template-areas: 
+            "header"
+            "nav"
+            "main"
+            "aside"
+            "footer";
+        grid-template-columns: 1fr;
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .menu-container {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    main, aside {
+        padding: 20px;
+    }
 }

@@ -38,12 +38,12 @@ h2 {
 }
 
 .links {
-    border: 2px solid #f1989b;  /* Borde verde */
-    padding: 15px;              /* Espacio interno */
-    margin: 20px 0;             /* Separación arriba y abajo */
-    border-radius: 10px;        /* Bordes redondeados */
-    background-color: #f9fff9;  /* Fondo clarito */
-    box-shadow: 2px 2px 8px rgba(0,0,0,0.1); /* Sombrita suave */
+    border: 2px solid #f1989b; 
+    padding: 15px;             
+    margin: 20px 0;           
+    border-radius: 10px;       
+    background-color: #f9fff9;  
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1); /
 }
 
 footer {
@@ -52,4 +52,16 @@ footer {
     text-align: center;
     padding: 10px;
     margin-top: 20px;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items
+    margin: 0;
+}
+
+footer .logo-footer {
+    width: 30px;  
+    height: auto;
 }

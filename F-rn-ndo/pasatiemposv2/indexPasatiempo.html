@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Pasatiempos - Fernando Nicolás Molina Ramírez</title>
+    <link rel="stylesheet" href="estilo_index.css">
+</head>
+<body>
+    <h1>Mis Pasatiempos Favoritos</h1>
+    
+    <article>
+        <header>
+            <h2>Explora mis aficiones</h2>
+        </header>
+        <p>Aquí encontrarás una colección de mis pasatiempos favoritos. Cada uno representa una <strong>parte importante</strong> de lo que me gusta hacer en mi <em>tiempo libre</em>.</p>
+        
+        <h2>Selecciona un pasatiempo:</h2>
+        
+        <nav>
+            <ul class="links">
+                <li><a href="secciones/pasatiempo1.html">Jugar <abbr title="Videojuego Battle Royale">Fortnite</abbr></a></li>
+                <li><a href="secciones/pasatiempo2.html">Componer Música</a></li>
+                <li><a href="secciones/pasatiempo3.html">Programación</a></li>
+                <li><a href="secciones/pasatiempo4.html">Cocinar</a></li>
+                <li><a href="secciones/pasatiempo5.html">Estar con mi familia</a></li>
+            </ul>
+        </nav>
+        
+        <aside style="background: rgba(42, 42, 42, 0.3); padding: 15px; margin: 20px 0; border-radius: 10px;">
+            <h2>💬 Comparte tu opinión</h2>
+            <p><small>¿Te gustaría conocer más sobre algún pasatiempo específico?</small></p>
+            <form>
+                <label for="nombre"><b>Tu nombre:</b></label><br>
+                <input type="text" id="nombre" name="nombre"><br>
+                
+                <label for="pasatiempo"><b>Pasatiempo de interés:</b></label><br>
+                <select id="pasatiempo" name="pasatiempo">
+                    <option value="">Selecciona uno...</option>
+                    <option value="fortnite">Fortnite</option>
+                    <option value="musica">Música</option>
+                    <option value="programacion">Programación</option>
+                    <option value="cocina">Cocina</option>
+                    <option value="familia">Familia</option>
+                </select><br>
+                
+                <label for="comentario"><b>Tu comentario:</b></label><br>
+                <textarea id="comentario" name="comentario" rows="3"placeholder="Comparte tu opinión o pregunta..."></textarea><br>
+                
+                <input type="submit" value="Enviar comentario">
+            </form>
+        </aside>
+        
+        <div style="margin-top: 30px;">
+                <button onclick="history.back();">VOLVER</button>
+        </div>
+    </article>
+    
+    <footer class="main-footer">
+        <p>© 2025 - Fernando Nicolás Molina Ramírez</p>
+    </footer>
+</body>
+</html>

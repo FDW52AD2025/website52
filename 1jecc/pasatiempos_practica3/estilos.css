@@ -14,7 +14,18 @@
     background-color: rgb(2, 51, 116);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
     color: #ffffff;
+    margin-bottom: 20px;
 }
+
+
+.caja_sombreada_futbol1 {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #a94ab6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    color: #ffffff;
+}
+
 
 .centro{
     text-align: center;
@@ -24,4 +35,76 @@
 .imagen{
     float:right;
     margin-right: 300px;
+}
+
+.imagen1{
+    float:right;
+    margin-right: 150px;
+}
+
+.caja_sombreada_musica {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    color: #ffffff;
+    margin-bottom: 20px;
+    width: 1470px;
+    height: 800px;
+}
+
+.acomodo {
+    float: right;
+    width: 500px; 
+    margin-left: 500px;
+    margin-right: 600px;
+}
+
+.imagen2 {
+    float: right;
+    width: 500px; 
+    margin-left: 500px;
+    margin-right: 600px;
+}
+
+.caja_sombreada_titulos_p{
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 4px 8px rgba(10, 10, 10, 10.9);
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.caja_sombreada_pelicula{
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(226, 241, 157);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    color: #000000;
+    margin-bottom: 20px;
+    width: 1470px;
+    height: 800px;
+}
+
+
+.caja_sombreada_lucha{
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(191, 200, 223);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    color: #000000;
+    margin-bottom: 20px;
+    width: 1470px;
+    height: 800px;
+}
+
+.imagen3{
+    
+    width: 500px; 
+    margin-left: 500px;
+    margin-right: 600px;    
 }
