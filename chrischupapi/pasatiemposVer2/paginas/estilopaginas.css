@@ -69,14 +69,11 @@ header p {
     border-radius: 20px;
     text-align: center;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
-    backdrop-filter: blur(10px);
 }
 
 .card-icon {
     font-size: 4rem;
     margin-bottom: 20px;
-    transition: transform 0.3s ease;
 }
 
 .pasatiempo-card h2 {
