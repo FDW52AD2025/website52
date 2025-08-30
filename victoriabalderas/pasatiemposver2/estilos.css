@@ -9,7 +9,7 @@ nav a {
     color: rgb(160, 17, 117);
 }
 
-header, footer {
+header {
     background-color: rgb(252, 231, 247);
     color: rgb(247, 172, 222);
     padding: 10px;
@@ -65,11 +65,20 @@ p {
 footer {
     color: rgb(48, 5, 42);
     font-style: italic;
+    padding: 10px;
+    text-align: center;
 }
 
-img {
+.portadamusica {
     display: flex;
     justify-content: center;
     width: 300px;
+    height: 300px;
+}
+
+.imgdanza {
+    display: flex;
+    justify-content: center;
+    width: 200px;
     height: 300px;
 }
