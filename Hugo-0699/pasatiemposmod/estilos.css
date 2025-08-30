@@ -1,6 +1,45 @@
+/* Pagina principal */
+.bodyprincipal {
+	margin: 0;
+    padding: 0;
+    background-image: url(imagenes/nuevo-fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.headerprincipal {
+  background: brown;
+  color:cornsilk;
+  text-align: center;
+}
+.ulprincipal {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color:burlywood;
+}
+.liprincipal {
+float: left;
+}   
+.aprincipal {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.aprincipal:hover {
+    background-color:chocolate;
+}
+.imgprincipal {
+border: 3px solid black;
+box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
 /* Bloque footer */
 .copyright {
-    background-color: darkslategray;
+    background-color: rgb(44, 46, 48);
     color: whitesmoke;
     text-align: center;
     padding: 5px;
