@@ -130,8 +130,33 @@ footer {
   margin-bottom: 20px;
 }
 .fila-img-formulario img {
-  width: 400px;
+  width: 500px;
   height: 300px;
   margin-right: 30px;
   border-radius: 15px;
+}
+/* Estilos del formulario */
+.fila-img-formulario {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.fila-img-formulario figure {
+  max-width: 50%;
+}
+.fila-img-formulario img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.formulario-escritura {
+  max-width: 50%;
+}
+.formulario-escritura table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.formulario-escritura td, 
+.formulario-escritura th {
+  border: 1px solid black;
+  padding: 8px;
 }
