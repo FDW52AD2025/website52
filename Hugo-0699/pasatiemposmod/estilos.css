@@ -107,7 +107,7 @@ footer {
   margin-bottom: 20px;
 }
 .fila-img-tabla img {
-  width: 500px;
+  width: 600px;
   height: 300px;
   margin-right: 30px;
   border-radius: 15px;
@@ -117,11 +117,21 @@ footer {
 }
 
 
-
 /* Cuarto pasatiempo */
 #titulo4 {
   background-color:darkmagenta;
   color: white;
   border: 4px double black;
   text-align: center; 
+}
+.fila-img-formulario {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.fila-img-formulario img {
+  width: 400px;
+  height: 300px;
+  margin-right: 30px;
+  border-radius: 15px;
 }
