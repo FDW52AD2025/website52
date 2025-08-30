@@ -76,9 +76,21 @@ footer {
     height: 300px;
 }
 
+.imgspotify {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 300px;
+}
+
 .imgdanza {
     display: flex;
     justify-content: center;
     width: 200px;
     height: 300px;
+}
+
+li {
+    font-family: 'Lucida sans';
+    color: rgb(133, 6, 112);
 }
