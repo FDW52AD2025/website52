@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Gimnasio</title>
+    <script>
+        function mostrarHoras(mostrar) {
+         document.getElementById('horasDiv').style.display = mostrar ? 'block' : 'none';
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -12,32 +17,38 @@
             <strong>Gimnasio</strong>
         </h1>
     </header>
+    <nav>
+        <a href="index.html">Main</a>
+        <a href="hobbie1.html">Magia</a>
+        <a href="hobbie2.html">Musica</a>
+        <a href="hobbie3.html">Videojuegos</a>
+        <a href="hobbie5.html">Peliculas</a>
+    </nav>
     <main>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium praesentium quasi illum eveniet, odit fuga maxime! Dignissimos et, dolorum repellendus nostrum saepe dolorem, itaque perferendis esse eos ullam ea doloremque.</p>
+        <p>En mis  tiempos libres me gusta ir al gimnasio, no solo para hacer ejercicio, sino que tambien me gusta conocer gente que esta interesada en el cuidado de su salud, me parece fascinante la dedicacion que veo en las personas y me da gusto ver los cambios que genera el gimnasio</p>
 
-        <table>
-            <tr>
-                <th>Tipo de truco</th>
-                <th>Descripcion</th>
-                <th>Demostracion</th>
-            </tr>
-            <tr>
-                <td>Cartomagia</td>
-                <td> Es una rama del ilusionismo que utiliza cartas de baraja como elemento principal para crear efectos mágicos, mediante técnicas de prestidigitación, manipulación y psicología, con el objetivo de sorprender y asombrar al público en diversas actuaciones</td>
-                <td><img src="https://escuelademagia.net/wp-content/uploads/2019/03/CORTOFACIL.jpg" alt="cartomagia_img"></td>
-            </tr>
-            <tr>
-                <td>Ilusiones</td>
-                <td>Consiste en producir efectos en apariencia maravillosos e inexplicables, utilizando habilidad, ingenio y engaño para crear ilusiones que desafían la realidad natural</td>
-                <td><img src="https://www.tusmagos.com//pics_fotosnoticias/5/magia-e-ilusionismo.jpg" alt="ilusioinismo_img"></td>
-            </tr>
-            <tr>
-                <td>Escapismo</td>
-                <td>Es el arte de liberarse de encierros o ataduras físicas, como esposas, jaulas o tanques de agua, presentando un acto de gran peligro y destreza para asombrar al público</td>
-                <td><img src="https://s.13.cl/sites/default/files/styles/manualcrop_1600x800/public/programas/articulos/field-imagen/2024-03/WhatsApp%20Image%202024-03-22%20at%206.18.08%20PM.jpeg?itok=sbhRjXAE" alt="escapismo_img"></td>
-            </tr>
+        <form>
 
-        </table>
+           <label for="nombre">Nombre:</label>
+           <input type="text" id="nombre" name="nombre" required><br><br>
+        
+
+           <label>¿Realiza actividad física?</label>
+           <br>
+           <input type="radio" id="si" name="actividad" value="si"      onclick="mostrarHoras(true)">
+           <label for="si">Sí</label>
+           <br>
+           <input type="radio" id="no" name="actividad" value="no"      onclick="mostrarHoras(false)">
+           <label for="no">No</label>
+           <br><br>
+        
+           <div id="horasDiv" style="display:none;">
+             <label for="horas">¿Cuántas horas a la semana?</label>
+             <input type="number" id="horas" name="horas" min="1"   max="168"><br><br>
+           </div>
+
+           <button type="submit">Enviar</button>
+        </form>
     </main>
 
 </body>

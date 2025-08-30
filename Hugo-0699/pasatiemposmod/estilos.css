@@ -12,6 +12,7 @@
   background: brown;
   color:cornsilk;
   text-align: center;
+  border: 4px double black;
 }
 .ulprincipal {
 list-style-type: none;
@@ -48,13 +49,11 @@ box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 
 
 /* Pasatiempo 1 */
-h1 {
-    border: 4px double black;
-    text-align: center;   
-}
 #titulo1 {
   background-color: brown;
   color: white;
+  border: 4px double black;
+  text-align: center; 
 }
 footer {
     text-align: center;
@@ -70,6 +69,8 @@ footer {
 #titulo2 {
   background-color:darkslateblue;
   color: white;
+  border: 4px double black;
+  text-align: center; 
 }
 /* Estilos para las imagenes y para sus descripciones*/
 .contenedor-img {
@@ -96,4 +97,31 @@ footer {
 #titulo3 {
   background-color: green;
   color: white;
+  border: 4px double black;
+  text-align: center; 
+}
+/* Estilos para la imagen */
+.fila-img-tabla {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.fila-img-tabla img {
+  width: 500px;
+  height: 300px;
+  margin-right: 30px;
+  border-radius: 15px;
+}
+.justificar-video {
+  margin-left: 400px;
+}
+
+
+
+/* Cuarto pasatiempo */
+#titulo4 {
+  background-color:darkmagenta;
+  color: white;
+  border: 4px double black;
+  text-align: center; 
 }
