@@ -43,3 +43,22 @@ img{
     display: block;
     margin: 0 auto; 
 }
+
+table {
+  border: 2px solid rgb(15, 15, 119);   
+  border-collapse: collapse; 
+  width: 80%;              
+  margin: 20px auto;        
+}
+
+th, td {
+  border: 1px solid rgb(15, 15, 119);    
+  padding: 10px;
+  text-align: left;
+  background-color: #9fbbe5;
+}
+
+th {
+  background-color: #7497ca;
+  text-align: center;  
+}

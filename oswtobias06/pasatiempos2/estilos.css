@@ -16,10 +16,11 @@ h3 {
 }
 
 address {
-    border: 5px ridge black;
+    border: 5px ridge #6F8695;
 }
 
 .parraf {
+            color: black;
             background-color: #F4FDFF;
             padding: 20px;
             border: 1px solid #6F8695;
@@ -37,6 +38,7 @@ nav {
 }
 
 aside {
+    grid-area: aside;
     background-color: #05204A;
     color: #F4FDFF;
     padding: 15px;
@@ -47,4 +49,21 @@ aside {
     position: absolute;
     right: 90px;
     top: 150px; 
+}
+
+.audio {
+    width: 500px;
+    
+}
+
+form {
+    width: 200px;
+}
+
+.back {
+    border: 1px solid #05204A;
+    background-color: #05204A;
+    color: #F4FDFF;
+    border-radius: 20px;
+    padding: 10px;
 }
