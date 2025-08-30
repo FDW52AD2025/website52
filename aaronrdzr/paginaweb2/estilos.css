@@ -17,7 +17,7 @@ a{
 }
 
 hr{
-    border: 3px solid black;
+    border: 2px solid black;
     color: black;
     width: auto;
     clear: both;
@@ -29,4 +29,11 @@ address{
     color: white;
     background-color: blue;
     width: 200px ;
+}
+
+p{
+    border: 10px whitesmoke;
+    color: black; 
+    background-color: whitesmoke;
+    width: auto;
 }
