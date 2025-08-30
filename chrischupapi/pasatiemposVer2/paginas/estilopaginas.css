@@ -153,3 +153,17 @@ footer {
     border-radius: 10px;
     margin-top: auto;
 }
+
+.table {
+    border-collapse: collapse;
+}
+
+.divtabla {
+    float: initial;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+}
