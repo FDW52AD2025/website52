@@ -5,18 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deportes</title>
     <link rel="stylesheet" href="style1.css">
+    <script src="script1.js"></script>
 </head>
 <body>
-    <header>Deportes</header>
+    <header>
+        <h1>Deportes</h1>
+    </header>
+    
     <nav>
-
+        <div class="menu-container">
+            <a href="index.html" class="menu-button">
+                Inicio
+            </a>
+            
+            <a href="pasatiempo2.html" class="menu-button">
+                <span class="menu-icon">📺</span>
+                Series
+            </a>
+            
+            <a href="pasatiempo3.html" class="menu-button">
+                <span class="menu-icon">💥</span>
+                Comics
+            </a>
+            
+            <a href="pasatiempo4.html" class="menu-button">
+                <span class="menu-icon">🎮</span>
+                Videojuegos
+            </a>
+            
+            <a href="pasatiempo5.html" class="menu-button">
+                <span class="menu-icon">🎵</span>
+                Música
+            </a>
+        </div>
     </nav>
+    
     <main>
+        <h2>Deportes que Amo</h2>
+        
+        <div class="deporte">
+            <div class="deporte-header">
+                <h3>Fútbol</h3>
+                <span class="icono">▼</span>
+            </div>
+            <div class="deporte-contenido">
+                <div class="contenedor">
+                    <p>El fútbol es uno de los deportes que más practico actualmente, ya sea con amigos o familiares. Hace mucho salía con mis vecinos a jugar, pero por las actividades diarias ya no puedo ir a jugar.</p>
+                    <img src="https://images.unsplash.com/photo-1575361204480-aadea25e6e68?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Imagen de fútbol">
+                </div>
+            </div>
+        </div>
 
+        <div class="deporte">
+            <div class="deporte-header">
+                <h3>Voleibol</h3>
+                <span class="icono">▼</span>
+            </div>
+            <div class="deporte-contenido">
+                <div class="contenedor">
+                    <p>El Voleibol es uno de mis deportes favoritos desarrollados ya más grande en la prepa; participé en varios torneos como 4 o colocador. Recuerdo mucho cuando jugábamos en otras prepas, estaba muy padre el ambiente y conseguí buenos amigos. La mejor parte es que después de jugar íbamos a comprar comida y nos saltábamos algunas clases por lo mismo.</p>
+                    <img src="img/voly.jpg" alt="Imagen de voleibol">
+                </div>
+            </div>
+        </div>
+
+        <div class="deporte">
+            <div class="deporte-header">
+                <h3>Basquetbol</h3>
+                <span class="icono">▼</span>
+            </div>
+            <div class="deporte-contenido">
+                <div class="contenedor">
+                    <p>No soy malo, ni tampoco bueno, pero me gusta mucho jugarlo con mi hermano. En las vacaciones es cuando más jugamos, usualmente vamos a unas canchas que tienen duela de plástico en Rinconada ya que nuestras canchas están todas maltratadas por los niños que se cuelgan en ella, por eso es que nosotros no jugamos en ella.</p>
+                    <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Imagen de basquetbol">
+                </div>
+            </div>
+        </div>
     </main>
-    <aside></aside>
-    <footer>
+    
+    <aside>
+    <h2>¿Cuál es tu deporte favorito?</h2><br>
+    <form>
+        <label for="nombre">Tu nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br>
 
+        <label for="deporte">Elige un deporte:</label>
+        <select id="deporte" name="deporte" required>
+        <option value="">-- Selecciona --</option>
+        <option value="futbol">Fútbol</option>
+        <option value="basquetbol">Básquetbol</option>
+        <option value="beisbol">Béisbol</option>
+        <option value="tenis">Tenis</option>
+        <option value="natacion">Natación</option>
+        <option value="otro">Otro</option>
+        </select><br>
+
+        <label for="frecuencia">¿Cuántas veces practicas a la semana?</label>
+        <input type="number" id="frecuencia" name="frecuencia" min="0" max="7"><br>
+
+        <label for="comentarios">Comentarios:</label>
+        <textarea id="comentarios" name="comentarios" rows="4" placeholder="Cuéntanos más sobre tu deporte favorito..."></textarea><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+    </aside>
+    
+    <footer>
+        <p>&copy; 2025 Sitio Web - Hecho por Abdiel Rafael Aguilar Linares</p>
     </footer>
 </body>
 </html>
