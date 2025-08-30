@@ -13,6 +13,22 @@ header{
     height: 13vh;
 }
 
+nav{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    font-size: large;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 30pxpx;
+    letter-spacing: .5px;
+    padding: 0 10px;
+}
+
 main{
     justify-content: center;
     flex-direction: column;
@@ -23,8 +39,6 @@ main{
     border: 5px solid black;
     width: 70%;
     padding: 3rem;
-    height: 70vh;
-
 }
 
 table,th,td{

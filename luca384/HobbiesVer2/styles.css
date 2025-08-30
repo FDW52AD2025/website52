@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(255, 248, 234); 
+  font-family: Verdana, Helvetica, sans-serif;
+  padding: 15px;
+}
+
+li{
+  list-style: none;
+  text-decoration: none;
+}

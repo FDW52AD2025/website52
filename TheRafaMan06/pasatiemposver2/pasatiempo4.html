@@ -22,12 +22,12 @@
                 Deportes
             </a>
             
-            <a href="pasatiempo3.html" class="menu-button">
+            <a href="pasatiempo2.html" class="menu-button">
                 <span class="menu-icon">📺</span>
                 Series
             </a>
             
-            <a href="pasatiempo4.html" class="menu-button">
+            <a href="pasatiempo3.html" class="menu-button">
                 <span class="menu-icon">💥</span>
                 Comics
             </a>
@@ -233,17 +233,30 @@
         </div>
     </main>
     
-    <aside>
-        <h3>Información</h3>
-        <ul>
-            <li>⚽ Sección de Deportes</li>
-            <li>📺 Sección de Series</li>
-            <li>💥 Sección de Comics</li>
-            <li>🎮 Sección de Videojuegos</li>
-            <li>🎵 Sección de Música</li>
-            <li>🔗 Enlaces disponibles</li>
-            <li>📄 Contenido actualizado</li>
-        </ul>
+    <aside> 
+        <h3>Formulario de Deportes</h3>
+        <form action="#" method="post">
+            <label for="nombre">👤 Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+            
+            <label for="equipo">⚽ Equipo favorito:</label>
+            <input type="text" id="equipo" name="equipo" placeholder="Ej: Tigres, Real Madrid..." required>
+            
+            <label for="deporte">🏆 Deporte favorito:</label>
+            <select id="deporte" name="deporte" required>
+                <option value="">-- Selecciona uno --</option>
+                <option value="futbol">⚽ Fútbol</option>
+                <option value="basket">🏀 Básquetbol</option>
+                <option value="beisbol">⚾ Béisbol</option>
+                <option value="tenis">🎾 Tenis</option>
+                <option value="natacion">🏊 Natación</option>
+            </select>
+            
+            <label for="comentarios">📝 ¿Por qué te gusta?</label>
+            <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribe tu opinión..."></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
     </aside>
     
     <footer>

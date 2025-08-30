@@ -1,18 +1,19 @@
 h1{
     text-align: center;
-  border: 10px solid white;  
+  border: 15px solid white;  
   color: white;               
   background-color: blue;    
-  width: 200px;
+  
   margin: 20px auto;         
 }
 
 
 a{
-    border: 5px solid blue;
+    border: 5px solid rgb(7, 184, 33);
     color: white;
-    background-color: blue;
+    background-color: rgb(7, 184, 33);
     width: 100px;
+    border-radius: 5px;
 
 }
 
@@ -36,4 +37,21 @@ p{
     color: black; 
     background-color: whitesmoke;
     width: auto;
+}
+
+h2{
+  border: 10px solid darkorchid;  
+  color: black;               
+  background-color: darkorchid;    
+  width: 200px;
+  border-radius: 20px;    
+  font-size: bold;     
+  font-weight: lighter;
+}
+
+
+h3{
+  color: black;   
+  font-size: 16px;     
+  font-weight: lighter;
 }
