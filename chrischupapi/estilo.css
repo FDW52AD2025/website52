@@ -1,0 +1,35 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: navajowhite;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    color: chocolate;
+}
+
+h2 {
+    color: chocolate;
+    margin-top: 20px;
+}
+
+article {
+    background: rgba(100, 100, 100, 0.5);
+    margin: 20px auto;
+    padding: 20px;
+    width: 70%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.5);
+}
+
+.a {
+    list-style: none;
+}
+
+.pie {
+    background-color: darksalmon;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
