@@ -13,6 +13,21 @@ header{
     height: 13vh;
 }
 
+nav{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 30pxpx;
+    letter-spacing: .5px;
+    padding: 0 10px;
+}
+
 main{
     justify-content: center;
     flex-direction: column;

@@ -2,12 +2,37 @@ img{
     width: 300px;
     border-radius: 10px;
     margin-left: 150px;
+
 }
 
-.navLink{
+.navPages{
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid aquamarine;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.1);
+    padding: 10px;
+}
+
+.navLinks{
 padding: 0 10px;
+text-decoration: none; 
+color: black;
 }
 
+.navLinks:hover{
+padding: 0 10px;
+text-decoration: none; 
+color:aqua;
+}
+
+label{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+button{
+    margin: 10px 0;
+}
 h1{
     display: flex;
     justify-content: center;
