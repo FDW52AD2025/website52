@@ -1,0 +1,87 @@
+/* ===== Estilo general ===== */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ===== Encabezado ===== */
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+/* ===== Contenido principal ===== */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Cada práctica como tarjeta */
+article {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+article h2 {
+    margin-top: 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+}
+
+/* ===== Secciones ===== */
+section h3 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* ===== Listas ===== */
+ul {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+ul li {
+    margin-bottom: 6px;
+}
+
+/* ===== Enlaces ===== */
+a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #000;
+}
+
+/* ===== Pie de página ===== */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;
+    color: #666;
+}
