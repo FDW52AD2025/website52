@@ -2,8 +2,15 @@
     color: royalblue;
     background-color: springgreen;
     border-style: dashed;
-    padding: 5px;
+    border-color: royalblue;
     border-radius: 5px;
+    border-width: 3px;
     margin: 5px;
+    padding: 5px;
+}
+
+
+#a09 a{
+    color: royalblue;
 }
 
