@@ -1,0 +1,211 @@
+/* Fondo de pagina */
+
+.familia {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background: url("images/familia.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cocinar {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background: url("images/cocinar.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.musica {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background: url("images/musica.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.jugar {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background: url("images/fortnite.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.programar {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background: url("images/programar.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* Encabezados */
+
+h1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin: 0;
+    font-size: 2em;
+}
+
+h2 {
+    color: #00d9ff;
+    margin-top: 20px;
+}
+
+img {
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* css links */
+
+.links {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    margin: 10px 0;
+}
+
+.links a {
+    text-decoration: none;
+    color: #a4a4a4;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #ffffff;
+}
+
+
+/* Pie de pagina */
+
+.main-footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+.video {
+    position: relative;
+    margin: 30px 0;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    border: 1px solid rgba(73, 73, 73, 0.2);
+}
+
+
+/* CSS para articulos (parecido al de secciones solo que con diferentes sentencias)*/
+
+
+/* Estilo base para articulo */
+
+article {
+    background: rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);
+}
+
+
+/* Headers dentro de articulo */
+
+article header {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    position: relative;
+}
+
+
+/* Títulos h2 dentro de articulo */
+
+article h2 {
+    color: #dadada;
+    margin: 25px 0 15px 0;
+    font-size: 1.4em;
+    position: relative;
+}
+
+
+/* Párrafos dentro de articulo */
+
+article p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+
+/* Nav dentro de articulo */
+
+article nav {
+    margin: 30px 0;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    border: 1px solid rgba(186, 186, 186, 0.2);
+}
+
+
+/* Aside dentro de articulo */
+
+article aside {
+    margin: 25px 0;
+    padding: 20px;
+    border-radius: 15px;
+    border-left: 4px solid #878787;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+
+/* Tablas dentro de articulo */
+
+article table {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+article table tr:nth-child(even) {
+    background: rgba(0, 217, 255, 0.1);
+}
+
+article table td,
+article table th {
+    transition: background 0.3s ease;
+}
+
+article table tr:hover td {
+    background: rgba(255, 255, 255, 0.721);
+}

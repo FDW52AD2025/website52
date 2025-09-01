@@ -1,32 +1,103 @@
 body {
-    background-color: antiquewhite;
+    background-color: rgb(252, 231, 247);
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    margin: 0 10px; 
+    color: rgb(160, 17, 117);
+}
+
+header {
+    background-color: rgb(252, 231, 247);
+    color: rgb(247, 172, 222);
+    padding: 10px;
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    margin: 20px;
+}
+
+main {
+    padding: 10px;
+    flex:3;
+}
+
+aside {
+    flex: 1;
+    background-color: rgb(160, 17, 117);
+    padding: 10px;
+    color: white;
+}
+
+aside a {
+    color: white;
 }
 
 h1 {
-    color: rgb(134, 107, 71);
-    background-color: rgba(224, 191, 150, 0.603);
-    font-family: 'Franklin Gothic Medium';
-    font-size: 50px;
+    color: rgba(255, 255, 255, 0.918);
+    background-color: rgb(160, 17, 117);
+    font-style: oblique;
+    font-size: 60px;
+    padding: 15px;
 }
 
 h2 {
     font-size: 30px;
     font-style: oblique;
-    color: rgb(134, 107, 71);
+    color: rgb(160, 17, 117);
 }
 
 .subtitulo {
-    color: rgb(134, 107, 71);
+    color: rgb(105, 67, 90);
     font-family: 'Lucida Sans Regular';
     font-size: x-large;
 }
 
 p {
     font-family: 'Lucida sans';
-    color: rgb(44, 26, 4);
+    color: rgb(133, 6, 112);
 }
 
 footer {
-    color: rgb(44, 26, 4);
+    color: rgb(48, 5, 42);
     font-style: italic;
+    padding: 10px;
+    text-align: center;
+}
+
+.portadamusica {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+}
+
+.imgspotify {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 300px;
+}
+
+.imgdanza {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 300px;
+}
+
+li {
+    font-family: 'Lucida sans';
+    color: rgb(133, 6, 112);
+}
+
+.imgpeliculas {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 300px;
 }

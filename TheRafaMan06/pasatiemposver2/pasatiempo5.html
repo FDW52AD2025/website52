@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musica</title>
+    <link rel="stylesheet" href="style5.css">
+    <script src="script2.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Musica</h1>
+    </header>
+    
+    <nav>
+        <div class="menu-container">
+            <a href="index.html" class="menu-button">
+                Inicio
+            </a>
+            
+            <a href="pasatiempo1.html" class="menu-button">
+                <span class="menu-icon">⚽</span>
+                Deportes
+            </a>
+            
+            <a href="pasatiempo3.html" class="menu-button">
+                <span class="menu-icon">📺</span>
+                Series
+            </a>
+            
+            <a href="pasatiempo4.html" class="menu-button">
+                <span class="menu-icon">💥</span>
+                Comics
+            </a>
+            
+            <a href="pasatiempo4.html" class="menu-button">
+                <span class="menu-icon">🎮</span>
+                Videojuegos
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="playlist-section">
+            <h2>Mi Playlist Personal</h2>
+            
+            <div class="playlist-item">
+                <img src="img/100a.jpg" alt="Blink-182" class="album-cover">
+                <div class="song-info">
+                    <div class="song-title">100 años</div>
+                    <div class="artist">Pedro Infante</div>
+                    <audio controls class="audio-player">
+                        <source src="audios/Cien años - Pedro Infante.mp3" type="audio/mpeg">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                </div>
+            </div>
+            
+            <div class="playlist-item">
+                <img src="img/DMB.jpg" alt="Daft Punk" class="album-cover">
+                <div class="song-info">
+                    <div class="song-title">Dueña De Mis Besos</div>
+                    <div class="artist">Julion Alvarez y Su Norteño Banda</div>
+                    <audio controls class="audio-player">
+                        <source src="audios/Julión Álvarez Y Su Norteño Banda - Dueña De Mis Besos (Audio) - Juan Luis Garcia 29.mp3" type="audio/mpeg">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                </div>
+            </div>
+            
+            <div class="playlist-item">
+                <img src="img/10phi.png" class="album-cover">
+                <div class="song-info">
+                    <div class="song-title">Diez Pasos Hacia Ti</div>
+                    <div class="artist">Daniel, Me Estás Matando, Alex Ferreira</div>
+                    <audio controls class="audio-player">
+                        <source src="audios/Diez Pasos Hacia Ti (Lyric Video) - Daniel, Me Estás Matando ft Alex Ferreira - Daniel, Me Estás Matando.mp3" type="audio/mpeg">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                </div>
+            </div>
+            
+            <div class="playlist-item">
+                <img src="img/NPL.jpeg" alt="Ariana Grande" class="album-cover">
+                <div class="song-info">
+                    <div class="song-title">Nació Pa'Leyenda</div>
+                    <div class="artist">Los Plebes del Rancho de Ariel Camacho</div>
+                    <audio controls class="audio-player">
+                        <source src="audios/Nacio Pa Leyenda - Los Plebes del Rancho de Ariel Camacho - Rivera Music.mp3" type="audio/mpeg">
+                        Tu navegador no soporta el elemento de audio.
+                    </audio>
+                </div>
+            </div>
+        </section>
+        
+        <section class="featured-section">
+            <h2>Contenido Destacado</h2>
+            
+            <div class="video-container">
+                <h3>Album Favorito</h3>
+                <div id="youtube-placeholder">
+                    <iframe 
+                        width="100%" 
+                        height="315" 
+                        src="https://www.youtube.com/watch?v=2eb4bEiQOLA" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <p class="video-warning" style="display: none; color: #ff6b6b; margin-top: 10px;">
+                    Si el video no se muestra, es posible que necesites subir esta página a un servidor web.
+                    <button onclick="openVideo()" style="background: #ff0000; color: white; border: none; padding: 5px 10px; border-radius: 3px; cursor: pointer; margin-left: 10px;">
+                        Ver en YouTube
+                    </button>
+                </p>
+            </div>
+            
+            <div class="video-container">
+                <h3>Participación concurso</h3>
+                <video controls width="800">
+                    <source src="audios/WhatsApp Video 2025-08-29 at 5.39.47 PM.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de videos.
+                </video>
+            </div>
+            
+  
+        </section>
+    </main>
+    
+    <aside>
+        <div class="music-form">
+            <div class="form-title">
+                <span>🎵</span>
+                <h3>Búsqueda Musical</h3>
+            </div>
+            
+            <div class="form-group">
+                <label for="artist">Artista o Banda:</label>
+                <input type="text" id="artist" placeholder="Ej: Bad Bunny, Taylor Swift...">
+            </div>
+            
+            <div class="form-group">
+                <label for="genre">Género Musical:</label>
+                <select id="genre">
+                    <option value="">Selecciona un género</option>
+                    <option value="pop">Pop</option>
+                    <option value="rock">Rock</option>
+                    <option value="hiphop">Hip Hop</option>
+                    <option value="electronic">Electrónica</option>
+                    <option value="jazz">Jazz</option>
+                    <option value="reggaeton">Reggaeton</option>
+                    <option value="latin">Latino</option>
+                    <option value="indie">Indie</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="year">Año de lanzamiento:</label>
+                <input type="number" id="year" placeholder="Ej: 2020" min="1900" max="2023">
+            </div>
+            
+            <div class="form-group">
+                <label for="mood">Estado de ánimo:</label>
+                <select id="mood">
+                    <option value="">¿Cómo te sientes?</option>
+                    <option value="happy">😊 Feliz</option>
+                    <option value="sad">😢 Triste</option>
+                    <option value="energetic">⚡ Energético</option>
+                    <option value="relaxed">😌 Relajado</option>
+                    <option value="focused">🎯 Concentrado</option>
+                </select>
+            </div>
+            
+            <button  class="btn" onclick="window.open('https://www.youtube.com/watch?v=w8aVNvv1rmQ', '_blank')">Buscar Música</button>
+        </div>
+    </aside>
+    
+    <footer>
+        <p>&copy; 2025 Sitio Web - Hecho por Abdiel Rafael Aguilar Linares</p>
+    </footer>
+</body>
+</html>

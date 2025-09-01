@@ -81,26 +81,8 @@ h1 {
     box-shadow: none;
 }
 
-/* Responsive para tablets */
-@media (max-width: 900px) {
-    .contenedor-grid {
-        grid-template-columns: 1fr; /* Una sola columna en tablets */
-    }
+footer{
+    margin-top: 30px;
+    text-align: center;
 }
 
-/* Responsive para móviles */
-@media (max-width: 600px) {
-    .contenedor-grid {
-        grid-template-columns: 1fr; /* Una sola columna en móviles */
-        padding: 0 10px;
-    }
-    
-    .caja {
-        min-width: unset;
-    }
-    
-    .boton {
-        padding: 12px 20px;
-        font-size: 14px;
-    }
-}

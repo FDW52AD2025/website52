@@ -1,0 +1,260 @@
+/** Clases de Index **/
+.bodyindex{
+	margin: 0;
+    padding: 0;
+    background-image: url(imagenes/fondobalatro.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.headerindex {
+    background: #ea343c;
+    color: black;
+    padding: 2px;
+    text-align: center;
+}
+.imgindexgeto{
+    border: 3px solid black;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+.ulindex {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darksalmon;
+}
+.liindex {
+    float: left;
+}
+li .aindex {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li .aindex:hover {
+    background-color: tomato;
+}
+.psombra {
+    color: white;
+    text-shadow: 
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+    text-align: center;
+}
+
+/* Clases de pasatiempos */
+.bodypasatiempos {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+.headerpasatiempos {
+    background: #222;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+.mainpasatiempos {
+    padding: 20px;
+    background: #fff;
+    min-height: 300px;
+}
+.asidepasatiempos {
+    background: #eee;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+}
+.footerpasatiempos {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* clases de imagenes pasatiempo 1 */
+
+.divjuego {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.divjuego-img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* clases de pasatiempo 2 musica*/
+
+.mainpasatiempos_musica {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    min-height: 300px;
+    border-radius: 8px;
+}
+.asidepasatiempos_musica {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #eee;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.artistasdecoracion {
+    display: block;
+    margin: 15px auto;
+    max-width: 800px;
+    width: 100%;
+    border: 3px solid black;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+/* clases de pasatiempo 3 series */
+
+.contenedor-pasatiempos {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 20px;
+      gap: 20px;
+}
+
+.galeria-peliculas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 15px;
+}
+
+.poster-peliculas {
+      width: 150px;
+      border-radius: 10px;
+      border: 3px solid black;
+      box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease;
+}
+
+.poster-peliculas:hover {
+      transform: scale(1.05);
+}
+
+.form-series {
+      margin-top: 10px;
+}
+
+.form-series input, 
+.form-series button {
+      padding: 8px;
+      margin-top: 8px;
+      border: none;
+      border-radius: 6px;
+}
+
+.form-series button {
+      background: #222;
+      color: #fff;
+      cursor: pointer;
+}
+
+.form-series button:hover {
+      background: #444;
+}
+
+/* Clases de Estilo libre */
+
+.mainpasatiempos_estilolibre {
+  padding: 20px;
+  line-height: 1.6;
+  font-family: Georgia, serif;
+}
+
+.img-jokers {
+  display: block;
+  margin: 20px auto;
+  max-width: 90%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.tabla-jokers {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+  font-size: 15px;
+  background: #fafafa;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tabla-jokers th {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+.tabla-jokers td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabla-jokers tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+.lista-jokers {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.lista-jokers li {
+  margin: 5px 0;
+}
+
+.img-asideestilolibre {
+  margin-top: 10px;
+  max-width: 200px;
+  border-radius: 15px;
+  display: block;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+}
+
+/* Clases de Test */
+.bodytest {
+      font-family: Arial, sans-serif;
+      background-color: #f8f1e5;
+      margin: 0;
+      padding: 20px;
+    }
+
+.h1headertest {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.maintest {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.huevitodecoracion {
+    max-width: 280px;
+    border: 3px solid black;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}

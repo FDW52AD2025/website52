@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Pasatiempos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Formulario de Pasatiempos</h1>
+    </header>
+
+    <main>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>¿Tienes pasatiempos?</legend>
+                <label>
+                    <input type="radio" name="tiene_pasatiempos" value="si" required> Sí
+                </label>
+                <label>
+                    <input type="radio" name="tiene_pasatiempos" value="no"> No
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>¿Cuáles pasatiempos tienes? (puedes seleccionar más de uno)</legend>
+                <label>
+                    <input type="checkbox" name="pasatiempos[]" value="cocinar"> Cocinar
+                </label>
+                <label>
+                    <input type="checkbox" name="pasatiempos[]" value="correr"> Correr
+                </label>
+                <label>
+                    <input type="checkbox" name="pasatiempos[]" value="gatos"> Pasar tiempo con gatos
+                </label>
+                <label>
+                    <input type="checkbox" name="pasatiempos[]" value="terror"> Ver películas o series de terror
+                </label>
+                <label>
+                    <input type="checkbox" name="pasatiempos[]" value="otros"> Otros
+                </label>
+                <input type="text" name="otros_pasatiempos" placeholder="Escribe otros pasatiempos">
+            </fieldset>
+            <fieldset>
+                <legend>Comentarios adicionales</legend>
+                <textarea name="comentarios" rows="4" placeholder="Comparte algo más sobre tus pasatiempos..."></textarea>
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <p>Desarrollado por Ilse Ojeda
+        <img src="img/logo.png" alt="Logo" class="logo-footer">
+        </p>
+    </footer>
+</body>
+</html>
