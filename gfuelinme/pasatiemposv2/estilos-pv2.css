@@ -17,22 +17,33 @@ h1 {
 }
 
 nav {
-  background-color: rgb(15, 15, 15);
-  padding: 10px;
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid rgb(225, 225, 225);
+  border-radius: 10px;
   text-align: center;
 }
 
 nav ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
   display: inline-flex;
-  gap: 200px;
+  gap: 40px;
 }
 
 nav a {
-  color: white;
+  background-color: white;  
+  color: black;
   font-weight: bold;
+  margin: 20px;
+  padding: 10px 20px;
+  border: 2px solid rgb(225, 225, 225);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+ul a {
+    font-size: 20px;
 }
 
 
@@ -49,8 +60,31 @@ h2 {
 }
 
 p {
-    padding: 10px;
+    padding: 13px;
     font-size: 20px;
+}
+
+img {
+    margin: 10px;
+    padding: 10px;
+}
+
+iframe {
+    margin: 10px;
+    padding: 10px;
+}
+
+video {
+    margin: 10px;
+    padding: 10px;
+}
+
+table {
+    width: 30%;
+    height: 90px;
+    margin: 15px;
+    padding: 10px;
+    border-collapse: collapse;
 }
 
 footer {

@@ -1,4 +1,5 @@
 /* Fondo de pagina */
+
 .familia {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
@@ -54,7 +55,9 @@
     font-weight: bold;
 }
 
+
 /* Encabezados */
+
 h1 {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 20px;
@@ -74,7 +77,9 @@ img {
     height: auto;
 }
 
+
 /* css links */
+
 .links {
     list-style: none;
     padding: 0;
@@ -95,7 +100,9 @@ img {
     color: #ffffff;
 }
 
+
 /* Pie de pagina */
+
 .main-footer {
     background-color: rgba(0, 0, 0, 0.8);
     padding: 15px;
@@ -112,19 +119,24 @@ img {
     border: 1px solid rgba(73, 73, 73, 0.2);
 }
 
+
 /* CSS para articulos (parecido al de secciones solo que con diferentes sentencias)*/
 
+
 /* Estilo base para articulo */
+
 article {
     background: rgba(0, 0, 0, 0.5);
     margin: 20px auto;
     padding: 20px;
     width: 80%;
     border-radius: 15px;
-    box-shadow: 0px 0px 15px rgba(255,255,255,0.3);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);
 }
 
+
 /* Headers dentro de articulo */
+
 article header {
     margin-bottom: 25px;
     padding-bottom: 15px;
@@ -132,7 +144,9 @@ article header {
     position: relative;
 }
 
+
 /* Títulos h2 dentro de articulo */
+
 article h2 {
     color: #dadada;
     margin: 25px 0 15px 0;
@@ -140,7 +154,9 @@ article h2 {
     position: relative;
 }
 
+
 /* Párrafos dentro de articulo */
+
 article p {
     line-height: 1.7;
     margin-bottom: 20px;
@@ -148,7 +164,9 @@ article p {
     color: rgba(255, 255, 255, 0.95);
 }
 
+
 /* Nav dentro de articulo */
+
 article nav {
     margin: 30px 0;
     padding: 20px;
@@ -157,7 +175,9 @@ article nav {
     border: 1px solid rgba(186, 186, 186, 0.2);
 }
 
+
 /* Aside dentro de articulo */
+
 article aside {
     margin: 25px 0;
     padding: 20px;
@@ -167,7 +187,9 @@ article aside {
     position: relative;
 }
 
+
 /* Tablas dentro de articulo */
+
 article table {
     background: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
@@ -179,7 +201,8 @@ article table tr:nth-child(even) {
     background: rgba(0, 217, 255, 0.1);
 }
 
-article table td, article table th {
+article table td,
+article table th {
     transition: background 0.3s ease;
 }
 
