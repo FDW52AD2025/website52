@@ -1,9 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pasatiempo 1</title>
-  </head>
-  <body></body>
+<html lang="es-MX">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="atchz" />
+        <meta name="description" content="Pagina sobre mi primer pasatiempo" />
+        <meta name="keywords" content="uanl,facpya,lti" />
+        <title>Pasatiempo 1</title>
+    </head>
+    <body>
+        <header>
+            <h1>Primer pasatiempo</h1>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./index.html"
+                            >Regresar a la página principal</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <header><h2>Jugar videojuegos</h2></header>
+
+                <p>
+                    Los videojuegos son uno de mis pasatiempos favoritos para
+                    pasar el tiempo. Me permiten socializar con mis amigos y
+                    divertirnos juntos, especialmente cuando no sabemos que más
+                    hacer. Además de entretenernos, nos ayuda a mantenernos por
+                    decirlo de alguna manera conectados ya que podemos compartir
+                    más momentos.
+                </p>
+                <img
+                    src="https://images.pexels.com/photos/1637436/pexels-photo-1637436.jpeg"
+                    alt="mando de consola NES"
+                    width="300px"
+                />
+
+                <section>
+                    <header>
+                        <h3>Algunos de mis juegos favoritos son:</h3>
+                    </header>
+
+                    <ul>
+                        <li lang="en">Hollow Knight</li>
+                        <li lang="en">Super Mario 64</li>
+                        <li lang="en">The Binding of Isaac</li>
+                        <li lang="en">The Legend of Zelda: Majora's Mask</li>
+                    </ul>
+                </section>
+
+                <p>
+                    De estos 4, mi favorito es sin duda alguna
+                    <mark> <span lang="en">Hollow Knight</span></mark
+                    >, ya que me tranquiliza, me relaja y sobretodo, me
+                    entretiene.
+                </p>
+
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/UAO2urG23S4?si=CuTltjHoNVuOmaJc"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                ></iframe>
+
+                <h4>Menciona tu videojuego favorito:</h4>
+
+                <form action="#" method="post">
+                    <label for="juego">Nombre del juego:</label>
+                    <input
+                        type="text"
+                        id="juego"
+                        name="juego"
+                        placeholder="Escribe tu juego favorito"
+                        required
+                    />
+                    <br /><br />
+
+                    <label for="plataforma">Plataforma:</label>
+                    <select id="plataforma" name="plataforma">
+                        <option value="pc">PC</option>
+                        <option value="switch">Nintendo Switch</option>
+                        <option value="playstation">PlayStation</option>
+                        <option value="xbox">Xbox</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                    <br /><br />
+
+                    <label for="rol">Genero del videojuego:</label>
+                    <select id="rol" name="rol">
+                        <option value="aventura">Aventura</option>
+                        <option value="accion">Acción</option>
+                        <option value="estrategia">Estrategia</option>
+                        <option value="rol">Rol</option>
+                        <option value="multijugador">Multijugador</option>
+                    </select>
+                    <br /><br />
+
+                    <button type="submit">Enviar</button>
+                </form>
+
+                <footer></footer>
+            </article>
+        </main>
+        <aside>
+            <h4>Links para revisar los videojuegos mencionados</h4>
+            <nav>
+                <ul>
+                    <li lang="en">
+                        <a
+                            target="_blank"
+                            href="https://store.steampowered.com/app/367520/Hollow_Knight/"
+                            >Hollow Knight</a
+                        >
+                    </li>
+                    <li lang="en">
+                        <a
+                            target="_blank"
+                            href="https://www.nintendo.com/es-es/Juegos/Nintendo-64/Super-Mario-64-269745.html"
+                            >Super Mario 64</a
+                        >
+                    </li>
+                    <li lang="en">
+                        <a
+                            target="_blank"
+                            href="https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/"
+                            >The Binding of Isaac</a
+                        >
+                    </li>
+                    <li lang="en">
+                        <a
+                            target="_blank"
+                            href="https://www.nintendo.com/es-es/Juegos/Nintendo-64/The-Legend-of-Zelda-Majora-s-Mask-269525.html"
+                            >The Legend of Zelda: Majora's Mask</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <footer>
+            <p>
+                <abbr title="Universidad Autónoma de Nuevo León">UANL</abbr> -
+                <abbr title="Facultad de Contaduría Pública y Administración"
+                    >FACPYA</abbr
+                >
+            </p>
+        </footer>
+    </body>
 </html>

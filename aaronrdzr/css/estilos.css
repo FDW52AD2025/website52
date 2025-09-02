@@ -1,0 +1,16 @@
+#a33{
+    margin: 11px 0;
+    border: 8px groove rgb(10, 10, 137);
+    border-top: 8px inset blue ;
+    border-left: 8px inset blue;
+    border-right: 8px inset blue;
+    border-bottom: 8px inset blue;
+    padding: 2px;
+    border-radius: 10px;
+    width: 70px;
+    background-color: rgb(25, 106, 255);
+    color: white;
+    font-size: auto;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}

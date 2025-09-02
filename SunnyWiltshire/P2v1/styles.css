@@ -38,6 +38,10 @@ p{
     text-align: justify;
 }
 
+p.bk{
+    color: black;
+}
+
 iframe{
     display: block;
     margin: 0 auto;
