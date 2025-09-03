@@ -1,0 +1,11 @@
+#a42 {
+    background-color: #ffd1dc;
+    border: 2px solid violet;
+    padding: 5px 10px;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
