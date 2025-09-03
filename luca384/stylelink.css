@@ -1,0 +1,16 @@
+#a39{
+    background-color: rgb(161, 67, 244);
+    border: solid 2px white;
+    font-family: Georgia, Helvetica, sans-serif;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+#a39 a:visited{
+    color: white;
+}
+#a39 a{
+    text-decoration: none;
+}
+
