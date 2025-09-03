@@ -8,3 +8,12 @@
   font-size: 15px;
   display: inline-block;
 }
+
+#a35 a:hover {
+  background-color: #4a4a4a;
+}
+
+#a35 a:active {
+  background-color: #5a0f1b;
+}
+

@@ -75,9 +75,15 @@ footer p {
     color: #333;
 }
 
+
 footer .logo-footer {
     width: 30px;  
     height: auto;
+    transition: transform 0.3s ease;
+}
+
+footer .logo-footer:hover {
+    transform: scale(1.2) rotate(10deg); 
 }
 
 
