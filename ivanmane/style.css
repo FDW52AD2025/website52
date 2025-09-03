@@ -24,16 +24,6 @@ h2 {
     color: #333;
 }
 
-h2 {
-    position: relative;
-    transition: all 0.4s ease;
-}
-
-h2:hover {
-    color: #ba7b7c;
-    transform: translateX(5px);   /* ligero desplazamiento lateral */
-}
-
 
 .links ul {
     list-style-type: square;
@@ -84,4 +74,3 @@ footer .logo-footer {
 footer .logo-footer:hover {
     transform: scale(1.2) rotate(10deg); 
 }
-
