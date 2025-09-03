@@ -1,4 +1,4 @@
-#a45 {
+#a15 {
     display: inline-block;
     border: 5px groove rgb(0, 247, 255);
     background-color: rgb(1, 43, 80);
@@ -7,6 +7,6 @@
     text-align: center;
 }
 
-#a45 a {
+#a15 a {
     color: rgb(0, 0, 0);
 }
