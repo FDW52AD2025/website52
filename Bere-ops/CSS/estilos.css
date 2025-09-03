@@ -1,0 +1,10 @@
+#a36{
+    background-color: pink;
+    padding: 5px 10px;
+    border-radius: 5px dotted rgb(105, 6, 88);
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 2px solid palevioletred;
+}
