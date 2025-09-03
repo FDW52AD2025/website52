@@ -60,7 +60,7 @@ nav {
 }
 
 .menu-button {
-    background: linear-gradient(145deg, #ff6b6b, #ee5a24);
+    background: linear-gradient(145deg, #81514b, #6e3730);
     color: white;
     padding: 15px 20px;
     text-decoration: none;
@@ -97,43 +97,130 @@ nav {
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
 }
 
-.menu-button {
-    background: linear-gradient(145deg, #81514b, #6e3730);
-}
-
-.menu-button {
-    background: linear-gradient(145deg, #6e3730, #81514b);
-}
-
-
 .menu-icon {
     font-size: 1.3rem;
     margin-right: 8px;
 }
 
 main {
-    grid-area: main;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+@media (max-width: 900px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+.playlist-section, .featured-section {
+    background: #1c0f07;
     border-radius: 15px;
-    padding: 30px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    color: white;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 main h2 {
-    color: #260000;
-    font-size: 1.8rem;
+    color: #e2a99f;
     margin-bottom: 20px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e2a99f;
 }
 
-main p {
-    color: #330505;
-    line-height: 1.6;
-    font-size: 1.1rem;
+.playlist-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #5f3934;
+    border-radius: 10px;
+    transition: transform 0.3s;
 }
+
+.playlist-item:hover {
+    transform: translateY(-3px);
+    background: #684642;
+}
+
+.album-cover {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.song-info {
+    flex: 1;
+}
+
+.song-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #201211;
+}
+
+.artist {
+    color: #e2a99f;
+    margin-bottom: 8px;
+}
+
+.audio-player {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.video-container, .spotify-container {
+    margin-bottom: 25px;
+}
+
+.video-container h3, .spotify-container h3 {
+    margin-bottom: 10px;
+    color: #e2a99f;
+}
+
+video, iframe {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+video {
+    height: 250px;
+    background-color: #000;
+}
+
+iframe {
+    height: 280px;
+    border: none;
+}
+
+.embedded-content {
+    display: flex;
+    align-items: center;
+    background: rgba(30, 30, 30, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.embedded-content img {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+.embedded-content p {
+    flex: 1;
+    font-size: 0.9rem;
+}
+
 
 aside {
     grid-area: aside;
@@ -153,22 +240,64 @@ aside h3 {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-aside ul {
-    list-style: none;
-    padding: 0;
-}
-
-aside li {
+.music-form {
     background: rgba(255, 255, 255, 0.1);
-    margin: 8px 0;
-    padding: 10px;
-    border-radius: 8px;
-    color: #330505;
-    transition: background 0.3s ease;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
 }
 
-aside li:hover {
-    background: rgba(255, 255, 255, 0.2);
+.form-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #260000;
+}
+
+.form-title span {
+    font-size: 1.8rem;
+    margin-right: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #260000;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    color: #260000;
+}
+
+input::placeholder {
+    color: #350c0ca6;
+}
+
+.btn {
+    background: linear-gradient(to bottom, #381d0f, #1c0f07);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom, #1c0f07, #381d0f);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 footer {
