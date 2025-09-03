@@ -1,0 +1,25 @@
+#a01 {
+    color: #5d2417;
+    padding-bottom: 30px;
+    text-decoration: none;
+    transition: all 0s ease;
+}
+
+#a01 a:hover{
+    color: burlywood;
+    text-decoration: none;
+}
+
+#a01 a:visited {
+    color:#5d2417 ;
+    text-decoration: none;
+}
+
+#a01 a:visited:hover {
+    color:#8d4925
+ ;
+}
+
+#a01 a:focus {
+    outline: 2px solid orange;
+}
