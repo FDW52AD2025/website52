@@ -1,0 +1,21 @@
+#a25{
+    font-family: monospace;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    list-style: none;
+    padding: 0;
+    background: url("img/atardecer.jpg") no-repeat center center fixed;
+}
+#a25 a{
+    text-decoration: none;
+    color: #dadada;
+    transition: color 0.3s;
+}
+#a25 a:hover{
+    color: #000000;
+}

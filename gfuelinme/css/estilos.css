@@ -1,0 +1,14 @@
+#a34 {
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#a34 a {
+    font-family: monospace;
+    font-weight: bold;
+    color: blue;
+    background-color: gold;
+    border: 2px solid goldenrod;
+    padding: 5px;
+}

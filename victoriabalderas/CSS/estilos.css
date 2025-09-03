@@ -1,0 +1,14 @@
+#a03 {
+    display: inline-block;
+    border: 2px dotted indianred; 
+    background-color: blanchedalmond;
+    padding: 5px;
+    width: 150px;
+    
+}   
+
+#a03 a {
+    font-style: oblique;
+    font-family:'Times New Roman', serif;
+    color: indianred
+}
