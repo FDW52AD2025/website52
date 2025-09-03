@@ -31,3 +31,39 @@ h3{
 h4{
     font-style:italic;
 }
+
+h5{
+    border: 2px solid rgb(241, 92, 154);
+    color:rgb(241, 92, 154);
+    background-color:rgb(255, 186, 215) ;
+    padding: 10px;
+    border-radius:5px;
+    text-align: center;
+    font-size:30px;
+}
+
+.Link{
+    background-color:rgb(247, 178, 212);
+}
+
+.Link1{
+    background-color:rgb(170, 185, 252);
+}
+
+.Link2{
+    background-color:rgb(216, 153, 245);
+}
+
+.Link3{
+    border: 2px solid rgb(241, 92, 154);
+    padding: 0px;
+    border-radius:4px;
+    
+}
+
+.Link4{
+    border: 2px solid rgb(241, 206, 92);
+    padding: 0px;
+    border-radius:4px;
+    
+}
