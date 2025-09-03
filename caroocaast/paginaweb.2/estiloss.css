@@ -67,3 +67,13 @@ h5{
     border-radius:4px;
     
 }
+
+#a05 a{
+    border: 2px solid rgb(245, 113, 194);
+    padding: 2px;
+    border-radius:5px;
+    background-color: rgb(252, 200, 229);
+    color: rgb(245, 113, 194);
+    font-style:bold;
+
+}
