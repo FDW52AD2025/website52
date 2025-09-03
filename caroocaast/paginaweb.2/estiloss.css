@@ -1,0 +1,33 @@
+.imagens {
+    float:left;
+    width: 400px;
+    margin-right:15px;
+    margin-bottom: 15;
+}
+
+.imagens1 {
+    float:left;
+    width: 280px;
+    margin-right:15px;
+    margin-bottom: 15;
+}
+
+h1{
+    
+    color:palevioletred;
+}
+
+h2{
+    background-color:pink;
+    color:white;
+}
+
+h3{
+    color: pink;
+    border: 2px solid pink;
+    padding: 5px;
+}
+
+h4{
+    font-style:italic;
+}
