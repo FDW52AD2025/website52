@@ -1,1 +1,21 @@
+#a12 {
+    display: flex;
+    background-color: whitesmoke;
+    border: 4px solid darkblue;
+    border-radius: 12px;
+    padding: 8px 0 8px;
+    width: 150px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
 
+#a12 a {
+    border: 2px;
+    border-color: darkblue;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    background-color: red;
+    color: whitesmoke;
+    width: 150px;
+}
