@@ -1,0 +1,14 @@
+#a41 { 
+ 
+        font-size: 25px;
+        text-shadow: 1px 1px 0px  gold;
+        text-align: center;
+        background: url(banner/banner.jpeg);
+        background-size: 200px;
+        margin: 10px;
+
+    }
+
+    #a41 a:hover {
+        color: black;
+        }
