@@ -1,0 +1,18 @@
+#a06 {
+    background-color: rgb(93, 116, 102);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: cursive;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#a06:hover {
+    background-color: rgb(255, 0, 0);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
