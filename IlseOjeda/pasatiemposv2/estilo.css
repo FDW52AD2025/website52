@@ -68,6 +68,8 @@ footer {
     margin-top: 40px;
     font-size: 0.9rem;
     border-top: 3px solid #99e2b4;
+    font-family: "Georgia", "Times New Roman", serif; 
+    font-style: italic;
 }
 
 footer p {
