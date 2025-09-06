@@ -1,0 +1,13 @@
+
+#a26 {
+  font-family: 'Papyrus', 'Lucida Handwriting', cursive;
+  font-size: 2.4rem;
+  color: #ff0080;
+  background: linear-gradient(135deg, #ff0080, #ff8c00, #40e0d0);
+  padding: 16px 28px;
+  border-radius: 50px;
+  border: 3px solid #fff;
+  letter-spacing: 2px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.4);
+  display: inline-block;
+}
