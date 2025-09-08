@@ -258,3 +258,20 @@ li .aindex:hover {
     border: 3px solid black;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
+
+/* Estilos para Selectores */
+#s404 {
+    text-align: center;
+    margin: 15px auto;
+    padding: 10px;
+    max-width: 600px;
+    background: #fdfdfd;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+#s404 h3 {
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: normal;
+}
