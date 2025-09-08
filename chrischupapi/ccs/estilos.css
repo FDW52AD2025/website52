@@ -1,0 +1,23 @@
+
+
+#a20{
+ font-family: monospace;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    list-style: none;
+    padding: 0;
+}
+
+
+
+    #a20{
+    border: 5px solid rebeccapurple;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+ }

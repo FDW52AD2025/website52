@@ -6,19 +6,32 @@ body {
     color: #333;
 }
 
-header {
+
+header {                             
     background-color: #f1989b;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
+
 main {
     padding: 20px;
 }
 
+
 h2 {
     color: #333;
+}
+
+h2 {
+    position: relative;
+    transition: all 0.4s ease;
+}
+
+h2:hover {
+    color: #ba7b7c;
+    transform: translateX(5px);   
 }
 
 
@@ -46,22 +59,32 @@ h2 {
     box-shadow: 2px 2px 8px rgba(0,0,0,0.1); 
 }
 
+
 footer {
     background-color: #c88e83;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 10px ;
     margin-top: 20px;
+    font-family: "Georgia", "Times New Roman", serif; 
+    font-style: italic;
 }
 
 footer p {
     display: flex;
     justify-content: center;
-    align-items
+    align-items: center;
     margin: 0;
 }
 
 footer .logo-footer {
-    width: 30px;  
+    width: 35px;  
     height: auto;
+    transition: transform 0.3s ease;
 }
+
+footer .logo-footer:hover {
+    transform: scale(1.2) rotate(10deg); 
+}
+
+
