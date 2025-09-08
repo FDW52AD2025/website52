@@ -8,8 +8,56 @@ h2 {
   color: rgb(2, 71, 2);
 }
 
-img {
+h3 {
+  color:rgb(72, 26, 189);
+}
+
+.imgfutbol {
     width: 400px;
+}
+
+.imgestadio {
+  width: 700px;
+}
+
+.imgmarvel {
+  width: 500px;
+}
+  
+.imgconjuro {
+  width: 416px;
+}
+
+.imgvisorias {
+  width: 400px;
+}
+
+.imgjuego1 {
+  width: 400px;
+}
+
+.imgjuego2 {
+  width: 200px;
+}
+
+.imgjuego3 {
+  width: 267px;
+}
+
+.imgjuego4 {
+  width: 400px;
+}
+
+.imgnat1 {
+  width: 281px;
+}
+
+.imgnat2 {
+  width: 500px;
+}
+
+.imgnat3 {
+  width: 500px;
 }
 
 footer {
@@ -17,5 +65,13 @@ footer {
 }
 
 body {
-    background-color: rgb(139, 160, 177);
+  background-color: rgb(139, 160, 177);
+}
+
+form {
+  margin-top: 20px;
+}
+
+.bodyev {
+  background-color: darkgrey;
 }

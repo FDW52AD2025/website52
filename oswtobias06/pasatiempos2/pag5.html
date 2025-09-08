@@ -3,13 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>Archivos relacionados</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <header></header>
-    <nav></nav>
-    <main></main>
-    <aside></aside>
-    <footer></footer>
+    <b class="back">
+       <a href="index.html">Volver a página principal</a>
+    </b>
+    <header>
+        <h1>Información extra</h1>
+    </header>
+    <main>
+        <table border="1px">
+            <thead>
+                <tr>
+                    <th colspan="5">HORARIOS DE PASATIEMPOS</th>
+                </tr>
+                <tr>
+                    <th> Días</th>
+                    <th>Cine</th>
+                    <th>Musica</th>
+                    <th>Deportes</th>
+                    <th>Coleccion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>--</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Miercoles</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>--</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td>--</td>
+                    <td>X</td>
+                    <td>--</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>--</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td>Sabado</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td>Domingo</td>
+                    <td>--</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>--</td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+        <br>
+        <h3>Recomendaciones para implementar a mis pasatiempos</h3>
+        <form action="">
+            <label for="nombre">Nombre</label>
+            <input placeholder="Tu nombre aqui" type="text" name="nombre" id="nombre">
+
+            <label for="cine">Serie o pelicula</label>
+            <input placeholder="Tu serie/pelicula fav" type="url" name="cine" id="cine">
+
+            <label for="">Deporte que recomiendas ver </label>
+            <select name="Deporte" id="Deporte">
+                <option value="1">Futbol europeo</option>
+                <option value="nfl">Americano NFL</option>
+                <option value="mlb">Beisbol MLB o LMB</option>
+                <option value="nba">Basket NBA</option>
+            </select>
+
+            <label for="Coleccion">Coleccion</label>
+            <input placeholder="que podria coleccionar" type="text" name="Coleccion" id="coleccionar">
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <aside>
+        <p><b>CONTENIDO</b></p>
+        <li> Cine </li>
+        <li> Musica </li>
+        <li> Deportes </li>
+        <li> Coleccion </li>
+        <li> Info </li>
+    </aside>
+    <footer>
+        <br>
+        <address>
+            <p>&copy; Desarrollado por Oswaldo Isai Tobias Torres</p>
+            <p>Ciudad General Escobedo, Nuevo León</p>
+        </address>
+        <br>
+    </footer>
 </body>
 </html>

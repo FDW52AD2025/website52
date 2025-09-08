@@ -1,4 +1,54 @@
-body {
-    background-color: lightskyblue;
+body.menu{
+    background-color: rgba(222, 174, 15, 0.356);
 }
 
+.titulos {
+    border-radius: 15px ;
+    margin: 15px;
+    background-color: rgba(8, 0, 255, 0.271);
+    border-color: black;
+    border: 3px;
+    border-style: solid;
+    text-align: center;
+}
+
+.fondos {
+    background-color: rgba(5, 151, 151, 0.377);
+}
+
+.menu-pag{
+    text-align: center;
+}
+
+.imagenes {
+    text-align: center;
+}
+
+
+.contenido {
+    grid-area: aside;
+    background: rgba(91, 80, 5, 0.323);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid rgba(42, 3, 3, 0.389);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: rgb(27, 24, 2);
+    position: absolute;
+    right: 120px;
+    top: 80px; 
+    width: 250px; 
+}
+
+
+@media (max-width: 768px) {
+    .contenido {
+        position: static;   
+        width: 100%;        
+        margin-top: 20px;  
+    }
+
+    main {
+        width: 100%;
+    }
+}

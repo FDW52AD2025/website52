@@ -1,0 +1,60 @@
+/* Bloque footer */
+.copyright {
+    background-color: darkslategray;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+/* Pasatiempo 1 */
+h1 {
+    border: 4px double black;
+    text-align: center;   
+}
+#titulo1 {
+  background-color: brown;
+  color: white;
+}
+footer {
+    text-align: center;
+}
+.centrarimg {
+    display: flex;
+    align-content: center;
+    margin-left: 80px;
+}
+
+
+/* Segundo pasatiempo */
+#titulo2 {
+  background-color:darkslateblue;
+  color: white;
+}
+/* Estilos para las imagenes y para sus descripciones*/
+.contenedor-img {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.contenedor-img img {
+  width: 500px;
+  height: 300px;
+  margin-right: 30px;
+  border-radius: 15px;
+}
+.contenedor-img dt,dd {
+  font-size: 20px;
+  color: black;
+  margin-left: 20px;
+  margin-right: 50px;
+  text-align: justify;
+}
+
+
+/* Tercer pasatiempo */
+#titulo3 {
+  background-color: green;
+  color: white;
+}
