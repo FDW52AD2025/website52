@@ -4,17 +4,13 @@ h1 {
     color: rgb(96, 3, 96);
 }
 
-section, nav {
-    border:3px double rgb(162, 103, 162);
+section, img{
+    border:5px double rgb(162, 103, 162);
     background-color: rgb(231, 215, 231);
 }
 
 #n01 * {
     color: rgb(146, 21, 146);
-}
-
-img {
-    border: 3px double rgb(129, 0, 129);
 }
 
 header {
@@ -48,3 +44,33 @@ th {
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+#n03 [href] {
+    background-color: rgb(211, 179, 211);
+    color: purple;
+}
+
+#n04 li {
+    background-color: rgb(222, 186, 222);
+    color: purple;
+    margin: 15px;
+}
+
+address > p {
+    color: purple;
+    background-color: plum;
+    width: 200px;
+}
+
+#n05 article h3 + p {
+    border: 2px solid rgb(124, 73, 124);
+    background-color: rgb(214, 178, 214);
+    color: purple;
+    margin: 10px;
+}
+
+#n06 h3 ~ p {
+    background-color: rgb(222, 189, 222);
+    color: purple;
+}
+
