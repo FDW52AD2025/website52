@@ -1,0 +1,7 @@
+/* Estilos para los selectores */
+#titulo5 {
+  background-color: chocolate;
+  color: white;
+  border: 4px double black;
+  text-align: center;
+}
