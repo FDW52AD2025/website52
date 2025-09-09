@@ -133,3 +133,11 @@ iframe {
   gap: 10px;              
   flex-wrap: wrap;         
 }
+
+#inicio * {
+  color: rgb(89, 15, 99);
+}
+
+#inicio p {
+  color: rgb(80, 75, 75);
+}
