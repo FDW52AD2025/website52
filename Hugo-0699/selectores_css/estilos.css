@@ -1,6 +1,5 @@
 /* Estilos para el index de los selectores */
 
-
 .bodyprincipal {
   background-color: rgb(231, 231, 231);
 }
@@ -16,6 +15,30 @@
   border-bottom: 4px solid brown;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#sectionselector {
+  background:transparent;
+  border-bottom: 1px solid black;
+  color: black;
+  padding: 25px 0;    
+}
+#sectionselector h3 {
+  font-size: 25px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  border-bottom: 15px;
+  color:black;
+}
+#sectionselector img {
+  border: 1px solid black;
+  margin: 10px auto;
+  max-width: 90%;
+  border-radius: 8px;
+  display: block;
+}
+
+
+
+
 .footer {
     background-color: rgb(44, 46, 48);
     color:cornsilk;
