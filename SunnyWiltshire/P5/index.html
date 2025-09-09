@@ -6,6 +6,7 @@
     <meta name="description" content="Página de selectores."> 
     <meta name="keywords" content="selectores, CSS, HTML, código">
     <meta name="author" content="Lisset García">
+    <link rel="stylesheet" href="styles.css">
     <title>Selectores</title>
 </head>
 <body>
@@ -16,106 +17,122 @@
         <hr>
         <section>
             <h2>Selector universal</h2>
-            <p>Ecplicación del selector</p>
-            <h3>Codigo CSS</h3>
-            <p>Explicación del código</p>
-            <img src="img/selector.png" alt="">
+            <p>Este selector aplica un estilo a <strong>todos</strong> los elementos de la página.</p> 
+            <h3>Código CSS</h3>
+            <p>En este caso a todos los elementos les apliqué la familia de fuentes de Times New Roman, ya que es mi fuente favorita.</p>
+            <img src="img/selector1.jpg" alt="Aplicación de un selector universal en CSS">
             <h3>Resultado</h3>
-            <img src="img/resultado.png" alt="">
+            <p>Se puede observar como tanto en párrafos, encabezados y listas se utiliza la misma fuente.</p>
+            <img width="500px" src="img/resultado1.jpg" alt="página web">
         </section>
         <hr>
         <section>
-            <h2>Selector de tipo</h2>
-            <p>Ecplicación del selector</p>
-            <h3>Codigo CSS</h3>
-            <p>Explicación del código</p>
-            <img src="img/selector.png" alt="">
+            <h2>Selector de tipo (etiqueta)</h2>
+            <p>Aplica el estilo a todas las etiquetas de un tipo específico, como p, h1, ul, etc.</p>
+            <h3>Código CSS</h3>
+            <p>Se aplica un color morado, cursiva y se alinea  al centro a todos los h2 (2dos encabezados).</p>
+            <img src="img/selector2.jpg" alt="Aplicación de un selector de etiqueta en CSS">
             <h3>Resultado</h3>
-            <img src="img/resultado.png" alt="">
+            <p>Podemos observar como en los dos h2 de la página se le aplican las carácteristicas ya descritas anteriormente.</p>
+            <img width="500px" src="img/resultado2.jpg" alt="Encabezados">
         </section>
         <hr>
         <section>
             <h2>Selector por ID</h2>
-            <p>Ecplicación del selector</p>
-            <h3>Codigo CSS</h3>
-            <p>Explicación del código</p>
-            <img src="img/selector.png" alt="">
+            <p>Aplica el estilo al elemento que tenga el ID (que por obviedad un identificador debería de ser único, pero si se le aplica este ID a otro elemento, como en la imagen, podría solo aplicarse al primer elemento, pero depende del navegador.)</p>
+            <h3>Código CSS</h3>
+            <p>Se le aplicará negrita al elemento que tenga el ID: "n".</p>
+            <img src="img/selector3.jpg" alt="Aplicación de un selector por ID en CSS">
             <h3>Resultado</h3>
-            <img src="img/resultado.png" alt="">
+            <p>A pesar de aplicarse en otros elementos, en este navegador (Edge) si aplicó para todos los elementos td.</p>
+            <img width="700px" src="img/resultado3.jpg" alt="Tabla hecha en HTML">
         </section>
         <hr>
         <section>
             <h2>Selector por clase</h2>
-            <p>Ecplicación del selector</p>
-            <h3>Codigo CSS</h3>
-            <p>Explicación del código</p>
-            <img src="img/selector.png" alt="">
+            <p>Aplica el estilo a todos los elementos que tengan una clase específica</p>
+            <h3>Código CSS</h3>
+            <p>En este caso solo necesitaba que un parrafo tuviera el color diferente, pero ya había aplicado un estilo para p (selector de etiqueta), por ende apliqué el selector de clase y la nombré bk (black).</p>
+            <img src="img/selector4.jpg" alt="Aplicación de un selector por clase en CSS">
             <h3>Resultado</h3>
-            <img src="img/resultado.png" alt="">
+            <p>Se aplicó un color negro a todos los párrafos que tuvieran la clase bk.</p>
+            <img src="img/resultado4.jpg" alt="Parrafo de una pagina web.">
         </section>
         <hr>
         <section>
             <h2>Selector de atributo</h2>
-            <p>Ecplicación del selector</p>
-            <h3>Codigo CSS</h3>
-            <p>Explicación del código</p>
-            <img src="img/selector.png" alt="">
+            <p>Aplica el estilo a los elementos que tengan un atributo específico (ejemplo: alt, title, href, etc.).</p>
+            <h3>Código CSS</h3>
+            <p>En este caso lo que realiza esta clase es centrar la imagen.</p>
+            <img src="img/selector5.jpg" alt="Aplicación de un selector de atributo en CSS">
             <h3>Resultado</h3>
-            <img src="img/resultado.png" alt="">
+            <p>Todas las imagenes que tengan el atributo alt se centran.</p>
+            <img  width="700px" src="img/resultado5.jpg" alt="imagen centrada en una pagina.">
         </section>
         <hr>
         <section>
             <h2>Selector de lista</h2>
-            <p>Ecplicación del selector</p>
-            <h3>Codigo CSS</h3>
-            <p>Explicación del código</p>
-            <img src="img/selector.png" alt="">
+            <p>Aplica el mismo estilo a varios elementos listándolos separados por comas.</p>
+            <h3>Código CSS</h3>
+            <p>Aplica a todas las celdas ( etiquetas th y td) de una tabla tendrán un borde solido, texto alineado a la izquierda un espacio de 10px y un fondo azul.</p>
+            <img src="img/selector6.jpg" alt="Aplicación de un selector de lista en CSS">
             <h3>Resultado</h3>
-            <img src="img/resultado.png" alt="">
+            <p>Podemos observar como se aplica el borde, la alineación, espacio y el fondo de la celda.</p>
+            <img width="700px" src="img/resultado6.jpg" alt="Tabla hecha en HTML.">
         </section>
         <hr>
         <section>
             <h2>Selector de descendientes</h2>
-            <p>Ecplicación del selector</p>
-            <h3>Codigo CSS</h3>
-            <p>Explicación del código</p>
-            <img src="img/selector.png" alt="">
+            <p>Aplica el estilo a un elemento que está dentro de otro (no importando si es hijo directo o más profundo).</p>
+            <h3>Código CSS</h3>
+            <p>selecciona todos los "a" que estén dentro de un "nav", donde se le quita el subrayado al enlace, se le cambia el color y le aplica negrita.</p>
+            <img src="img/selector7.jpg" alt="Aplicación de un selector de descendientes en CSS">
             <h3>Resultado</h3>
-            <img src="img/resultado.png" alt="">
+            <img src="img/resultado7.jpg" alt="Navegador de enlaces.">
         </section>
         <hr>
         <section>
             <h2>Selector de hijos directos</h2>
-            <p>Ecplicación del selector</p>
-            <h3>Codigo CSS</h3>
-            <p>Explicación del código</p>
-            <img src="img/selector.png" alt="">
+            <p>Aplica el estilo solo a los hijos directos de un elemento.</p>
+            <h3>Código CSS</h3>
+            <p>selecciona solo los ul que son hijos directos de un nav, en donde se le quita los puntos o numeros de la lista, y convierte la lista en un contenedor flexible para despues poner un espaciado de 335px.</p>
+            <img src="img/selector8.jpg" alt="Aplicación de un selector de hijos directos en CSS">
             <h3>Resultado</h3>
-            <img src="img/resultado.png" alt="">
+            <p>Se ven las propiedades aplicadas.</p>
+            <img src="img/resultado8.jpg" alt="Navegador de enlaces.">
         </section>
         <hr>
         <section>
             <h2>Selector hermano adyacente</h2>
-            <p>Ecplicación del selector</p>
-            <h3>Codigo CSS</h3>
-            <p>Explicación del código</p>
-            <img src="img/selector.png" alt="">
+            <p>Aplica el estilo al elemento que está justo después de otro elemento, en el mismo nivel.</p>
+            <h3>Código CSS</h3>
+            <p>Se le aplica el estilo a la primer tabla siempre y cuando esté después de un h2, el ancho será un 80% de la página y se aplica un margen vertical de 20px arriba y abajo y el margen será automatico en ambos lados, centrando la tabla.</p>
+            <img src="img/selector9.jpg" alt="Aplicación de un selector de hermano adyacente en CSS">
             <h3>Resultado</h3>
-            <img src="img/resultado.png" alt="">
+            <img src="img/resultado9.jpg" alt="Tabla despues de un encabezado">
         </section>
         <hr>
         <section>
             <h2>Selector hermano general</h2>
-            <p>Ecplicación del selector</p>
-            <h3>Codigo CSS</h3>
-            <p>Explicación del código</p>
-            <img src="img/selector.png" alt="">
+            <p>Aplica el estilo a todos los elementos que estén después de otro, en el mismo nivel, no necesariamente inmediato.</p>
+            <h3>Código CSS</h3>
+            <p>Se le aplica a todos los h2 después de un hr, en este caso se le aplica una sombra.</p>
+            <img src="img/selector10.jpg" alt="Aplicación de un selector de hermano general en CSS">
             <h3>Resultado</h3>
-            <img src="img/resultado.png" alt="">
+            <img src="img/resultado10.jpg" alt="">
         </section>
             <hr>
     </main>
     <aside>
+        <h2>Glosario</h2>
+        <ul>
+            <li><strong>Selector:</strong> Patrón que define a qué elementos se aplicará un estilo.</li>
+            <li><strong>ID (#):</strong> Identificador único que se aplica a un solo elemento.</li>
+            <li><strong>Clase (.):</strong> Permite aplicar un mismo estilo a varios elementos.</li>
+            <li><strong>Descendiente:</strong> Elemento que está dentro de otro, sin importar el nivel.</li>
+            <li><strong>Hijo directo (&gt;):</strong> Elemento que está dentro de otro en el primer nivel.</li>
+        </ul>
+
     </aside>
     <footer>
         <p>Creado por: VLMG (AKA: SunnyW.py)</p>
