@@ -1,4 +1,11 @@
+/*Selector Universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/*Selector de Tipo*/
 body {
     font-family: Arial, sans-serif;
     background-color: #fdf6e3;
@@ -12,14 +19,12 @@ h1 {
     color: #6a5acd;
     margin-bottom: 20px;
     border: 2px solid #4682b4;
-    padding: inline-block;
+    display: inline-block;
 }
-
 
 h2 {
     color: #ff8ba7;
 }
-
 
 p {
     font-size: 16px;
@@ -38,6 +43,56 @@ a:hover {
     color: #00796b; 
 }
 
+/* Selector por ID */
+#especial {
+    background-color: #ffe4e1;
+    border: 2px dashed #ff69b4;
+    padding: 10px;
+}
+
+/* Selector por Clase */
+.destacado {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d2691e;
+}
+
+/* Selector de Atributo */
+a[target="_blank"] {
+    color: red;
+    text-decoration: underline;
+}
+
+/* Selector de Lista (agrupados) */
+h1, h2, h3 {
+    font-family: Verdana, sans-serif;
+}
+
+/* Selector de Descendientes*/
+main p {
+    color: #2e8b57;
+}
+
+/* Selector Hijos Directos  */
+main > h1 {
+    background: #faf0e6;
+    padding: 5px;
+}
+
+/* ===== Selector Hermano Adyacente  */
+h1 + p {
+    font-style: italic;
+    color: #8b0000;
+}
+
+/*  Selector Hermano General  */
+h1 ~ a {
+    background-color: #f0e68c;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+/* ===== Resto de estilos generales ===== */
 article {
     background: #ffffffcc;
     padding: 15px;
@@ -85,7 +140,6 @@ footer {
     padding: 10px;
     background: #e2ece9;
 }
-
 
 input[type="color"] {
     width: 50px;

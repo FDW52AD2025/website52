@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deportes - Mis Pasatiempos</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+      display: flex;
+    }
+
+    nav {
+      width: 220px;
+      background: #2c3e50;
+      color: white;
+      height: 100vh;
+      position: fixed;
+      left: 0;
+      top: 0;
+      padding-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    nav h2 {
+      margin-bottom: 1.5rem;
+    }
+
+    nav a {
+      display: block;
+      text-decoration: none;
+      background: #3498db;
+      color: white;
+      padding: 10px 15px;
+      margin: 8px 0;
+      border-radius: 6px;
+      width: 80%;
+      text-align: center;
+      transition: 0.3s;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background: #2980b9;
+    }
+
+    main {
+      margin-left: 240px;
+      padding: 2rem;
+      max-width: 900px;
+    }
+
+    main h1 {
+      color: #2c3e50;
+      border-left: 6px solid #3498db;
+      padding-left: 10px;
+    }
+
+    img {
+      display: block;
+      margin: 1rem auto;
+      border-radius: 12px;
+      max-width: 100%;
+      height: auto;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      background: #3498db;
+      color: white;
+      margin: 5px 0;
+      padding: 8px 12px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    ul li:hover {
+      background: #2980b9;
+      cursor: default;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h2>Menú</h2>
+    <a href="principal.html">🏠 Principal</a>
+    <a href="deportes.html">🏀 Deportes</a>
+    <a href="videojuegos.html">🎮 Videojuegos</a>
+    <a href="musica.html">🎵 Música</a>
+    <a href="series.html">🎬 Series</a>
+  </nav>
+
+  <main>
+    <h1>Deportes</h1>
+    <p>
+      Realmente no soy muy fan de los deportes, pero ahora particularmente he tenido un interés creciente 
+      por varios deportes como por ejemplo:
+    </p>
+    <ul>
+      <li>Basketball</li>
+      <li>NFL</li>
+      <li>F1</li>
+    </ul>
+
+    <img src="assets/basketball.jpg" alt="Basketball en acción">
+
+    <p>
+      El interés por el basketball es un poco reciente, ya que hace menos de un año empecé a seguirlo. 
+      Particularmente a los Heats de Miami. La NFL la empecé a seguir desde que entré a la facultad, 
+      unos compañeros empezaron a entrenar ahí mismo en FACPYA como novatos y un día me invitaron a ver un partido, 
+      desde entonces me he vuelto un gran aficionado. Especialmente a los Patriots de New England.  
+      La F1 la empecé a seguir desde que vi un video en YouTube de Marques Brownlee hablando del deporte, 
+      desde entonces sigo a varios pilotos y equipos, pero mi favorito es Mercedes y mi piloto favorito es Lewis Hamilton.
+    </p>
+
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/-9lP95Qo-I0?si=MA_gb3StOgCSrC1W&amp;controls=0" 
+        title="Video de F1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+      </iframe>
+    </div>
+  </main>
+</body>
+</html>
