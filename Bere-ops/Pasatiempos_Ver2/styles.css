@@ -141,3 +141,17 @@ iframe {
 #inicio p {
   color: rgb(80, 75, 75);
 }
+
+
+#contenido_anime {
+  background-color: rgb(173, 138, 196);
+  border: 2px solid black;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.favoritos {
+  background-color: pink;
+  border: 2px dashed indianred;
+  padding: 10px;
+}
