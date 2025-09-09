@@ -48,3 +48,8 @@ th {
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+#n03 [href] {
+    background-color: rgb(211, 179, 211);
+    color: purple;
+}
