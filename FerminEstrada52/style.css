@@ -1,0 +1,20 @@
+#a11 {
+    background-color: #e8f4fd;
+    border: 2px solid #4a90c2;
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin: 4px 0;
+    display: inline-block;
+}
+
+#a11 a {
+    color: #2c5282;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+#a11 a:hover {
+    color: #1a365d;
+    text-decoration: underline;
+}

@@ -4,82 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Principal</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f9f9f9;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh; /* hace que el body tenga toda la altura de la pantalla */
-        }
-
-        header {
-            background: #eb88ff;
-            color: rgb(0, 0, 0);
-            padding: 20px;
-            text-align: center;
-        }
-
-        main {
-            flex: 1; /* ocupa todo el espacio disponible para empujar el footer abajo */
-            max-width: 800px;
-            margin: 30px auto;
-            padding: 0 20px;
-        }   
-
-        section {
-            background: white;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        h2 {
-            margin-top: 0;
-            color: #333;
-        }
-
-        a {
-            display: inline-block;
-            margin: 10px 10px 0 0;
-            padding: 8px 15px;
-            background: #eb88ff;
-            color: rgb(0, 0, 0);
-            text-decoration: none;
-            border-radius: 5px;
-        }
-
-        a:hover {
-            background: #005fa3;
-        }
-
-        footer {
-            text-align: center;
-            padding: 15px;
-            background-color: #000000;
-            color: #c300ff;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Evidencias Fundamentos de desarrollo web</h1>
     </header>
-    <main>
+        <main>
         <section>
             <h2>Evidencia 1</h2>
-            <a href="https://github.com/AscuOnTop/WebPrograms">Mi repositorio</a>
-            <a href="https://ascuontop.github.io/WebPrograms/pagina2.html">Pagina web</a>
-            <a href="https://github.com/AscuOnTop/WebPrograms/commits?since=2025-08-13&until=2025-08-15">Commits 13/08/2025 al 15/08/2025</a>
+            <div class="practicas">
+            <div class="dropdown">
+                <h1>Practica 1</h1>
+                <div class="dropdown-contenido">
+                    <a href="https://github.com/AscuOnTop/WebPrograms">Mi repositorio</a>
+                    <a href="https://ascuontop.github.io/WebPrograms/pagina2.html">Pagina web</a>
+                    <a href="https://github.com/AscuOnTop/WebPrograms/commits?since=2025-08-13&until=2025-08-15">Commits 13/08/2025 al 15/08/2025</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <h1>Practica 2</h1>
+                <div class="dropdown-contenido">
+                    <a href="https://github.com/AscuOnTop/WebPrograms">Mi repositorio</a>
+                    <a href="https://github.com/FDW52AD2025/website52/tree/main/AscuOnTop">Mi repositorio</a>
+                    <a href="https://github.com/FDW52AD2025/website52/commits?author=AscuOnTop&since=2025-08-20&until=2025-08-22">Commits 208/2025 al 228/2025</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <h1>Practica 3</h1>
+                <div class="dropdown-contenido">
+                    <a href="https://github.com/AscuOnTop/WebPrograms">Mi repositorio</a>
+                    <a href="http://127.0.0.1:5501/AscuOnTop/PRACTICA%203/index.html">Mi pagina</a>
+                </div>
+            </div>
+            </div>
         </section>
     </main>
     <footer>
         <address>
             <p>desarrollado por braian de jesus rios vega</p>
-            <p>San nicolas de los garza</p>
+            <p>San nicolas de los garza NL</p>
         </address>
     </footer>
 </body>

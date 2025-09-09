@@ -1,0 +1,16 @@
+#a37 a {
+    color: whitesmoke;
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+#a37 {
+    background-color:  #05204A;
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 10px 12px;
+    width: 90px;
+    font-size: 15px;
+    font-family: "Century Gothic", Arial, sans-serif;
+    font-style: italic;
+}
