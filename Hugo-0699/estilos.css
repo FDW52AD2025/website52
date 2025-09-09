@@ -1,0 +1,30 @@
+/* Hoja de estilos para el apartado de las actividades */
+.bodyprincipal1 {
+    background-color:rgb(0, 78, 129);
+}
+
+.Hecho-por {
+    background-color: rgb(44, 46, 48);
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    font-size: 17px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: burlywood;
+    padding: 20px 20px;
+}
+
+h2 {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 27px;
+}
+
+section {
+    background-color: beige;
+    border-radius: 10px;
+}

@@ -1,0 +1,17 @@
+#a24 a {
+    background-color: salmon;
+    border: 5px groove red;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: block;
+    color: black;
+}
+
+#a24 a:hover {
+    background-color: red;
+    color: white;
+}

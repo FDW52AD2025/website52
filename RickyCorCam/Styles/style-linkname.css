@@ -1,0 +1,22 @@
+#a08 {
+    list-style: none;
+}
+
+#a08 > a{
+  display: inline-block;
+  background-color: #ee0000;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 12px;
+  border: 2px solid #b40000;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+}
+
+#a08 > a:hover{
+  background-color: #b40000;
+  border: 2px solid #a10000;
+  transform: scale(1.05);
+}
