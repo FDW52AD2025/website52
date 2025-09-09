@@ -175,5 +175,14 @@ h3, h4 {
 #videojuegos section > h3 {
   color: chocolate;
   background: plum;
+}
 
+#griega h3 + p {
+  background: #e0e7ff;
+  padding: 6px;
+}
+
+#griega h3 ~ p {
+  background: palegreen;
+  padding: 6px;
 }

@@ -13,8 +13,8 @@ body {
 }
 
 header {
-    background-color: #1b263b;
-    color: #E0E1DD;
+    background-color: powderblue;
+    color: black;
     padding: 20px;
     text-align: center;
     border-bottom: 4px solid #415A77;
@@ -54,4 +54,12 @@ section img {
     display: block;
     margin: 10px auto;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+  margin-top: 20px;
+  padding: 16px;
+  border-top: 2px solid whitesmoke;
+  background: powderblue;
+  text-align: center;
 }
