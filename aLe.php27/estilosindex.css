@@ -1,0 +1,19 @@
+/* Estilo del link del index raíz */
+#a35 a {
+  color: #ffffff;
+  background-color: #800020;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  display: inline-block;
+}
+
+#a35 a:hover {
+  background-color: #4a4a4a;
+}
+
+#a35 a:active {
+  background-color: #5a0f1b;
+}
+
