@@ -68,6 +68,8 @@ footer {
     margin-top: 40px;
     font-size: 0.9rem;
     border-top: 3px solid #99e2b4;
+    font-family: "Georgia", "Times New Roman", serif; 
+    font-style: italic;
 }
 
 footer p {
@@ -75,9 +77,15 @@ footer p {
     color: #333;
 }
 
+
 footer .logo-footer {
     width: 30px;  
     height: auto;
+    transition: transform 0.3s ease;
+}
+
+footer .logo-footer:hover {
+    transform: scale(1.2) rotate(10deg); 
 }
 
 
