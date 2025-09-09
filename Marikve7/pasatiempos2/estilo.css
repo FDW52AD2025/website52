@@ -36,3 +36,9 @@ th {
 #n01 header {
     background-color: rgb(200, 169, 200);
 }
+
+#n02 {
+    margin: 10px;
+    border: 2px solid rgb(123, 77, 123);
+    background-color: rgb(210, 171, 210)
+}
