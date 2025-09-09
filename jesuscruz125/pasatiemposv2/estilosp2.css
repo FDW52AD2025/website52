@@ -62,3 +62,78 @@ header nav ul {
     margin: 0;
 }
 
+/* SELECTOR UNIVERSAL */
+#d01 *{
+    color: white;
+    background-color: #84b6f4;
+    border: 3px dotted black;
+}
+
+
+/* SELECTOR POR TAG */
+#d02 h2{
+    background-color: #84b6f4;
+    border-radius: 3px;
+    border: 3px dotted white;
+}
+
+/* SELECTOR POR ID */
+#d03{
+    color: white;
+    background-color: #84b6f4;
+}
+
+
+/* SELECTOR POR CLASES */
+.d04 {
+    border: 10px double white;
+    background-color: #84b6f4;
+    border-radius: 25px;
+}
+
+
+/* SELECTOR POR ATRIBUTO */
+input[type="text"]{
+    border: 5px double dodgerblue;
+    margin: 5px;
+}
+
+#d05, #d06{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* SELECTOR de lista */
+#m01, #m02{
+    border: 10px dashed white;
+    background-color: #84b6f4;
+    border-radius: 30px;
+}
+
+
+#m03 p{
+    color:#005187;
+}
+
+/* SELECTOR HIJO DIRECTO */
+#m04 > p{
+    color: purple;
+    background-color: #84b6f4;
+    border: 3px solid purple;
+    border-radius: 5px;
+}
+
+/* SELECTOR HERMANO ADYACENTE */
+#m05 h3 + ul{
+    font-family:'Courier New', Courier, monospace;
+    background-color:#84b6f4;
+    border-radius: 20px;
+    color: white;
+}
+
+
+/* SELECTOR HERMANO GENERAL */
+#s01 h2 ~ p{
+    color: yellow;
+    background-color: #000000;
+}
