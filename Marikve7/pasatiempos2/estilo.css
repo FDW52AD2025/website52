@@ -49,3 +49,9 @@ th {
     background-color: rgb(211, 179, 211);
     color: purple;
 }
+
+#n04 li {
+    background-color: rgb(222, 186, 222);
+    color: purple;
+    margin: 15px;
+}
