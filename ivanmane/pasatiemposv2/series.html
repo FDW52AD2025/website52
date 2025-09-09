@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Series y Películas - Mis Pasatiempos</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f5f7fa;
+      color: #333;
+      display: flex;
+    }
+
+    nav {
+      width: 220px;
+      background: #2c3e50;
+      color: white;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    nav a {
+      display: block;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      padding: 10px 15px;
+      margin: 8px 0;
+      width: 80%;
+      text-align: center;
+      border-radius: 6px;
+      background: #3498db;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background: #2980b9;
+    }
+
+    main {
+      margin-left: 240px;
+      padding: 2rem;
+      max-width: 900px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #2c3e50;
+      margin-bottom: 1rem;
+    }
+
+    article {
+      background: white;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    article h2 {
+      background: #3498db;
+      color: white;
+      margin: 0;
+      padding: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    article h2:hover {
+      background: #2980b9;
+    }
+
+    .content {
+      padding: 1.5rem;
+      display: block;
+    }
+
+    img, iframe {
+      display: block;
+      margin: 1rem auto;
+      border-radius: 12px;
+      max-width: 100%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      background: #3498db;
+      color: white;
+      margin: 5px 0;
+      padding: 8px 12px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    ul li:hover {
+      background: #2980b9;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h2>Menú</h2>
+    <a href="principal.html">🏠 Principal</a>
+    <a href="deportes.html">🏀 Deportes</a>
+    <a href="videojuegos.html">🎮 Videojuegos</a>
+    <a href="musica.html">🎵 Música</a>
+    <a href="series.html">🎬 Series</a>
+  </nav>
+
+  <main>
+    <h1>Series y Películas</h1>
+    <article>
+      <h2>SERIES Y PELÍCULAS</h2>
+      <div class="content">
+        <p>Desde que tengo memoria siempre me ha gustado ver series y películas. Desde niño disfrutaba los dibujos animados, pero con el tiempo descubrí otros tipos de series y películas. Algunos de mis géneros favoritos son:</p>
+        <ul>
+          <li>Ciencia Ficción</li>
+          <li>Acción</li>
+          <li>Aventura</li>
+          <li>Comedia</li>
+        </ul>
+        <img src="assets/series.jpg" alt="Series y Películas">
+        <p>La ciencia ficción siempre me ha fascinado: películas como Star Wars, Star Trek o Blade Runner han influido mucho en mí. El género de acción y aventura también me gusta, con películas como The Dark Knight, Inception y The Matrix, que he visto varias veces. La comedia me hace reír muchísimo con películas como The Hangover, Superbad y Step Brothers.</p>
+        <p>Una de mis series favoritas es <strong>Bojack Horseman</strong>, disponible en Netflix. Me encanta por su humor, crítica social y profundidad emocional. La serie sigue la vida de Bojack, un caballo antropomórfico que fue estrella de televisión en los 90s y que ahora lucha por encontrar su lugar en el mundo. Aborda temas como depresión, adicción, fama y soledad, y realmente la recomiendo mucho.</p>
+        <div style="background:#141414; color:white; border-radius:12px; padding:1rem; text-align:center; max-width:300px; margin:1rem auto;">
+          <img src="https://occ-0-55-34.1.nflxso.net/art/1f62f/05c7b93b1b3f2f8d9dc03b0cf7da691f2b21f62f.jpg" 
+               alt="Bojack Horseman Netflix" 
+               style="width:100%; border-radius:12px; margin-bottom:10px;">
+          <a href="https://www.netflix.com/title/70300800" target="_blank" 
+             style="background:#e50914; color:white; padding:10px 20px; border-radius:8px; font-weight:bold; text-decoration:none; display:inline-block;">
+             Ver en Netflix
+          </a>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <p>San Nicolás de los Garza, NL</p>
+  </footer>
+</body>
+</html>
