@@ -69,3 +69,8 @@ address > p {
     margin: 10px;
 }
 
+#n06 h3 ~ p {
+    background-color: rgb(222, 189, 222);
+    color: purple;
+}
+
