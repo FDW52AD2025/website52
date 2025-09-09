@@ -161,12 +161,3 @@ footer {
   border: 1px solid black;
   padding: 8px;
 }
-
-
-/* Estilos para los selectores */
-#titulo5 {
-  background-color: chocolate;
-  color: white;
-  border: 4px double black;
-  text-align: center;
-}
