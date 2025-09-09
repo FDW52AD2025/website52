@@ -32,3 +32,19 @@ mark {
 th {
     background-color: rgb(162, 103, 162);
 }
+
+#n01 header {
+    background-color: rgb(200, 169, 200);
+}
+
+#n02 {
+    margin: 10px;
+    border: 2px solid rgb(123, 77, 123);
+    background-color: rgb(210, 171, 210)
+}
+
+.letra {
+    background-color: rgb(220, 181, 220);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
