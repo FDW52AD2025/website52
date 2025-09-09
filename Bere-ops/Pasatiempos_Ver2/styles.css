@@ -155,3 +155,14 @@ iframe {
   border: 2px dashed indianred;
   padding: 10px;
 }
+
+img[alt] {
+  border: 4px solid black;
+  border-radius: 6px;
+}
+
+h3, h4 {
+  color: midnightblue;
+  letter-spacing: 0.3px;
+  margin-bottom: 6px;
+}
