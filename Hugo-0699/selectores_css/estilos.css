@@ -1,7 +1,26 @@
-/* Estilos para los selectores */
-#titulo5 {
-  background-color: chocolate;
-  color: white;
-  border: 4px double black;
+/* Estilos para el index de los selectores */
+
+
+.bodyprincipal {
+  background-color: rgb(231, 231, 231);
+}
+.mainselector {
+  display: block;
+  padding: 20px 30px;
+}
+.headerprincipal {
+  background:chocolate;
+  color:cornsilk;
   text-align: center;
+  padding: 10px;
+  border-bottom: 4px solid brown;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer {
+    background-color: rgb(44, 46, 48);
+    color:cornsilk;
+    border-bottom: 4px solid rgb(65, 19, 19);
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
 }
