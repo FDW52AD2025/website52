@@ -4,17 +4,13 @@ h1 {
     color: rgb(96, 3, 96);
 }
 
-section, nav {
-    border:3px double rgb(162, 103, 162);
+section, img{
+    border:5px double rgb(162, 103, 162);
     background-color: rgb(231, 215, 231);
 }
 
 #n01 * {
     color: rgb(146, 21, 146);
-}
-
-img {
-    border: 3px double rgb(129, 0, 129);
 }
 
 header {
