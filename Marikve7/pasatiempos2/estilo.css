@@ -62,3 +62,10 @@ address > p {
     width: 200px;
 }
 
+#n05 article h3 + p {
+    border: 2px solid rgb(124, 73, 124);
+    background-color: rgb(214, 178, 214);
+    color: purple;
+    margin: 10px;
+}
+
