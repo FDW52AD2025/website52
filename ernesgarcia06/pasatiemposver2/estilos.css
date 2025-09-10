@@ -12,6 +12,10 @@ body.menu{
     text-align: center;
 }
 
+.videos {
+    text-align: center;
+}
+
 .fondos {
     background-color: rgba(5, 151, 151, 0.377);
 }
@@ -20,10 +24,8 @@ body.menu{
     text-align: center;
 }
 
-.imagenes {
-    text-align: center;
-}
 
+/* Selector de clase */
 .contenido {
     grid-area: aside;
     background: rgba(91, 80, 5, 0.323);
@@ -39,7 +41,6 @@ body.menu{
     width: 250px; 
 }
 
-
 @media (max-width: 768px) {
     .contenido {
         position: static;   
@@ -52,13 +53,13 @@ body.menu{
     }
 }
 
-
 /* Selector universal */
 #img1 *{
     border: 10px double white;
     border-radius: 25px;
     background-color: rgba(6, 222, 222, 0.377);
     display: inline-block;
+    margin: 0 auto;
 }
 
 /* Selector de tipo */
@@ -81,3 +82,8 @@ body.menu{
     padding-right: 20px;
 }
 
+/* Selector de atributo */
+img[src] {
+    margin: 0 auto;
+    display: block;
+}
