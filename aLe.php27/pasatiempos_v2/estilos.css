@@ -300,3 +300,9 @@ aside [href*="spotify"]{
     border-bottom: 5px solid black;
     padding: 10px;
 }
+
+#m1 h3 {
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
