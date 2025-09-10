@@ -1,0 +1,90 @@
+        pre{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .centrado{
+            display: flex;
+            justify-content: center;
+            font-size: x-large;
+            text-shadow: 2px 5px 10px aqua;
+            color: rgb(50, 50, 50);;
+        }
+        .centrado-text{
+            justify-content: center;
+            text-align: center;
+            padding: 10px 10px;
+            color: rgb(50, 50, 50);;
+        }
+        .centrado-ul{
+            display: grid;
+            justify-content: center;
+            margin: 20px 20px;
+        }
+
+        section{
+            border: 3px solid  aqua;
+            border-radius: 20px;
+            margin: 100px 100px;
+            box-shadow: 20px 20px 20px rgba(0,0,0,0.1);
+            background-color: aliceblue;
+        }
+        
+        .tituloPracticas{
+            font-size: xx-large;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            text-shadow: 2px 5px 10px aqua;
+            color: rgb(50, 50, 50);;
+        }
+        body{
+            background-color: rgb(247, 239, 230);
+        }
+       a{
+            color: rgb(0, 128, 128);
+        }
+            a:hover{
+            color:rgb(0, 255, 255);
+        }
+        li{
+            color: rgb(50, 50, 50);;
+        }
+
+        ol > li{
+            font-size: large;
+            font-weight: bolder;
+            justify-content: flex-start;
+        }
+
+        #listaP5{
+            justify-content: flex-start;
+        }
+        li > ul > li {
+            font-size: medium;
+            font-weight: 100;
+        }
+
+        li > ul > li *{
+            display:grid;
+            margin: 10px;
+        }
+
+        li > ul > li > img{
+            width: auto;
+            height: 120px;
+            object-fit: contain;
+        }
+
+
+        .resultadoP5{
+            width: auto;
+            height: 300px;
+            object-fit: contain;
+        }
+
+        #olP5 li{
+            font-size: medium;
+            font-weight: 100;
+            text-align: start;
+        }
+
+        
