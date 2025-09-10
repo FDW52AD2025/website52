@@ -4,34 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VIDEOJUEGOS</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <hr>
-        <h1>Videojuegos</h1>
+        <h1>VIDEOJUEGOS</h1>
         <hr>
     </header>
-    <nav><a href="#categorias">CATEGORIAS</a>   <a href="#dato">DATO CURIOSO</a></nav> <a href="#contacto">CONTACTO</a>
+    <nav id="navegacion"><a href="#categorias">CATEGORIAS</a>   <a href="#dato">DATO CURIOSO</a> <a href="#contacto">CONTACTO</a> </nav>
     <hr>
      <main>
-        <p>Los <strong>videojuegos</strong> son básicamente una forma de entretenimiento digital donde podemos interactuar con una historia o un reto a través de una consola, <br>
-        una computadora o incluso un celular. No solo sirven para divertirnos, también nos permiten convivir con otras personas, aprender cosas nuevas y vivir <br>experiencias que en la vida real serían imposibles.</p>
-        <img src="img/videojuego.jpeg" alt="Videojuego">
-        <p>Hay varios tipos de videojuegos que me gustan como los shooters, survivals, <abbr title="Massively Multiplayer Online Role-Playing Game">MMORPG</abbr> y alguno que otro que no se como clasificarlos. </p>
-        <p>Me gusta jugar <strong>videojuegos</strong> de preferencia que tengan modos copetitivo ya que siempre me ha gustado que haya algo por lo que buscar ganar. <br>
-            Siento que los videojuegos son en gran parte una buena manera de distraccion y te ayudan aveces a pensar(dependiendo lo que juegues), pero aun asi no hay <br>que perderse en ellos por que pueden llegar a ser una gran perdida de tiempo.
-</p>
+        <section>
+            <h1>¿QUE SON?</h1>
+            <p>Los <strong>videojuegos</strong> son básicamente una forma de entretenimiento digital donde podemos interactuar con una historia o un reto a través de una consola, <br>
+            una computadora o incluso un celular. No solo sirven para divertirnos, también nos permiten convivir con otras personas, aprender cosas nuevas y vivir <br>experiencias que en la vida real serían imposibles.</p>
+            <p>Hay varios tipos de videojuegos que me gustan como los shooters, survivals, <abbr title="Massively Multiplayer Online Role-Playing Game">MMORPG</abbr> y alguno que otro que no se como clasificarlos. </p>
+            <p>Me gusta jugar <strong>videojuegos</strong> de preferencia que tengan modos copetitivo ya que siempre me ha gustado que haya algo por lo que buscar ganar. <br>
+                Siento que los videojuegos son en gran parte una buena manera de distraccion y te ayudan aveces a pensar(dependiendo lo que juegues), pero aun asi no hay <br>que perderse en ellos por que pueden llegar a ser una gran perdida de tiempo.
+    </p>
+            <img src="img/videojuego.jpeg" alt="Videojuego">
+        </section>
         <section>
             <hr>
             <h1 id="categorias">CATEGORIAS DE VIDEOJUEGOS</h1>
             <article>
-                <h1>Survivals</h1>
+                <h2>Survivals</h2>
                 <p><strong>"Survivals"</strong> se refiere comúnmente a los videojuegos del género survival, donde el jugador debe sobrevivir en un mundo hostil, <br>
                 recolectar recursos, fabricar objetos y construir refugios, gestionando la vida, el hambre, la sed y otras métricas para perdurar el mayor tiempo <br> posible, a menudo enfrentándose a otros jugadores o a peligros ambientales. </p>
                 <img src="img/ark.jpeg" alt="Ark Survival Evolved" width="350"><img src="img/minecraft.jpg" alt="" width="350">
             </article>
+            <hr>
             <article>
-                <h1>Shooters</h1>
+                <h2>Shooters</h2>
                 <p><strong>"Shooters"</strong> son videojuegos enfocados principalmente en el combate con armas de fuego. <br>
                 En este género el jugador suele enfrentarse a enemigos controlados por la computadora o por otros jugadores, <br>
                 ya sea en solitario o en equipos. Los shooters se caracterizan por su <b>acción rápida</b>, puntería precisa y <br>
@@ -39,13 +44,14 @@
                 intensas en distintos escenarios de guerra, futuristas o de fantasía.</p>
                 <img src="img/COD.jpeg" alt="Call of Duty" width="350">
             </article>
+            <hr>
             <article>
-                <h1>MMORPG</h1>
-                <p><strong>"MMORPG"</strong> significa Massively Multiplayer Online Role-Playing Game, 
-                es decir, juegos de rol en línea multijugador masivos. En este género los jugadores crean 
-                y desarrollan un personaje en un mundo virtual abierto, interactuando con miles de personas 
-                al mismo tiempo. La experiencia se centra en explorar, completar misiones, subir de nivel, 
-                conseguir equipamiento y participar en batallas o eventos comunitarios, fomentando tanto la 
+                <h2>MMORPG</h2>
+                <p><strong>"MMORPG"</strong> significa Massively Multiplayer Online Role-Playing Game, <br>
+                es decir, juegos de rol en línea multijugador masivos. En este género los jugadores crean <br>
+                y desarrollan un personaje en un mundo virtual abierto, interactuando con miles de personas <br>
+                al mismo tiempo. La experiencia se centra en explorar, completar misiones, subir de nivel, <br>
+                conseguir equipamiento y participar en batallas o eventos comunitarios, fomentando tanto la <br>
                 competencia como la cooperación entre jugadores.</p>
                 <img src="img/WOW.jpeg" alt="World of Warcraft" width="350">
             </article>
@@ -60,9 +66,11 @@
     </aside>
      <footer>
         <hr>
-        <h1 id="contacto">DATOS DE CONTACTO</h1>
-        <p>Ricardo Cortes Camarillo</p>
-        <p>ricardo.corcam@gmail.com</p>
+        <section class="dcontacto">
+            <h1 id="contacto">DATOS DE CONTACTO</h1>
+            <p>Ricardo Cortes Camarillo</p>
+            <p>ricardo.corcam@gmail.com</p>
+        </section>
      </footer>
 </body>
 </html>
