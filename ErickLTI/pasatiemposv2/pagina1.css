@@ -7,6 +7,15 @@ h1 {
     text-align: center;
 }
 
+#mensaje {
+    color: darkblue;
+    font-style: italic;
+}
+
+.boton-nav {
+    border-color: brown;
+}
+
 body {
     background-color: lightcyan;
 }
