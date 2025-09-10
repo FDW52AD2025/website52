@@ -317,3 +317,12 @@ aside [href*="spotify"]{
 #a1 h3 + ul {
   background-color: steelblue;
 }
+
+#m2 h2 ~ p {
+  text-align: justify;
+  background-color: rgb(0, 255, 64);
+  padding: 5px;
+  margin: auto;
+  border: 2px solid black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
