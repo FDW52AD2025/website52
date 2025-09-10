@@ -1,0 +1,40 @@
+body {
+    font-family: "Century Gothic", Arial, sans-serif; 
+    background-color: #5f7397;
+}
+
+h1 {
+    background-color: #061335; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 5px solid white;
+}
+
+article {
+    background-color: #061335;
+    color: white;
+    padding: 10px;
+    border: 5px solid white;
+}
+
+section {
+    background-color: #f6081d;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+li a {
+    text-decoration: none;
+    background-color: white;
+    color: #f6081d;
+    padding: 10px;
+}
+
+li {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
