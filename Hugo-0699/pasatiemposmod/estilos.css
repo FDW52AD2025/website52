@@ -52,7 +52,6 @@ box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
   background-color: brown;
   color: white;
   border: 4px double black;
-  text-align: center; 
 }
 .centrarimg {
     display: flex;
@@ -66,7 +65,6 @@ box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
   background-color:darkslateblue;
   color: white;
   border: 4px double black;
-  text-align: center; 
 }
 /* Estilos para las imagenes y para sus descripciones*/
 .contenedor-img {
@@ -94,7 +92,6 @@ box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
   background-color: green;
   color: white;
   border: 4px double black;
-  text-align: center; 
 }
 /* Estilos para la imagen */
 .fila-img-tabla {
@@ -118,7 +115,6 @@ box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
   background-color:darkmagenta;
   color: white;
   border: 4px double black;
-  text-align: center; 
 }
 .fila-img-formulario {
   display: flex;
