@@ -1,3 +1,9 @@
+/* Selector universal */
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
 body{
     background-color: rgb(171, 126, 219);
 }
@@ -7,12 +13,15 @@ aside{
     background: #6b4295;
     border: 3px dotted purple;
 }
+
 hr{
     border: none;
     border-top: 3px dotted rgba(128, 0, 128, 0.673);
     height: 3px;
     margin: 20px 0;            
 }
+
+
 li{
     text-align: justify;
 }
@@ -22,6 +31,7 @@ h1{
     text-align: center;
 }
 
+/* Selector de etiqueta */
 h2{
     color: rgb(92, 8, 92);
     text-align: center;
@@ -31,6 +41,7 @@ h2{
 p{
     text-align: justify;
 }
+
 iframe{
     display: block;
     margin: 0 auto;

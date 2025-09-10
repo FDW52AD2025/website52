@@ -11,7 +11,6 @@
 .headerprincipal {
   background: brown;
   color:cornsilk;
-  text-align: center;
   border: 4px double black;
 }
 .ulprincipal {
@@ -54,9 +53,6 @@ box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
   color: white;
   border: 4px double black;
   text-align: center; 
-}
-footer {
-    text-align: center;
 }
 .centrarimg {
     display: flex;
@@ -159,4 +155,11 @@ footer {
 .formulario-escritura th {
   border: 1px solid black;
   padding: 8px;
+}
+
+
+/* Selector universal */
+#h1uni * {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

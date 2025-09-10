@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap");
+#a21 { 
+        font-family: 'Alegreya', serif;
+        font-size: 18px;
+        color: #2ecc71;
+        text-shadow: 2px 2px 0px #000;
+        text-align: center;
+        background: url(banner/irithyll.jpg);
+        background-size: 190px;
+        margin: 5px;
+    }
+    #a21 a {
+        text-decoration: none;
+        color: #ffffff;
+        }
+    #a21 a:hover {
+        color: #eeeef1;
+        }

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 5 - Selectores CSS</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Práctica 5: Ejemplos de Selectores CSS</h1>
+    </header>
+
+    <section>
+        <h2>Selector universal (*)</h2>
+        <p>Este párrafo se verá afectado por el selector universal.</p>
+    </section>
+    <section>
+        <h2>Selector de tipo (h2)</h2>
+        <p>Todos los H2 tienen un estilo definido en el CSS.</p>
+    </section>
+    <section id="s1">
+        <h2>Selector por ID (#s1)</h2>
+        <p>Este bloque tiene un estilo único por su ID.</p>
+    </section>
+    <section>
+        <h2>Selector por clase (.bonito)</h2>
+        <aside class="bonito"><p>Este aside tiene la clase "bonito".</p></aside>
+        <footer class="bonito"><p>Este footer también tiene la clase "bonito".</p></footer>
+    </section>
+    <section id="s2">
+        <h2>Selector de atributo</h2>
+        <a href="https://www.emp.com.mx" target="_blank">Ir a Empresa</a><br>
+        <a href="https://www.youtube.com" target="_blank">Ir a YouTube</a><br>
+        <a href="#s1">Ir al selector por ID</a>
+    </section>
+    <section id="s4">
+        <h2>Selector de lista (h2, p, li)</h2>
+        <ol>
+            <li>Uno</li>
+            <li>Dos</li>
+            <li>Tres</li>
+        </ol>
+        <ul>
+            <li>Cuatro</li>
+            <li>Cinco</li>
+            <li>Seis</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Selector de descendientes (div p)</h2>
+        <div>
+            <p>Este párrafo está dentro de un div y será afectado.</p>
+        </div>
+    </section>
+    <section id="s3">
+        <h2>Selector de hijos directos (section > h2)</h2>
+        <h2>Hijo directo</h2>
+        <footer><h2>Pie dentro de footer</h2></footer>
+        <h2>Otro hijo directo</h2>
+    </section>
+    <section>
+        <h2>Selector hermano adyacente (h2 + p)</h2>
+        <h2>Encabezado</h2>
+        <p>Este párrafo es hermano adyacente de un H2.</p>
+    </section>
+    <section>
+        <h2>Selector hermano general (h2 ~ p)</h2>
+        <h2>Encabezado</h2>
+        <p>Este párrafo es hermano general de un H2.</p>
+        <p>Este también.</p>
+    </section>
+
+    <footer> 
+        <p>Desarrollado por Ilse Ojeda 
+        <img src="img/logo.png" alt="Logo" class="logo-footer"> 
+        </p> 
+    </footer>
+</body>
+</html>

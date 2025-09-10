@@ -7,6 +7,7 @@ aside{
     background: #d6bcfa;
     border: 3px dotted #805ad5;
 }
+
 hr{
     border: none;
     border-top: 3px dotted #553c9a;
@@ -33,10 +34,12 @@ h3{
     color: #5a3ea6;
     font-style: italic;
 }
+
 p{
     text-align: justify;
     color: #2d165d;
 }
+
 video{
     display: block;
     margin: 0 auto;
