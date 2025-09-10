@@ -28,6 +28,61 @@
 
 }
 
+/* Selector universal */
 * {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+/* Selector de Tipo */
+#s2 h2 {
+    border: 2px solid black;
+}
+
+/* Selector por ID */
+#parrafo-inicial {
+    color: green;
+}
+
+/* Selector por Clase */
+.s4 {
+    border-radius: 5px;
+    font-size: 10px;
+    background: gray;
+}
+
+/* Selector de Atributo */
+input[type="text"]{
+    border: 4px double;
+    background-color: aquamarine;
+}
+
+/* Selector de Lista */
+#s61, #s62 {
+    border-bottom: 5px dotted;
+}
+
+/* Selector de Descendientes */
+#s7 li {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(197, 16, 197);
+}
+
+/* Selector Hijos Directos */
+#s8 > p {
+    background-color: #31acc5 ;
+    border: 2px solid black;
+}
+
+/* Selector Hermano Adyacente */
+.s91 + p {
+    border: 5px solid black;
+    background-color: rgb(20, 231, 48);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Selector Hermano General */
+#s10 header ~ p {
+    color: rgb(26, 100, 238);
+    border-radius: 5px;
+}
+

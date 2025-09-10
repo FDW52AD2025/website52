@@ -1,10 +1,16 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
 body {
     background-color: lightcyan;
 }
 
-header h1 {
-    text-align: center;
-}
 
 button {
     font-size: larger;
