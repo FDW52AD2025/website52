@@ -77,3 +77,23 @@ h5{
     font-style:bold;
 
 }
+
+*{
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(250, 239, 242);
+}
+
+#Parrafo{
+    font-weight: bold;
+}
+
+
+a[href*="youtu"] img {
+    border: 4px solid red;
+    border-radius: 7px;
+    padding: 3px;
+}
+
+

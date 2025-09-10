@@ -11,9 +11,7 @@
 .headerprincipal {
   background: brown;
   color:cornsilk;
-  text-align: center;
   border: 4px double black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .ulprincipal {
 list-style-type: none;
@@ -54,10 +52,6 @@ box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
   background-color: brown;
   color: white;
   border: 4px double black;
-  text-align: center; 
-}
-footer {
-    text-align: center;
 }
 .centrarimg {
     display: flex;
@@ -71,7 +65,6 @@ footer {
   background-color:darkslateblue;
   color: white;
   border: 4px double black;
-  text-align: center; 
 }
 /* Estilos para las imagenes y para sus descripciones*/
 .contenedor-img {
@@ -99,7 +92,6 @@ footer {
   background-color: green;
   color: white;
   border: 4px double black;
-  text-align: center; 
 }
 /* Estilos para la imagen */
 .fila-img-tabla {
@@ -123,7 +115,6 @@ footer {
   background-color:darkmagenta;
   color: white;
   border: 4px double black;
-  text-align: center; 
 }
 .fila-img-formulario {
   display: flex;
@@ -160,4 +151,11 @@ footer {
 .formulario-escritura th {
   border: 1px solid black;
   padding: 8px;
+}
+
+
+/* Selector universal */
+#h1uni * {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

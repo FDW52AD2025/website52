@@ -1,0 +1,15 @@
+h1{
+    
+    color:palevioletred;
+}
+
+h2{
+    background-color:pink;
+    color:white;
+}
+
+h3{
+    color: pink;
+    border: 2px solid pink;
+    padding: 5px;
+}

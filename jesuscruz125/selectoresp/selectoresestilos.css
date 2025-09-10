@@ -1,0 +1,33 @@
+section {
+    border: 3px double black;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+img {
+    border: 2px solid black;
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    background-color: #77DD77;
+}
+
+h1{
+    background-color: #77DD77;
+    border-radius: 5px;
+    border: 2px dotted;
+}
+
+footer{
+    text-align: center;
+    background-color: #77DD77;
+    border-radius: 10px;
+}
+
+
+
