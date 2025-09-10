@@ -133,3 +133,56 @@ iframe {
   gap: 10px;              
   flex-wrap: wrap;         
 }
+
+#inicio * {
+  color: rgb(89, 15, 99);
+}
+
+#inicio p {
+  color: rgb(80, 75, 75);
+}
+
+
+#contenido_anime {
+  background-color: rgb(173, 138, 196);
+  border: 2px solid black;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.favoritos {
+  background-color: pink;
+  border: 2px dashed indianred;
+  padding: 10px;
+}
+
+img[alt] {
+  border: 4px solid black;
+  border-radius: 6px;
+}
+
+h3, h4 {
+  color: midnightblue;
+  letter-spacing: 0.3px;
+  margin-bottom: 6px;
+}
+
+#videojuegos p {
+  color: darkslategrey;
+  font-style: italic;
+}
+
+#videojuegos section > h3 {
+  color: chocolate;
+  background: plum;
+}
+
+#griega h3 + p {
+  background: #e0e7ff;
+  padding: 6px;
+}
+
+#griega h3 ~ p {
+  background: palegreen;
+  padding: 6px;
+}

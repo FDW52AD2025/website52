@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Videojuegos - Mis Pasatiempos</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f5f7fa;
+      color: #333;
+      display: flex;
+    }
+
+    nav {
+      width: 220px;
+      background: #2c3e50;
+      color: white;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    nav a {
+      display: block;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      padding: 10px 15px;
+      margin: 8px 0;
+      width: 80%;
+      text-align: center;
+      border-radius: 6px;
+      background: #3498db;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background: #2980b9;
+    }
+
+    main {
+      margin-left: 240px;
+      padding: 2rem;
+      max-width: 900px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #2c3e50;
+      margin-bottom: 1rem;
+    }
+
+    article {
+      background: white;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    article h2 {
+      background: #3498db;
+      color: white;
+      margin: 0;
+      padding: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    article h2:hover {
+      background: #2980b9;
+    }
+
+    .content {
+      padding: 1.5rem;
+      display: block;
+    }
+
+    img, iframe {
+      display: block;
+      margin: 1rem auto;
+      border-radius: 12px;
+      max-width: 100%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      background: #3498db;
+      color: white;
+      margin: 5px 0;
+      padding: 8px 12px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    ul li:hover {
+      background: #2980b9;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h2>Menú</h2>
+    <a href="principal.html">🏠 Principal</a>
+    <a href="deportes.html">🏀 Deportes</a>
+    <a href="videojuegos.html">🎮 Videojuegos</a>
+    <a href="musica.html">🎵 Música</a>
+    <a href="series.html">🎬 Series</a>
+  </nav>
+
+  <main>
+    <h1>Videojuegos</h1>
+    <article>
+      <h2>VIDEOJUEGOS</h2>
+      <div class="content">
+        <p>Desde que tengo memoria he sido fan de los videojuegos, empecé jugando cosas sencillas de las consolas que teníamos en casa, pero conforme fui creciendo desarrollé un amor a otros tipos de juegos, como los juegos de PC y consolas modernas. Algunos de mis juegos favoritos son:</p>
+        <ul>
+          <li>Shovel Knight</li>
+          <li>Minecraft</li>
+          <li>Dark Souls III</li>
+          <li>Dark Souls I</li>
+          <li>Sekiro</li>
+        </ul>
+        <img src="assets/videojuegos.jpg" alt="Videojuegos">
+        <p>Shovel Knight fue un juego muy importante en mi vida. Cuando realmente le empecé a prestar atención a los juegos tenía como 10 o 12 años. En aquel entonces tenía una laptop DELL Inspiron con 256 GB de ROM y 2 GB de RAM, por lo que las opciones de juego eran limitadas. Buscando juegos de pocos recursos encontré Shovel Knight, un juego de plataformas 2D con estética retro, y me enamoré de él. Lo terminé con todos sus DLCs y modos de juego, y aun así lo sigo jugando de vez en cuando.</p>
+        <p>Minecraft ha sido un compañero por muchos años, desde la versión 1.5.2 aproximadamente. Recuerdo aquellas noches de cuarentena jugando con mis amigos en un Realm. La saga Dark Souls y Sekiro me encantaron por su diseño, historia, personajes, dificultad y gameplay. Son juegos que me hicieron sufrir, pero que también me dieron muchas satisfacciones.</p>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <p>San Nicolás de los Garza, NL</p>
+  </footer>
+</body>
+</html>

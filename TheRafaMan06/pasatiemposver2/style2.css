@@ -138,7 +138,7 @@ main p {
     margin-top: 30px;
 }
 
-.serie-card {
+[class="serie-card"]{
     position: relative;
     height: 350px;
     border-radius: 12px;

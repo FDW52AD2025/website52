@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+#a32 {
+        font-family:  'Press Start 2P' , cursive;
+        font-size: 18px;
+        color: #2ecc71;
+        text-shadow: 2px 2px 0px #000;
+        text-align: center;
+        background: url(imagen/Minecraft.jpg);
+        background-size: 190px;
+        margin: 5px;
+    }
+    #a32 a {
+        text-decoration: none;
+        color: #adadad;
+        }
+    #a32 a:hover {
+        color: #2ecc71;
+        }

@@ -11,7 +11,6 @@
 .headerprincipal {
   background: brown;
   color:cornsilk;
-  text-align: center;
   border: 4px double black;
 }
 .ulprincipal {
@@ -53,10 +52,6 @@ box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
   background-color: brown;
   color: white;
   border: 4px double black;
-  text-align: center; 
-}
-footer {
-    text-align: center;
 }
 .centrarimg {
     display: flex;
@@ -70,7 +65,6 @@ footer {
   background-color:darkslateblue;
   color: white;
   border: 4px double black;
-  text-align: center; 
 }
 /* Estilos para las imagenes y para sus descripciones*/
 .contenedor-img {
@@ -91,6 +85,10 @@ footer {
   margin-right: 50px;
   text-align: justify;
 }
+section[cfondo="favorito"] {
+  background-color:goldenrod;
+  padding: 20px;
+}
 
 
 /* Tercer pasatiempo */
@@ -98,7 +96,6 @@ footer {
   background-color: green;
   color: white;
   border: 4px double black;
-  text-align: center; 
 }
 /* Estilos para la imagen */
 .fila-img-tabla {
@@ -115,6 +112,10 @@ footer {
 .justificar-video {
   margin-left: 400px;
 }
+#cfondolista h3, b {
+  background-color: rgb(198, 214, 194);
+  border-radius: 10px;
+}
 
 
 /* Cuarto pasatiempo */
@@ -122,7 +123,6 @@ footer {
   background-color:darkmagenta;
   color: white;
   border: 4px double black;
-  text-align: center; 
 }
 .fila-img-formulario {
   display: flex;
@@ -159,4 +159,14 @@ footer {
 .formulario-escritura th {
   border: 1px solid black;
   padding: 8px;
+}
+#colortabla td {
+  background-color:khaki;
+}
+
+
+/* Selector universal */
+#h1uni * {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
