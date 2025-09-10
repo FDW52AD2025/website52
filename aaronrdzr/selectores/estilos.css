@@ -1,3 +1,7 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 body{
     background-color: #1A2A80;
 }
@@ -23,3 +27,19 @@ p{
     color:#a5b4f8;
 }
 
+hr{
+    border: 2px solid #CBDCEB;
+    color: #CBDCEB;
+    width: auto;
+    clear: both;
+}
+
+a{
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ubi{
+    color: whitesmoke;
+    
+}
