@@ -56,6 +56,17 @@ ul li, ol li {
     margin: 5px 0;
 }
 
+
+img {
+    display: block;        
+    margin: 15px auto;    
+    max-width: 100%;      
+    height: auto;          
+}
+
+
+
+
 footer {
     background-color: #b5ead7; 
     text-align: center;
