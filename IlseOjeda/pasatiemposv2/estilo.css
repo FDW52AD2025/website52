@@ -111,3 +111,74 @@ table {
   margin-top: 20px; 
   border-collapse: collapse;
 }
+
+
+/* Selector universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Selector de tipo */
+h2 { 
+    color: #8b5fbf; 
+} 
+p { 
+    font-size: 1rem; 
+    color: #4a4a4a; 
+} 
+li { 
+    list-style-type: square; 
+    color: #f28ca3; 
+}
+
+/* Selector por clase */
+.nombre { 
+    font-weight: bold; 
+    color: #f48484; 
+} 
+
+/* Selector por ID */
+#correr-info { 
+    border: 2px solid #6ec6e0; 
+    padding: 15px; 
+    border-radius: 10px; 
+    background-color: #fff0e1; 
+}
+
+/* Selector de descendientes */
+div p { 
+    color: #9b5fc0; 
+    font-style: italic; 
+} 
+
+/* Selector hijos directos */
+article > section > p { 
+    background-color: #e3e7fa; 
+    padding: 5px; 
+} 
+
+/* Selector de lista */
+ul li, ol li { 
+    color: #ff95a1; 
+    
+    margin: 5px 0; } 
+
+/* Selector por atributo */
+iframe[src*="youtube"] { border: 2px dashed #66b2cc; } 
+input[type="radio"] { accent-color: #f67280; } 
+input[type="checkbox"] { accent-color: #ff9f80; } 
+input[type="text"] { border: 1px solid #8b5fbf; padding: 5px; }
+
+/* Selector hermano adyacente */
+h2 + p { 
+    border-left: 3px solid #f48c6a; 
+    padding-left: 10px; 
+} 
+
+/* Selector hermano general */
+h2 ~ p { 
+    color: #7e88c7; 
+    font-weight: bold; 
+}

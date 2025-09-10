@@ -1,0 +1,13 @@
+.titulos {
+    border-radius: 15px ;
+    margin: 10px;
+    background-color: rgba(60, 60, 16, 0.584);
+    border-color: black;
+    border: 3px;
+    border-style: solid;
+    text-align: center;
+}
+
+.fondo {
+    background-color: rgba(100, 83, 14, 0.695);
+}

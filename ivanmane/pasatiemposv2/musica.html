@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Música - Mis Pasatiempos</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f5f7fa;
+      color: #333;
+      display: flex;
+    }
+
+    nav {
+      width: 220px;
+      background: #2c3e50;
+      color: white;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    nav a {
+      display: block;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      padding: 10px 15px;
+      margin: 8px 0;
+      width: 80%;
+      text-align: center;
+      border-radius: 6px;
+      background: #3498db;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background: #2980b9;
+    }
+
+    main {
+      margin-left: 240px;
+      padding: 2rem;
+      max-width: 900px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #2c3e50;
+      margin-bottom: 1rem;
+    }
+
+    article {
+      background: white;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    article h2 {
+      background: #3498db;
+      color: white;
+      margin: 0;
+      padding: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    article h2:hover {
+      background: #2980b9;
+    }
+
+    .content {
+      padding: 1.5rem;
+      display: block;
+    }
+
+    img, iframe {
+      display: block;
+      margin: 1rem auto;
+      border-radius: 12px;
+      max-width: 100%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      background: #3498db;
+      color: white;
+      margin: 5px 0;
+      padding: 8px 12px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    ul li:hover {
+      background: #2980b9;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h2>Menú</h2>
+    <a href="principal.html">🏠 Principal</a>
+    <a href="deportes.html">🏀 Deportes</a>
+    <a href="videojuegos.html">🎮 Videojuegos</a>
+    <a href="musica.html">🎵 Música</a>
+    <a href="series.html">🎬 Series</a>
+  </nav>
+
+  <main>
+    <h1>Música</h1>
+    <article>
+      <h2>MÚSICA</h2>
+      <div class="content">
+        <p>La música es una parte muy importante de mi vida. Desde que tengo memoria siempre he estado rodeado de música, ya sea en casa, en la calle o en la escuela. Algunos de mis géneros favoritos son:</p>
+        <ul>
+          <li>Rock</li>
+          <li>Metal</li>
+          <li>Pop</li>
+          <li>Indie</li>
+        </ul>
+        <img src="assets/musica.jpg" alt="Música">
+        <p>El rock y el metal me han acompañado por muchos años. Desde niño disfrutaba escuchar rock clásico como The Beatles, Queen o Led Zeppelin. Con el tiempo descubrí otros géneros como metal, punk y grunge, con bandas como Nirvana, Metallica e Iron Maiden. El pop y el indie los descubrí recientemente, pero me han gustado mucho; artistas como Billie Eilish, Tame Impala y Arctic Monkeys son de mis favoritos.</p>
+        <p>Mi banda favorita es Daysormay, una banda canadiense de rock alternativo. Me encanta su estilo y sus letras. Recomiendo escuchar su álbum <em>"Just Existing"</em>.</p>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0HguTMRMvOvE7eSxM24tiC?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <p>San Nicolás de los Garza, NL</p>
+  </footer>
+</body>
+</html>

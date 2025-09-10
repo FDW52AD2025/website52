@@ -1,0 +1,95 @@
+h2 {
+    font-size: 1.4rem;
+    color: #333;
+}
+
+
+p {
+    color: darkgreen;
+    border: 1px solid black;
+    box-shadow: 4px 4px 6px rgba(0,0,0,0.2);
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff7f9; 
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #fde2e4; 
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #fbc4ab;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+section {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+section h2 {
+    color: #6a4c93; 
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+ul li, ol li {
+    margin: 5px 0;
+}
+
+
+img {
+    display: block;        
+    margin: 15px auto;    
+    max-width: 100%;      
+    height: auto;          
+}
+
+
+
+
+footer {
+    background-color: #b5ead7; 
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    border-top: 3px solid #99e2b4;
+    font-family: "Georgia", "Times New Roman", serif; 
+    font-style: italic;
+}
+
+footer p {
+    margin: 0;
+    color: #333;
+}
+
+
+footer .logo-footer {
+    width: 30px;  
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+footer .logo-footer:hover {
+    transform: scale(1.2) rotate(10deg); 
+}

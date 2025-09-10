@@ -10,12 +10,15 @@ aside{
     
 }
 
-nav ul {
+/* Selector de hijos directos */
+
+nav > ul {
   list-style: none;
   display: flex;
   gap: 355px;
 }
 
+/* Selector de descendiente */
 nav a {
   text-decoration: none;
   color: rgb(185, 112, 23);
@@ -38,6 +41,7 @@ p{
     text-align: justify;
 }
 
+/* Selector por clase */
 p.bk{
     color: black;
 }
