@@ -31,3 +31,39 @@
     height: 50px;
     width: auto;
 }
+
+
+header, h1{
+    text-align: center;
+    background-color: #2D3039;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    color: #94d8f7;
+}
+
+section{
+    border: 5px double ;
+}
+
+
+footer{
+    text-align: center;
+}
+
+
+body{
+    background-color: #94d8f7;
+}
+
+h1:hover{
+    color: white;
+}
+
+.back a:hover{
+    color: white;
+}
+
+.back a{
+    color: #94d8f7;
+}
