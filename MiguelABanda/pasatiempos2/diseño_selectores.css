@@ -1,0 +1,67 @@
+/* selector de tipo */
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+/* selector de clase */
+.btn {
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+/* selector de id */
+#titulo {
+    font-family: monospace;
+    color: blueviolet;
+    border: 2px solid black;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* selector universal */
+* {
+    background-color: gray;
+    color: beige;
+}
+
+/* selector de atributo */
+img[alt] {
+    border: 3px solid white;
+}
+
+/* selector de lista */
+h2, th {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* selector de descendientes */
+section p {
+    color: white;
+
+}
+
+/* selector de hijos directos */
+table > tbody > tr > td{
+    background-color: rgb(214, 15, 138);
+}
+
+/* selector hermano adyacente */
+h2 + table {
+    border: 15px solid rgb(13, 13, 114);
+}
+
+/* selector hermano general */
+h2 ~ p {
+    font-style: italic;
+    color: green;
+}

@@ -7,6 +7,20 @@ h1 {
     text-align: center;
 }
 
+#mensaje {
+    color: darkblue;
+    font-style: italic;
+}
+
+.boton-nav {
+    border-color: brown;
+}
+
+a[target="_blank"] {
+    color: black;
+    text-decoration: none;
+}
+
 body {
     background-color: lightcyan;
 }
