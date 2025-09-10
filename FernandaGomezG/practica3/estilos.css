@@ -1,3 +1,4 @@
+
 .titulos {
     border-radius: 15px ;
     margin: 15px;
@@ -60,3 +61,15 @@
     bottom: 5px;
 }
 
+/*Selector Universal*/
+
+#inicio *{
+font-family: 'Times New Roman', Times, serif;
+color: blue;
+}
+
+/*Selector de tipo*/
+#imgconcert {
+    border-radius: 15px;
+    color: black;
+}
