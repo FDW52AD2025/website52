@@ -99,6 +99,17 @@ li .aindex:hover {
   border-radius: 10px;
 }
 
+.divjuego-texto {
+  display: flex;
+  flex-direction: column;
+}
+
+.divjuego-texto h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.4em;
+  color: black;
+}
+
 /* clases de pasatiempo 2 musica*/
 
 .mainpasatiempos_musica {
@@ -288,4 +299,10 @@ aside [href*="spotify"]{
 #j1, #j2, #j3, #j4 {
     border-bottom: 5px solid black;
     padding: 10px;
+}
+
+#m1 h3 {
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
 }
