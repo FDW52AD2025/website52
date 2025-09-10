@@ -24,23 +24,6 @@ body.menu{
     text-align: center;
 }
 
-
-/* Selector de clase */
-.contenido {
-    grid-area: aside;
-    background: rgba(91, 80, 5, 0.323);
-    backdrop-filter: blur(10px);
-    border-radius: 15px;
-    padding: 20px;
-    border: 1px solid rgba(42, 3, 3, 0.389);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    color: rgb(27, 24, 2);
-    position: absolute;
-    right: 120px;
-    top: 80px; 
-    width: 250px; 
-}
-
 @media (max-width: 768px) {
     .contenido {
         position: static;   
@@ -86,4 +69,52 @@ body.menu{
 img[src] {
     margin: 0 auto;
     display: block;
+}
+
+/* Selector de clase */
+.contenido {
+    grid-area: aside;
+    background: rgba(91, 80, 5, 0.323);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid rgba(42, 3, 3, 0.389);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    color: rgb(27, 24, 2);
+    position: absolute;
+    right: 120px;
+    top: 80px; 
+    width: 250px; 
+}
+/* Selector de lista */
+footer, address {
+    background-color: rgba(9, 81, 81, 0.314);
+    display: inline;
+    border: 1px ;
+    border-radius: 5px;
+    padding: .25rem;
+    color: black;
+}
+
+/* Selector de descendientes */
+header p{
+   text-align: justify;
+}
+
+/* Selector hijo directo */
+ul > li:hover{
+    border: 1px double black;
+    display: inline-block;
+}
+/* Selector hermano adyacente */
+hr + p  {
+    background-color: dodgerblue;
+    border-radius: 15px;
+    border: 1px double black;
+    padding: 5px 10px; 
+    color: yellow;
+}
+/* Selector hermano general */
+table ~ div {
+    text-align: center;
 }
