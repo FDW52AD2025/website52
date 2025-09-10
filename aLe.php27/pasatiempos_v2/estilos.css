@@ -99,6 +99,17 @@ li .aindex:hover {
   border-radius: 10px;
 }
 
+.divjuego-texto {
+  display: flex;
+  flex-direction: column;
+}
+
+.divjuego-texto h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.4em;
+  color: black;
+}
+
 /* clases de pasatiempo 2 musica*/
 
 .mainpasatiempos_musica {
