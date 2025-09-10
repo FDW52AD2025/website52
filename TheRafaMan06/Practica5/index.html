@@ -7,6 +7,193 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <h1> Practica 5 </h1>
+    </header>
+    <main>
+        <div class="caja-principal">
+            <p>Utilizando sus archivos HTML sobre sus pasatiempos versión 2. Crear un sitio donde se muestre por lo menos un ejemplo de cada selector CSS.</p>
+            <div class="caja-selector" id="universal">
+                <h2>Selector universal </h2>
+                <h3>Codigo CSS</h3>
+                <pre><code class="caja-codigo">
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                </code></pre>
+                <h3>Resultado</h3>
+                <div class="caja-resultado">
+                    <img src="img/SU.png" alt="Resultado del código">
+                </div>
+            </div>
+            <div class="caja-selector" id="tipo">
+                <h2>Selector de tipo</h2>
+                <h3>Codigo CSS</h3>
+                <pre><code class="caja-codigo">
+                    header {
+                        grid-area: header;
+                        background: rgba(255, 255, 255, 0.1);
+                        backdrop-filter: blur(90px);
+                        border-radius: 15px;
+                        padding: 30px;
+                        text-align: center;
+                        border: 1px solid rgba(255, 255, 255, 0.2);
+                        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+                    }
+                </code></pre>
+                <h3>Resultado</h3>
+                <div class="caja-resultado">
+                    <img src="img/st.png" alt="Resultado del código">
+                </div>
+            </div>
+            <div class="caja-selector" id="id">
+                <h2>Selector por ID</h2>
+                <h3>Codigo CSS</h3>
+                <pre><code class="caja-codigo">
+                    #p1{
+                        color: #6e3730;
+                    }
+
+                    main p {
+                        color: #330505;
+                        line-height: 1.6;
+                        font-size: 1.1rem;
+                    }
+                </code></pre>
+                <h3>Resultado</h3>
+                <div class="caja-resultado">
+                    <img src="img/SI.png" alt="Resultado del código">
+                </div>
+            </div>
+            <div class="caja-selector" id="clase">
+                <h2>Selector por clase</h2>
+                <h3>Codigo CSS</h3>
+                <pre><code class="caja-codigo">
+                    .menu-button {
+                        background: linear-gradient(145deg, #81514b, #6e3730);
+                        color: white;
+                        padding: 15px 20px;
+                        text-decoration: none;
+                        border-radius: 12px;
+                        font-size: 1rem;
+                        font-weight: 600;
+                        transition: all 0.3s ease;
+                        box-shadow: 0 6 px 12px rgba(0, 0, 0, 0.2);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        min-height: 60px;
+                        position: relative;
+                        overflow: hidden;
+                    }
+                </code></pre>
+                <h3>Resultado</h3>
+                <div class="caja-resultado">
+                    <img src="img/SC.png" alt="Resultado del código">
+                </div>
+            </div>
+            <div class="caja-selector" id="atributo">
+                <h2>Selector de atributo</h2>
+                <h3>Codigo CSS</h3>
+                <pre><code class="caja-codigo">
+                    [class="serie-card"]{
+                        position: relative;
+                        height: 350px;
+                        border-radius: 12px;
+                        overflow: hidden;
+                        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+                        transition: transform 0.3s ease, box-shadow 0.3s ease;
+                        cursor: pointer;
+                    }
+                </code></pre>
+                <h3>Resultado</h3>
+                <div class="caja-resultado">
+                    <img src="img/SA.png" alt="Resultado del código">
+                </div>
+            </div>
+            <div class="caja-selector" id="lista">
+                <h2>Selector de lista</h2>
+                <h3>Codigo CSS</h3>
+                <pre><code class="caja-codigo">
+                function saludo() {
+                    console.log("Hola mundo");
+                }
+                </code></pre>
+                <h3>Resultado</h3>
+                <div class="caja-resultado">
+                    <img src="ejemplo.png" alt="Resultado del código">
+                </div>
+            </div>
+            <div class="caja-selector" id="descendientes">
+                <h2>Selector de descendientes</h2>
+                <h3>Codigo CSS</h3>
+                <pre><code class="caja-codigo">
+                function saludo() {
+                    console.log("Hola mundo");
+                }
+                </code></pre>
+                <h3>Resultado</h3>
+                <div class="caja-resultado">
+                    <img src="ejemplo.png" alt="Resultado del código">
+                </div>
+            </div>
+            <div class="caja-selector" id="hijos">
+                <h2>Selector hijos directos</h2>
+                <h3>Codigo CSS</h3>
+                <pre><code class="caja-codigo">
+                function saludo() {
+                    console.log("Hola mundo");
+                }
+                </code></pre>
+                <h3>Resultado</h3>
+                <div class="caja-resultado">
+                    <img src="ejemplo.png" alt="Resultado del código">
+                </div>
+            </div>
+            <div class="caja-selector" id="hermano">
+                <h2>Selector hermano adyacente</h2>
+                <h3>Codigo CSS</h3>
+                <pre><code class="caja-codigo">
+                function saludo() {
+                    console.log("Hola mundo");
+                }
+                </code></pre>
+                <h3>Resultado</h3>
+                <div class="caja-resultado">
+                    <img src="ejemplo.png" alt="Resultado del código">
+                </div>
+            </div>
+            <div class="caja-selector">
+                <h2>Selector hermano adyacente</h2>
+                <h3>Codigo CSS</h3>
+                <pre><code class="caja-codigo">
+                function saludo() {
+                    console.log("Hola mundo");
+                }
+                </code></pre>
+                <h3>Resultado</h3>
+                <div class="caja-resultado">
+                    <img src="ejemplo.png" alt="Resultado del código">
+                </div>
+            </div>
+        </div>
+    </main>
+    <aside class="menu-lateral">
+        <h3>Menú de Selectores</h3>
+        <ul>
+            <li><a href="#universal">Selector Universal</a></li>
+            <li><a href="#tipo">Selector de Tipo</a></li>
+            <li><a href="#id">Selector por ID</a></li>
+            <li><a href="#clase">Selector por Clase</a></li>
+            <li><a href="#atributo">Selector de Atributo</a></li>
+            <li><a href="#lista">Selector de Lista</a></li>
+            <li><a href="#descendientes">Selector de Descendientes</a></li>
+            <li><a href="#hijos">Selector Hijos Directos</a></li>
+            <li><a href="#hermano">Selector Hermano Adyacente</a></li>
+        </ul>
+    </aside>    
+    <footer></footer>
 </body>
 </html>
