@@ -12,6 +12,10 @@ body.menu{
     text-align: center;
 }
 
+.videos {
+    text-align: center;
+}
+
 .fondos {
     background-color: rgba(5, 151, 151, 0.377);
 }
@@ -20,11 +24,54 @@ body.menu{
     text-align: center;
 }
 
-.imagenes {
-    text-align: center;
+@media (max-width: 768px) {
+    .contenido {
+        position: static;   
+        width: 100%;        
+        margin-top: 20px;  
+    }
+
+    main {
+        width: 100%;
+    }
 }
 
+/* Selector universal */
+#img1 *{
+    border: 10px double white;
+    border-radius: 25px;
+    background-color: rgba(6, 222, 222, 0.377);
+    display: inline-block;
+    margin: 0 auto;
+}
 
+/* Selector de tipo */
+#t01 h1 {
+    border-radius: 15px ;
+    margin: 15px;
+    background-color: rgba(8, 0, 255, 0.271);
+    border-color: black;
+    border: 3px;
+    border-style: solid;
+    text-align: center;
+}
+/* Selector por id */
+#v01 {
+    border: 10px double white;
+    border-radius: 25px;
+    background-color: rgba(6, 222, 222, 0.377);
+    display: inline-block;
+    padding-left: 2px;
+    padding-right: 20px;
+}
+
+/* Selector de atributo */
+img[src] {
+    margin: 0 auto;
+    display: block;
+}
+
+/* Selector de clase */
 .contenido {
     grid-area: aside;
     background: rgba(91, 80, 5, 0.323);
@@ -39,16 +86,35 @@ body.menu{
     top: 80px; 
     width: 250px; 
 }
+/* Selector de lista */
+footer, address {
+    background-color: rgba(9, 81, 81, 0.314);
+    display: inline;
+    border: 1px ;
+    border-radius: 5px;
+    padding: .25rem;
+    color: black;
+}
 
+/* Selector de descendientes */
+header p{
+   text-align: justify;
+}
 
-@media (max-width: 768px) {
-    .contenido {
-        position: static;   
-        width: 100%;        
-        margin-top: 20px;  
-    }
-
-    main {
-        width: 100%;
-    }
+/* Selector hijo directo */
+ul > li:hover{
+    border: 1px double black;
+    display: inline-block;
+}
+/* Selector hermano adyacente */
+hr + p  {
+    background-color: dodgerblue;
+    border-radius: 15px;
+    border: 1px double black;
+    padding: 5px 10px; 
+    color: yellow;
+}
+/* Selector hermano general */
+table ~ div {
+    text-align: center;
 }

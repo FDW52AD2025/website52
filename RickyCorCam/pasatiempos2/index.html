@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PASATIEMPOS2</title>
+    <link rel="stylesheet" href="styleindex.css">
 </head>
 <body>
     <header>
@@ -18,16 +19,20 @@
             <ul>
                 <li><a href="pasatiempo1.html" target="_blank">VIDEOJUEGOS</a></li>
                 <li><a href="pasatiempo2.html" target="_blank">GUITARRA</a></li>
-                <li><a href="pasatiempo3.html" target="_blank">Pasatiempo3</a></li>
-                <li><a href="pasatiempo4.html" target="_blank">Pasatiempo4</a></li>
+                <li><a href="pasatiempo3.html" target="_blank">ANIME</a></li>
+                <li><a href="pasatiempo4.html" target="_blank">PROGRAMAR</a></li>
             </ul>
         </section>
         <br>
-        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdOCgBeWHQYQAQEaS2tu-QMn2kDL4JDY5B3594qBAyVFVo71w/formResponse" method="POST" target="_blank">
-            <input type="text" name="entry.2105416059" placeholder="Ingrese su nombre" required>
-            <input type="text" name="entry.670043046" placeholder="Ingrese su pasatiempo fav" required>
-            <button type="submit">Enviar</button>
-        </form>
+        <div id="form-1">
+            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdOCgBeWHQYQAQEaS2tu-QMn2kDL4JDY5B3594qBAyVFVo71w/formResponse" method="POST" target="_blank">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="entry.2105416059" placeholder="Ingrese su nombre" required><br>
+                <label for="pasatiempo">Pasatiempo:</label><br>
+                <input type="text" id="pasatiempo" name="entry.670043046" placeholder="Ingrese su pasatiempo fav" required><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
     </main>
 </body>
 </html>

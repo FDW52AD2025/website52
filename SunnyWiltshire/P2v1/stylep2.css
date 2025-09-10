@@ -7,6 +7,7 @@ aside{
     background: #7ec9e3be;
     border: 3px dotted #4682b4;
 }
+
 hr{
     border: none;
     border-top: 3px dotted #1e3a5f;
@@ -33,32 +34,50 @@ p{
     text-align: justify;
     color: #0a2740;
 }
+
 iframe{
     display: block;
     margin: 0 auto;
 
 }
 
-img{
+/* Selector de atributo */
+img[alt]{
     display: block;
     margin: 0 auto; 
 }
 
-table {
-  border: 2px solid rgb(15, 15, 119);   
-  border-collapse: collapse; 
-  width: 80%;              
-  margin: 20px auto;        
+/* Selector de hermano adyasente */
+h2 + table {
+    width: 80%;
+    margin: 20px auto;
 }
 
+
+/* Selector de hermano general */
+hr ~ h2 {
+  text-shadow: 1px 1px 0px #0c234179 ;
+}
+
+table {
+    border: 2px solid rgb(15, 15, 119);   
+    border-collapse: collapse;                       
+}
+
+/* Selector de lista */
 th, td {
-  border: 1px solid rgb(15, 15, 119);    
-  padding: 10px;
-  text-align: left;
-  background-color: #9fbbe5;
+    border: 1px solid rgb(15, 15, 119);    
+    padding: 10px;
+    text-align: left;
+    background-color: #9fbbe5;
 }
 
 th {
-  background-color: #7497ca;
-  text-align: center;  
+    background-color: #7497ca;
+    text-align: center;  
+}
+
+/* Selector por ID */
+#n{
+    font-weight: bold;
 }
