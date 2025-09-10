@@ -2,6 +2,9 @@ body {
     background-color: lightcyan;
 }
 
+li {
+    font-weight: bold;
+}
 header h1{
     text-align: center;
 }
