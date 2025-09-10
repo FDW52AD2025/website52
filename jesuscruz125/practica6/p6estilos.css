@@ -1,0 +1,33 @@
+.c02{
+    display: flex;
+    background-color: #131418;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+.c02 > div {
+    background-color: #2D3039;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    flex-basis: 100px;
+    border-radius: 8px;
+}
+
+
+.c02 h3{
+    color: #94d8f7;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.c02 h3:hover {
+    color: white;
+}
+
+
+.c02 div img{
+    height: 50px;
+    width: auto;
+}
