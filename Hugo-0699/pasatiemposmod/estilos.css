@@ -85,6 +85,10 @@ box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
   margin-right: 50px;
   text-align: justify;
 }
+section[cfondo="favorito"] {
+  background-color:goldenrod;
+  padding: 20px;
+}
 
 
 /* Tercer pasatiempo */
@@ -107,6 +111,10 @@ box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
 .justificar-video {
   margin-left: 400px;
+}
+#cfondolista h3, b {
+  background-color: rgb(198, 214, 194);
+  border-radius: 10px;
 }
 
 
@@ -151,6 +159,9 @@ box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 .formulario-escritura th {
   border: 1px solid black;
   padding: 8px;
+}
+#colortabla td {
+  background-color:khaki;
 }
 
 
