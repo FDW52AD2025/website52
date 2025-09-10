@@ -31,6 +31,7 @@
 /* Selector universal */
 * {
     font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: bisque;
 }
 
 /* Selector de Tipo */
