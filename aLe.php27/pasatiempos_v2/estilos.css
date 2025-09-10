@@ -279,3 +279,8 @@ li .aindex:hover {
     color: #333;
     font-weight: normal;
 }
+
+aside [href*="spotify"]{
+  color: #000;
+  background-color: greenyellow;
+}
