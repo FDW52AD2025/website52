@@ -5,6 +5,12 @@ body {
 li {
     font-weight: bold;
 }
+
+article h4 {
+    color: blue;
+    font-style: italic;
+}
+
 header h1{
     text-align: center;
 }
