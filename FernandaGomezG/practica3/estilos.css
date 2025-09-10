@@ -67,3 +67,9 @@
 font-family: 'Times New Roman', Times, serif;
 color: blue;
 }
+
+/*Selector de tipo*/
+#imgconcert {
+    border-radius: 15px;
+    color: black;
+}
