@@ -12,7 +12,7 @@ h1{
 }
 
 
-a{
+header a{
     border: 5px solid rgb(7, 184, 33);
     color: white;
     background-color: rgb(7, 184, 33);
@@ -51,6 +51,7 @@ h2{
   border-radius: 20px;    
   font-size: bold;     
   font-weight: lighter;
+  text-align: center;
 }
 
 
@@ -100,4 +101,47 @@ input[type="menulist"]:checked::before {
   height: 8px;
   background: #555;
   border-radius: 50%;
+}
+
+#principal{
+  background-color: rgb(147, 146, 145);
+  color: rgb(0, 0, 0);
+  border: 3px solid rgb(117, 117, 117);
+}
+
+h2, p {
+  border: 2px solid black;
+}
+
+h2.encabezado2{
+  border: 10px solid darkorchid;  
+  color: black;               
+  background-color: darkorchid;    
+  width: 200px;
+  border-radius: 20px;    
+  font-size: bold;     
+  font-weight: lighter;
+}
+
+footer a{
+  border: 5px solid rgb(7, 184, 33);
+  color: white;
+  background-color: rgb(7, 184, 33);
+  width: 100px;
+  border-radius: 5px;
+}
+
+main > img{
+  border: 3px solid blue;
+}
+
+h2.txt ~ aside{
+ border: 3px solid black;
+}
+
+.cocina + div{
+  background-color: rgb(171, 171, 171);  
+  border: 2px solid black;
+  color: black;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }

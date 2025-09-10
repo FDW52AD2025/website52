@@ -1,0 +1,81 @@
+/* Selector universal se utilizara para poner la fuente arial black */
+* {
+  font-family: "Arial Black", Arial, sans-serif;
+}
+
+/* Selector de tipo sera utilizado para poner en bordes y cambiar el background de las etiquetas article*/
+
+article {
+  background-color: rgb(116, 231, 231);
+  border-color: rgb(55, 158, 158);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+/* Selector de id sera utilizado para modificar la barra de navegacion y el titulo de categorias*/
+
+#navegacion, #categorias {
+  background-color: rgb(36, 82, 82);
+  border-radius: 10px;
+  border-color: rgb(19, 49, 49);
+  padding: 5px;
+  color: white;
+}
+
+/* Selector de clases sera utilizado para darle formato a los datos de contacto */
+
+.dcontacto {
+  background-color: rgb(36, 82, 82);
+  border-radius: 10px;
+  border-color: rgb(19, 49, 49);
+  padding: 5px;
+  color: white;
+}
+
+/* Selector de atributo sera utilizado para modificar los bordes de las imagenes que tengan el atributo alt*/
+
+img[alt] {
+  border: 5px solid rgb(43, 112, 112);
+  border-radius: 10px;
+}
+
+/* Selector de lista sera utilizado para modificar la fuente de los titulos h2 y h3 ademas de los parrafos*/
+
+h2, h3, p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Selector de descendientes sera utilizada para poner en negritas y cambiar el tamaño de los parrafos dentro de la etiqueta footer */
+
+footer p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+/* Selector de hijos directos sera utilizada para cambiarle el fondo a los parrafos y el color de fuente*/
+
+article > p {
+  background-color: rgb(41, 88, 88);
+  color: white;
+  border-radius: 10px;
+}
+
+/* Selector de hermanos adyacentes sera utilizada para cambiar el tamaño de la fuente de los parrafos despues de un h2*/
+
+h2 + p {
+  font-size: 18px;
+}
+
+/* Selector de hermano general se usara para seleccionar todos los hermanos despues de un h1*/
+
+h1 ~ p {
+  font-size: 18px;
+}
+
+h2 {
+  font-family: "Arial Black", Arial, sans-serif;
+  font-size: bold;
+  text-transform: uppercase;
+}
