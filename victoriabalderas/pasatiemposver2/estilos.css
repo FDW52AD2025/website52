@@ -38,7 +38,8 @@ aside {
     color: white;
 }
 
-aside a {
+/*Selector por atributo*/
+a[href*="github"] {
     color: white;
 }
 
@@ -61,7 +62,8 @@ h2 {
     font-size: x-large;
 }
 
-p {
+/*Selector de lista*/
+p, li {
     color: rgb(133, 6, 112);
 }
 
@@ -89,11 +91,6 @@ footer {
     justify-content: center; 
     align-items: center;
     margin: 0 auto;
-}
-
-
-li {
-    color: rgb(133, 6, 112);
 }
 
 .imgpeliculas {
