@@ -1,0 +1,24 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 10px 200px;
+    background: linear-gradient(rgb(23, 22, 34), rgb(23, 43, 51));
+    text-align: center;
+}
+
+section {
+    padding: 15px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.226);
+    border-radius: 12px;
+}
+
+header,
+footer {
+    padding: 10px;
+}
