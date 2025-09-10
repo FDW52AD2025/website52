@@ -313,3 +313,7 @@ aside [href*="spotify"]{
     text-align: center;
     border: 3px solid #000;
 }
+
+#a1 h3 + ul {
+  background-color: steelblue;
+}
