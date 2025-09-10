@@ -1,19 +1,24 @@
+/*Selector Universal*/
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 body {
     background-color: rgb(252, 231, 247);
     margin: 0;
     padding: 0;
 }
-
-nav a {
-    margin: 0 10px; 
-    color: rgb(160, 17, 117);
-}
-
+/* Selector por tipo */
 header {
     background-color: rgb(252, 231, 247);
     color: rgb(247, 172, 222);
     padding: 10px;
     text-align: center;
+}
+
+nav a {
+    margin: 0 10px; 
+    color: rgb(160, 17, 117);
 }
 
 .contenedor {
@@ -53,12 +58,10 @@ h2 {
 
 .subtitulo {
     color: rgb(105, 67, 90);
-    font-family: 'Lucida Sans Regular';
     font-size: x-large;
 }
 
 p {
-    font-family: 'Lucida sans';
     color: rgb(133, 6, 112);
 }
 
@@ -91,7 +94,6 @@ footer {
 }
 
 li {
-    font-family: 'Lucida sans';
     color: rgb(133, 6, 112);
 }
 
