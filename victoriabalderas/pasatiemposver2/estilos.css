@@ -72,26 +72,25 @@ footer {
     text-align: center;
 }
 
-.portadamusica {
+/*Selector por ID*/
+#portadamusica {
     display: flex;
     justify-content: center;
     width: 300px;
     height: 300px;
+    border-style: double;
+    border-color: rgb(182, 9, 159);
+    border-width: 10px
 }
 
-.imgspotify {
-    display: flex;
-    justify-content: center;
-    width: 200px;
-    height: 300px;
-}
-
+/*Selector por clase*/
 .imgdanza {
     display: flex;
-    justify-content: center;
-    width: 200px;
-    height: 300px;
+    justify-content: center; 
+    align-items: center;
+    margin: 0 auto;
 }
+
 
 li {
     color: rgb(133, 6, 112);
