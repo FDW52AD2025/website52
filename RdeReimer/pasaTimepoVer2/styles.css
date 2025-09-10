@@ -1,3 +1,10 @@
+/* 1. Selector universal */
+* {
+    justify-content: center;
+}
+
+
+/*2. Selector de tipo */
 img{
     width: 300px;
     border-radius: 10px;
@@ -5,18 +12,57 @@ img{
 
 }
 
+/*3. Selector por ID */
+
+#mtb{
+    color: orange;
+}
+
+/*4. Selector por clase */
 .navPages{
     display: flex;
-    justify-content: center;
     border-bottom: 3px solid aquamarine;
     box-shadow: 0 20px 20px rgba(0,0,0,0.1);
     padding: 10px;
 }
 
-.navLinks{
+/*5. Selector de atributo */
+audio[src="musica/requinto.weba"]{
+    border-radius: 15px;
+}
+
+/*6. Selector de lista */
+
+ul li{  
+display: inline-block;
+}
+
+/*7. Selector de descendientes */
+
+article p{
+    width: 600px;
+    text-align: center;
+}
+
+
+/*8. Selector hijos directos */
+
+li > a{
 padding: 0 10px;
 text-decoration: none; 
 color: black;
+}
+
+/*9. Selector hermano adyacente  Pagina 5*/
+
+input + button{
+    margin: 10px 0;
+}
+
+/*10. */
+
+label ~ select {
+background-color: blanchedalmond;
 }
 
 .navLinks:hover{
@@ -25,39 +71,26 @@ text-decoration: none;
 color:aqua;
 }
 
-label{
+label {
     padding-top: 20px;
     padding-bottom: 5px;
 }
 
-button{
-    margin: 10px 0;
-}
 h1{
     display: flex;
-    justify-content: center;
-}
-
-p{
-    width: 600px;
-    text-align: center;
 }
 
 section{
     display: grid;
-    justify-content: center;
     border-radius: 10px;
    padding: 10px 
 }
 
-    header{
+header{
         display: flex;
-    justify-content: center;
 }
 
 footer{
-    display: flex;
-    justify-content: center;
     padding-top: 50px;
 }
 
@@ -73,17 +106,8 @@ footer{
     color: red;
 }
 
-.mtb{
-    color: orange;
-}
 
-.RdeReimerLink{
-    text-decoration: none;
-    color: white;
-    border: 2px solid aqua;
-    border-radius: 10px;
-}
 
-.RdeReimerLink:hover{
-    size: 110%;
-}
+
+
+
