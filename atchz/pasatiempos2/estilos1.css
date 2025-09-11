@@ -9,3 +9,12 @@ section {
     border-radius: 12px;
     color: white;
 }
+
+#titulo {
+    background-color: rgb(29, 14, 14);
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 50px;
+}
