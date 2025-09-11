@@ -101,3 +101,8 @@ h1, aside {
 article section li {
     font-style: italic;
 }
+
+/*Selector hijos directos*/
+article > section > p {
+    color: rgb(255, 5, 5);
+}
