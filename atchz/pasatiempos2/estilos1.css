@@ -18,3 +18,12 @@ section {
     padding: 12px;
     margin: 50px;
 }
+
+.juego_favorito {
+    background-color: rgb(17, 231, 88);
+    display: block;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    text-decoration: none;
+}
