@@ -59,3 +59,10 @@ article > iframe {
     border-radius: 12px;
     box-shadow: 10px 10px 20px rgb(76, 136, 76);
 }
+
+#titulo + p {
+    background-color: rgb(12, 54, 102);
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+}
