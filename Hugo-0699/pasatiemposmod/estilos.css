@@ -123,6 +123,14 @@ section[cfondo="favorito"] {
   background-color: rgb(198, 214, 194);
   border-radius: 10px;
 }
+#cfondolista ~ section {
+  background-color:rgb(194, 255, 153);
+  padding: 20px;
+  border: 2px dashed green;
+  width: 80%;       
+  margin: 10px auto;
+  border-radius: 10px;
+}
 
 
 /* Cuarto pasatiempo */
@@ -170,7 +178,11 @@ section[cfondo="favorito"] {
 #colortabla td {
   background-color:khaki;
 }
-
+#color_fondo + .fila-img-formulario {
+  background-color:rgb(212, 201, 192);
+  padding: 20px;
+  border-radius: 12px;
+}
 
 /* Selector universal */
 #h1uni * {
