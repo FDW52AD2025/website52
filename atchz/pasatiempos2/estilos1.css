@@ -54,3 +54,21 @@ header nav li a {
     align-content: center;
     color: white;
 }
+
+article > iframe {
+    border-radius: 12px;
+    box-shadow: 10px 10px 20px rgb(76, 136, 76);
+}
+
+#titulo + p {
+    background-color: rgb(12, 54, 102);
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+#juego ~ select {
+    border: 3px solid rgb(220, 20, 60);
+    background-color: rgb(255, 200, 200);
+    border-radius: 6px;
+}

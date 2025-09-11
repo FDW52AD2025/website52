@@ -75,3 +75,44 @@ form {
 .bodyev {
   background-color: darkgrey;
 }
+
+#deportes * {
+  color: rgb(2, 71, 2);
+} 
+
+#deportes p {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#parrafo {
+  text-decoration: underline;
+}
+
+.parrafo2 {
+  font-size: 18px;
+}
+
+a[href*="PaginaPrincipal"] {
+  background-color: darkcyan;
+}
+
+li, a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+address p {
+  background-color: rgb(48, 149, 153);
+  border: 3px solid black;
+}
+
+article > img {
+  border: 3px solid black;
+}
+
+hr + h3 {
+  color: midnightblue;
+}
+
+h3 ~ table {
+  background-color: cadetblue;
+}
