@@ -2,6 +2,7 @@ h1 {
   color: rgb(0, 0, 0);
   background-color: rgb(39, 68, 148);
   border: 3px solid rgb(7, 2, 88);
+  text-align: center;
 }
 
 h2 {
@@ -66,7 +67,6 @@ body {
   background-color: rgb(139, 160, 177);
 }
 
-/* Selecciona todos los article dentro de main */
 main article {
     border: 3px solid rgb(2, 93, 93);
     padding: 10px; 
