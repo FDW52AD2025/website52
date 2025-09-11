@@ -96,3 +96,8 @@ h1, aside {
     text-shadow: 5px 5px 5px black;
 
 }
+
+/*Selector de descendientes*/
+article section li {
+    font-style: italic;
+}
