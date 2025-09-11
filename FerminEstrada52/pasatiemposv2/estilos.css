@@ -1,4 +1,10 @@
+/* Selector universal */
+* {
+    box-sizing: border-box;
+}
+
 /* Estilos generales */
+/* Selector de tipo */
 body {
     font-family: Arial, sans-serif;
     color: #333;
@@ -9,6 +15,7 @@ body {
 }
 
 /* Header y navegación */
+/* Selector de tipo */
 header {
     background-color: #2c3e50;
     color: #fff;
@@ -17,6 +24,7 @@ header {
     border-radius: 5px;
 }
 
+/* Selector de descendientes */
 header h1 {
     color: #fff;
     text-align: center;
@@ -25,6 +33,7 @@ header h1 {
     margin: 0 0 20px 0;
 }
 
+/* Selector de descendientes */
 nav ul {
     list-style: none;
     padding: 0;
@@ -34,10 +43,12 @@ nav ul {
     flex-wrap: wrap;
 }
 
+/* Selector de descendientes */
 nav li {
     margin: 0 10px;
 }
 
+/* Selector de descendientes */
 nav a {
     color: #ecf0f1;
     text-decoration: none;
@@ -46,12 +57,14 @@ nav a {
     transition: background-color 0.3s ease;
 }
 
+/* Selector de descendientes con pseudo-clase */
 nav a:hover {
     background-color: #3498db;
     color: #fff;
 }
 
 /* Contenido principal */
+/* Selector de tipo */
 main {
     background-color: #fff;
     border: 2px solid #ddd;
@@ -62,11 +75,26 @@ main {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* Selector por ID */
+#contenido-principal {
+    font-size: 1.1em;
+}
+
+/* Selector por clase */
+.destacado {
+    background-color: #e8f4f8;
+    padding: 10px;
+    border-left: 3px solid #3498db;
+    margin: 10px 0;
+}
+
 /* Secciones y artículos */
+/* Selector de tipo */
 section {
     margin-bottom: 20px;
 }
 
+/* Selector de tipo */
 article {
     background-color: #fafafa;
     border: 1px solid #e0e0e0;
@@ -75,6 +103,7 @@ article {
     border-radius: 5px;
 }
 
+/* Selector de descendientes */
 article header {
     background-color: transparent;
     color: inherit;
@@ -83,6 +112,7 @@ article header {
     border-radius: 0;
 }
 
+/* Selector de descendientes */
 article header h2 {
     color: #34495e;
     border-left: 4px solid #3498db;
@@ -90,49 +120,76 @@ article header h2 {
     margin: 0 0 10px 0;
 }
 
+/* Selector hijo directo */
+article > p {
+    text-indent: 10px;
+}
+
 /* Texto y párrafos */
+/* Selector de tipo */
 p {
     color: #555;
     line-height: 1.6;
     margin-bottom: 15px;
 }
 
+/* Selector hermano adyacente */
+h2 + time {
+    display: block;
+    font-style: italic;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+}
+
+/* Selector hermano general */
+h2 ~ p {
+    margin-left: 5px;
+}
+
 /* Etiquetas de texto */
+/* Selector de lista */
 strong, b {
     color: #2c3e50;
     font-weight: bold;
 }
 
+/* Selector de lista */
 em, i {
     font-style: italic;
     color: #34495e;
 }
 
+/* Selector de tipo */
 mark {
     background-color: #f1c40f;
     padding: 2px 4px;
     border-radius: 2px;
 }
 
+/* Selector de tipo */
 small {
     font-size: 0.85em;
     color: #7f8c8d;
 }
 
+/* Selector de tipo */
 cite {
     font-style: italic;
     color: #8e44ad;
 }
 
+/* Selector de tipo */
 abbr {
     border-bottom: 1px dotted #95a5a6;
     cursor: help;
 }
 
+/* Selector de tipo */
 span {
     color: inherit;
 }
 
+/* Selector de lista */
 sup, sub {
     font-size: 0.75em;
     line-height: 0;
@@ -140,22 +197,37 @@ sup, sub {
     vertical-align: baseline;
 }
 
+/* Selector de tipo */
 sup {
     top: -0.5em;
 }
 
+/* Selector de tipo */
 sub {
     bottom: -0.25em;
 }
 
 /* Elementos de tiempo */
+/* Selector de tipo */
 time {
     color: #7f8c8d;
     font-size: 0.9em;
     font-style: italic;
 }
 
+/* Selector de atributo */
+time[datetime="2025"] {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Selector de atributo */
+time[datetime*="2024"] {
+    color: #e67e22;
+}
+
 /* Imágenes */
+/* Selector de tipo */
 img {
     border: 2px solid #bdc3c7;
     max-width: 100%;
@@ -165,7 +237,18 @@ img {
     border-radius: 3px;
 }
 
+/* Selector de atributo */
+img[alt*="judo"] {
+    border-color: #e74c3c;
+}
+
+/* Selector de atributo */
+img[src$=".jpg"] {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
 /* Tablas */
+/* Selector de tipo */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -173,33 +256,39 @@ table {
     background-color: #fff;
 }
 
+/* Selector de lista */
 th, td {
     border: 1px solid #ddd;
     padding: 12px;
     text-align: left;
 }
 
+/* Selector de tipo */
 th {
     background-color: #34495e;
     color: #fff;
     font-weight: bold;
 }
 
+/* Selector de pseudo-clase nth-child */
 tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 
+/* Selector de pseudo-clase hover */
 tr:hover {
     background-color: #f5f5f5;
 }
 
 /* Elementos multimedia */
+/* Selector de lista */
 audio, video {
     max-width: 100%;
     margin: 15px 0;
     border-radius: 3px;
 }
 
+/* Selector de tipo */
 iframe {
     border: 1px solid #ddd;
     border-radius: 3px;
@@ -207,6 +296,7 @@ iframe {
     max-width: 100%;
 }
 
+/* Selector de tipo */
 embed {
     border: 1px solid #ddd;
     border-radius: 3px;
@@ -214,7 +304,18 @@ embed {
     max-width: 100%;
 }
 
+/* Selector de atributo */
+audio[controls] {
+    border: 2px solid #3498db;
+}
+
+/* Selector de atributo */
+video[controls] {
+    border: 2px solid #e74c3c;
+}
+
 /* Aside (barra lateral) */
+/* Selector de tipo */
 aside {
     background-color: #ecf0f1;
     border: 1px solid #bdc3c7;
@@ -224,6 +325,7 @@ aside {
     border-left: 4px solid #3498db;
 }
 
+/* Selector de descendientes */
 aside h3 {
     color: #2c3e50;
     margin-top: 0;
@@ -231,11 +333,18 @@ aside h3 {
     font-size: 1.2em;
 }
 
+/* Selector de descendientes */
 aside p {
     margin-bottom: 10px;
 }
 
+/* Selector hijo directo */
+aside > p:first-child {
+    font-weight: bold;
+}
+
 /* Footer */
+/* Selector de tipo */
 footer {
     background-color: #34495e;
     color: #fff;
@@ -246,46 +355,71 @@ footer {
     border-radius: 5px;
 }
 
+/* Selector de descendientes */
 footer p {
     margin: 5px 0;
     color: #ecf0f1;
 }
 
+/* Selector de descendientes */
 footer cite {
     color: #3498db;
 }
 
+/* Selector de descendientes */
 footer span {
     color: #bdc3c7;
 }
 
+/* Selector hermano adyacente */
+footer p + p {
+    margin-top: 8px;
+}
+
+/* Selector de atributo */
+a[href^="http"] {
+    color: #3498db;
+}
+
+/* Selector de atributo */
+a[href$=".html"] {
+    font-weight: normal;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
+    /* Selector de tipo */
     body {
         padding: 10px;
     }
     
+    /* Selector de tipo */
     main {
         padding: 20px;
     }
     
+    /* Selector de descendientes */
     nav ul {
         flex-direction: column;
         align-items: center;
     }
     
+    /* Selector de descendientes */
     nav li {
         margin: 5px 0;
     }
     
+    /* Selector de tipo */
     table {
         font-size: 0.9em;
     }
     
+    /* Selector de lista */
     th, td {
         padding: 8px;
     }
     
+    /* Selector de lista */
     iframe, embed {
         height: 150px;
     }
