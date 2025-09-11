@@ -27,3 +27,12 @@ section {
     border-radius: 12px;
     text-decoration: none;
 }
+
+a[href*="The"] {
+    background-color: red;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    margin: 12px;
+}
