@@ -84,3 +84,7 @@ img {
     position: relative;
     bottom: 5px;
 }
+
+a[href*="instagram"] {
+    background-color: yellow;
+}
