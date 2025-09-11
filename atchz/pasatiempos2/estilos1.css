@@ -66,3 +66,9 @@ article > iframe {
     padding: 10px;
     border-radius: 12px;
 }
+
+#juego ~ select {
+    border: 3px solid rgb(220, 20, 60);
+    background-color: rgb(255, 200, 200);
+    border-radius: 6px;
+}
