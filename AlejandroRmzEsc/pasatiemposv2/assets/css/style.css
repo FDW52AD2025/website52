@@ -1,3 +1,57 @@
+
+/*Selector universal*/
+*{
+    box-sizing: border-box;
+}
+
+/*Selector de tipo*/
+p { 
+    line-height: 1.55; 
+}
+
+/*Selector por ID*/
+#horas { 
+    border: 2px solid #2563eb; border-radius: 6px; 
+}
+
+/*Selector por clase*/
+.boton {
+  display:inline-block;
+  padding:.6rem 1rem;
+  border-radius:999px;
+}
+
+/*Selector por atributo*/
+input[required] { 
+    outline: 3px solid #f59e0b; 
+}
+
+/*Selector de lista*/
+h1, footer p { 
+    color: darkblue; 
+}
+
+/*Selector de descendiente*/
+main table td {
+     background: lightslategray; 
+}
+
+/*Selector de hijo directo*/
+nav > a { 
+    margin:0 .35rem; padding:.15rem .35rem; 
+}
+
+/*Selector de hermano adyacente*/
+header + nav { 
+    border-top: 3px solid #111; 
+}
+
+/*Selector de hermano general*/
+
+header ~ main { 
+    box-shadow:0 8px 24px rgba(0,0,0,.08);
+}
+
 body{
     background-color: #facba5;
     display: flex;

@@ -1,4 +1,4 @@
-
+/*Selector por clase*/
 .titulos {
     border-radius: 15px ;
     margin: 15px;
@@ -69,7 +69,57 @@ color: blue;
 }
 
 /*Selector de tipo*/
-#imgconcert {
+img {
     border-radius: 15px;
-    color: black;
+    border: 8px solid rgb(132, 82, 231);
+}
+
+/*Selector por id*/
+#bordecocina{
+    border-radius: 12px;
+    border: 5px solid #4caf50;
+    float: left;
+    width: 300px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 5px;
+}
+
+/*Selector por atributo*/
+a[href*="instagram"] {
+    background-color: yellow;
+}
+
+/*Selector de listas*/
+h1, aside {
+    color: purple;
+    text-shadow: 5px 5px 5px black;
+
+}
+
+/*Selector de descendientes*/
+article section li {
+    font-style: italic;
+}
+
+/*Selector hijos directos*/
+article > section > p {
+    color: rgb(255, 5, 5);
+}
+    
+/*Selector hermano adyacente*/
+.titulos + .textostyle {
+    color: red;
+    font-weight: bold;
+    background-color: #ffe6e6;
+    padding: 10px;
+    border-left: 4px solid red;
+}
+
+/*Selector por hermanos generales*/
+.titulos ~ .textostyle {
+    color: rgb(0, 50, 100);
+    background-color: #a88918;
+    padding: 10px;
+    border-left: 4px solid rgb(0, 49, 128);
 }
