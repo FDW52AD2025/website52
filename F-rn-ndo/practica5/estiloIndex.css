@@ -3,7 +3,8 @@ body {
             max-width: 900px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f8f9fa;
+            background: url("img/atardecer.jpg") no-repeat center center fixed;
+            background-size: cover;
             line-height: 1.6;
         }
         .header {
@@ -60,6 +61,12 @@ body {
             margin: 15px 0;
             color: #6c757d;
         }
+        .image-placeholder img{
+            max-width: 400px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: #2d3748;
+        }
         h3 {
             color: #495057;
             margin-top: 25px;
@@ -71,3 +78,4 @@ body {
             margin-bottom: 30px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
+        
