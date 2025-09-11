@@ -4,14 +4,13 @@ header, h1 {
     border-radius: 20px;
     padding: 10px;
     margin: 10px;
-    
 }
 
 body {
     background-color: rgb(51, 148, 148);
 }
 
-.s1 div img{
+.s1 div img {
     height: 100px;
     width: 90px;
 }
@@ -30,7 +29,7 @@ body {
     flex-flow: row wrap;
 }
 
-.s1 h2{
+.s1 h2 {
     color: #5bbeec;
     font-family: sans-serif;
     font-size: 20px;
