@@ -1,4 +1,4 @@
-
+/*Selector por clase*/
 .titulos {
     border-radius: 15px ;
     margin: 15px;
@@ -85,6 +85,14 @@ img {
     bottom: 5px;
 }
 
+/*Selector por atributo*/
 a[href*="instagram"] {
     background-color: yellow;
+}
+
+/*Selector de listas*/
+h1, aside {
+    color: purple;
+    text-shadow: 5px 5px 5px black;
+
 }
