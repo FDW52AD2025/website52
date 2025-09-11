@@ -9,15 +9,31 @@ body {
     text-align: center;
 }
 
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 header h1 {
     background-color: rgb(11, 63, 78); 
     display: inline-block;             
     text-align: center;                
     padding: 15px 30px;                
-    border-radius: 25px;               
-    margin: 30px auto;                 
+    border-radius: 30px;               
     font-size: 50px;                   
     box-shadow: 2px 4px 10px rgba(0,0,0,0.2); 
+}
+
+header nav a {
+    text-align: left;
+    display: inline-block;
+    margin-top: 20px;
+    background-color: rgb(160, 215, 231);
+    color: rgb(11, 63, 78);
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
 .contenedor{
@@ -37,7 +53,7 @@ header h1 {
     gap: 20px;                 
     padding: 15px;
     background-color: rgb(11, 63, 78);
-    border-radius: 15px;
+    border-radius: 30px;
     box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
     text-align: center;
 }
