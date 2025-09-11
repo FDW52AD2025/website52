@@ -64,3 +64,45 @@ footer {
 h2 {
     color: darkblue;
 }
+/* Selector por ID */
+#favoritos {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* Selector por clase */
+.resaltado {
+    color: red;
+    font-weight: bold;
+}
+
+/* Selector de atributo */
+a[href] {
+    text-decoration: underline;
+    color: darkred;
+}
+
+/* Selector de lista (múltiples elementos) */
+h1, footer {
+    text-transform: uppercase;
+}
+
+/* Selector de descendientes */
+section p {
+    font-style: italic;
+}
+
+/* Selector hijos directos */
+nav > ul {
+    background-color: lightyellow;
+    padding: 5px;
+}
+
+/*  Selector hermano adyacente */
+h2 + p {
+    background-color: lightgreen;
+}
+
+/*  Selector hermano general */
+h2 ~ table {
+    border: 2px dashed darkgreen;
+}
