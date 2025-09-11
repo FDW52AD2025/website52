@@ -1,0 +1,46 @@
+body {
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    background-color: #131317;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#code div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 200px;
+    background-color:#2d303a;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #87d5f7;
+    align-items: center;
+    padding: 10px;
+    flex-basis: 10px;
+    font-weight: bold;
+}
+
+img {
+    width: 180px;
+    height: 200px
+}
+
+h1 {
+    background-color: #2d303a; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 5px solid white;
+}
+
+address {
+    background-color: #2d303a;
+    color: #EEE1C6;
+    font-weight: bold;
+    border: 5px ridge white;
+    text-align: justify;
+    box-shadow: 8px 8px 8px white;
+}

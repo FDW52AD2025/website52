@@ -1,0 +1,42 @@
+.title {
+    text-align: center;
+    margin: 15px;
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 15px;
+    color: rgb(2, 15, 39);
+}
+
+.fondo {
+    background-color: rgb(64, 83, 192);
+}
+
+#s01 {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+#s01 > div {
+    background-color: rgb(44, 48, 58);
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px;
+    flex-basis: 100px;
+    margin: 20px;
+}
+
+#s01 p {
+    color: rgb(118 218 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#s01 p:hover {
+    color: white;
+}
+
+div:hover {
+    height: 150px;
+    width: auto;
+}

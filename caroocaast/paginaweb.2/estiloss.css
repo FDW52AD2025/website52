@@ -97,3 +97,20 @@ a[href*="youtu"] img {
 }
 
 
+.Stylesss nav ul li a:hover {
+    background-color: #fadeef;
+}
+
+div p {
+    color: rgb(230, 78, 184);
+    font-size: 18px;
+}
+
+div> section > p{
+    background-color: rgb(189, 148, 228);
+}
+
+.header + div{
+    background-color: #fadeef;
+
+}

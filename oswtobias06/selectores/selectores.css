@@ -1,0 +1,45 @@
+* {
+    font-family: "Century Gothic", Arial, sans-serif;
+}
+
+body {
+    background-color: #EEE1C6; 
+    color: #00471B;
+}
+
+h1 {
+    background-color: #00471B;
+    color: #F4FDFF;
+    text-align: center;
+    padding: 20px;
+}
+
+h3 {
+    color: black;
+    background-color: #EEE1C6;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.parraf {
+    color: white;
+    background-color: #00471B;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 1100px;
+    margin-bottom: 20px;
+}
+
+.r {
+    width: 1000px;
+}
+
+address {
+    background-color: #00471B;
+    color: #EEE1C6;
+    font-weight: bold;
+    border: 5px ridge #000000;
+    text-align: justify;
+    box-shadow: 8px 8px 8px #003013;
+}

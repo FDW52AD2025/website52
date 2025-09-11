@@ -254,6 +254,12 @@ aside label {
     font-size: 0.95rem;
 }
 
+aside label ~ input,
+aside label ~ select,
+aside label ~ textarea {
+    border: 2px solid #81514b;
+}
+
 aside input,
 aside select,
 aside textarea {
