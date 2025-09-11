@@ -1,0 +1,37 @@
+header, h1 {
+    background-color: #427a66;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+body {
+    background-color: rgb(51, 148, 148);
+}
+
+.s1 div img{
+    height: 100px;
+    width: 90px;
+}
+
+.s1 > div {
+    background-color: #2c2f44;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px;
+    margin: 15px;
+}
+
+.s1 {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.s1 h2{
+    color: #5bbeec;
+    font-family: sans-serif;
+    font-size: 20px;
+}
