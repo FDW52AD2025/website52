@@ -4,6 +4,10 @@ header > h2 {
     text-align: center;
 }
 
+video + h4 {
+    text-align: center;    
+}
+
 body {
     background-color: lightcyan;
 }
