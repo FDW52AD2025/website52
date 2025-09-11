@@ -1,0 +1,43 @@
+* {
+    font-family: Georgia,  serif;
+    color: rgb(160, 215, 231);  
+}
+
+body {
+    background-color: rgb(160, 215, 231);
+    padding: 2%;
+    text-align: center;
+}
+
+header h1 {
+    background-color: rgb(11, 63, 78); 
+    display: inline-block;             
+    text-align: center;                
+    padding: 15px 30px;                
+    border-radius: 25px;               
+    margin: 30px auto;                 
+    font-size: 50px;                   
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.2); 
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;                
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.seccion-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;      
+    gap: 20px;                 
+    padding: 15px;
+    background-color: rgb(11, 63, 78);
+    border-radius: 15px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+}
