@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte Selectores CSS - Fernando Nicolás Molina Ramírez</title>
+    <link rel="stylesheet" href="estiloIndex.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Reporte de Selectores CSS</h1>
+        <p>Práctica de Selectores - Fernando Nicolás Molina Ramírez</p>
+    </div>
+
+    <div class="intro">
+        <h2>Introducción</h2>
+        <p>Este reporte documenta la implementación y uso de <strong>10 tipos de selectores CSS</strong> aplicados a una copia del index de pasatiempos. Cada selector incluye su definición, código CSS implementado y capturas de pantalla mostrando el resultado visual.</p>
+    </div>
+
+    <!-- SELECTOR UNIVERSAL -->
+    <div class="selector-item">
+        <h2 class="selector-title">1. Selector Universal (*)</h2>
+        
+        <div class="definition">
+            <strong>Definición:</strong> Selecciona todos los elementos HTML de la página. Es útil para aplicar estilos base o reset CSS.
+        </div>
+
+        <h3>📄 Código CSS:</h3>
+        <div class="code-section">
+            <div class="code-box">
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+            </div>
+        </div>
+
+        <h3>📸 Captura del Código CSS:</h3>
+        <div class="image-placeholder">
+            <img src="" alt="">
+        </div>
+
+        <h3>🌐 Resultado en HTML:</h3>
+        <div class="image-placeholder">
+            [INSERTAR CAPTURA DEL RESULTADO EN LA PÁGINA]
+        </div>
+    </div>
+
+    <!-- SELECTOR DE TIPO -->
+    <div class="selector-item">
+        <h2 class="selector-title">2. Selector de Tipo</h2>
+        
+        <div class="definition">
+            <strong>Definición:</strong> Selecciona elementos por su nombre de etiqueta HTML (p, h1, div, section, etc.).
+        </div>
+
+        <h3>📄 Código CSS:</h3>
+        <div class="code-section">
+            <div class="code-box">
+h1 {
+    color: #00d9ff;
+    text-shadow: 0 0 10px rgba(0, 217, 255, 0.5);
+}
+
+section {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+}
+            </div>
+        </div>
+
+        <h3>📸 Captura del Código CSS:</h3>
+        <div class="image-placeholder">
+            [INSERTAR CAPTURA DEL CÓDIGO CSS]
+        </div>
+
+        <h3>🌐 Resultado en HTML:</h3>
+        <div class="image-placeholder">
+            [INSERTAR CAPTURA DEL RESULTADO EN LA PÁGINA]
+        </div>
+    </div>
+
+    <!-- SELECTOR POR ID -->
+    <div class="selector-item">
+        <h2 class="selector-title">3. Selector por ID (#)</h2>
+        
+        <div class="definition">
+            <strong>Definición:</strong> Selecciona un elemento específico mediante su atributo id único. Se utiliza el símbolo # seguido del nombre del ID.
+        </div>
+
+        <h3>📄 Código CSS:</h3>
+        <div class="code-section">
+            <div class="code-box">
+#main-title {
+    background: linear-gradient(45deg, #00d9ff, #0099cc);
+    padding: 25px;
+    border-radius: 20px;
+}
+            </div>
+        </div>
+
+        <h3>📸 Captura del Código CSS:</h3>
+        <div class="image-placeholder">
+            [INSERTAR CAPTURA DEL CÓDIGO CSS]
+        </div>
+
+        <h3>🌐 Resultado en HTML:</h3>
+        <div class="image-placeholder">
+            [INSERTAR CAPTURA DEL RESULTADO EN LA PÁGINA]
+        </div>
+    </div>
+
+    <!-- SELECTOR POR CLASE -->
+    <div class="selector-item">
+        <h2 class="selector-title">4. Selector por Clase (.)</h2>
+        
+        <div class="definition">
+            <strong>Definición:</strong> Selecciona elementos que tienen una clase específica. Se utiliza el punto (.) seguido del nombre de la clase.
+        </div>
+
+        <h3>📄 Código CSS:</h3>
+        <div class="code-section">
+            <div class="code-box">
+.links {
+    list-style: none;
+    padding: 20px;
+}
+
+.links a {
+    color: #00d9ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+            </div>
+        </div>
+
+        <h3>📸 Captura del Código CSS:</h3>
+        <div class="image-placeholder">
+            [INSERTAR CAPTURA DEL CÓDIGO CSS]
+        </div>
+
+        <h3>🌐 Resultado en HTML:</h3>
+        <div class="image-placeholder">
+            [INSERTAR CAPTURA DEL RESULTADO EN LA PÁGINA]
+        </div>
+    </div>
+
+    <!-- SELECTOR DE ATRIBUTO -->
+    <div class="selector-item">
+        <h2 class="selector-title">5. Selector de Atributo</h2>
+        
+        <div class="definition">
+            <strong>Definición:</strong> Selecciona elementos basándose en sus atributos. Se pueden usar diferentes variaciones como [atributo], [atributo="valor"], etc.
+        </div>
+
+        <h3>📄 Código CSS:</h3>
+        <div class="code-section">
+            <div class="code-box">
+a[href^="https"] {
+    color: #28a745;
+    border: 2px solid #28a745;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    border: 2px solid #00d9ff;
+    border-radius: 8px;
+}
+            </div>
+        </div>
+
+        <h3>📸 Captura del Código CSS:</h3>
+        <div class="image-placeholder">
+            [INSERTAR CAPTURA DEL CÓDIGO CSS]
+        </div>
+
+        <h3>🌐 Resultado en HTML:</h3>
+        <div class="image-placeholder">
+            [INSERTAR CAPTURA DEL RESULTADO EN LA PÁGINA]
+        </div>
+    </div>
+
+    <!-- SELECTOR DE LISTA -->
+    <div class="selector-item">
+        <h2 class="selector-title">6. Selector de Lista</h2>
+        
+        <div class="definition">
+            <strong>Definición:</strong> Selecciona múltiples elementos separados por comas. Permite aplicar el mismo estilo a diferentes selectores.
+        </div>
+
+        <h3>📄 Código CSS:</h3>
+        <div class="code-section">
+            <div class="code-box">
+h1, h2, h3 {
+    color: #00d9ff;
+    font-family: 'Courier New', monospace;
+}
+
+.links, .main-footer, section {
+    border: 1px solid rgba(0, 217, 255, 0.3);
+}
+            </div>
+        </div>
+
+        <h3>📸 Captura del Código CSS:</h3>
+        <div class="image-placeholder">
+            [INSERTAR CAPTURA DEL CÓDIGO CSS]
+        </div>
+
+        <h3>🌐 Resultado en HTML:</h3>
+        <div class="image-placeholder">
+            [INSERTAR CAPTURA DEL RESULTADO EN LA PÁGINA]
+        </div>
+    </div>
+
+    <!-- SELECTOR DE DESCENDIENTES -->
+    <div class="selector-item">
+        <h2 class="selector-title">7. Selector de Descendientes</h2>
+        
+        <div class="definition">
+            <strong>Definición:</strong> Selecciona elementos que están dentro de otros elementos (descendientes). Se usa un espacio entre selectores.
+        </div>
+
+        <h3>📄 Código CSS:</h3>
+        <div class="code-section">
+            <div class="code-box">
+section p {
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.links a {
+    transition: color 0.3s;
+}
+            </div>
+        </div>
+
+        <h3>📸 Captura del Código CSS:</h3>
+        <div class="image-placeholder">
+            [INSERTAR CAPTURA DEL CÓDIGO CSS]
+        </div>
+
+        <h3>🌐 Resultado en HTML:</h3>
+        <div class="image-placeholder">
+            [INSERTAR CAPTURA DEL RESULTADO EN LA PÁGINA]
+        </div>
+    </div>
+
+    <!-- SELECTOR HIJOS DIRECTOS -->
+    <div class="selector-item">
+        <h2 class="selector-title">8. Selector Hijos Directos (>)</h2>
+        
+        <div class="definition">
+            <strong>Definición:</strong> Selecciona elementos que son hijos directos (primer nivel) de otro elemento. Se usa el símbolo >.
+        </div>
+
+        <h3>📄 Código CSS:</h3>
+        <div class="code-section">
+            <div class="code-box">
+body > h1 {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+}
+
+section > header {
+    border-bottom: 2px solid #00d9ff;
+    margin-bottom: 15px;
+}
+            </div>
+        </div>
+
+        <h3>📸 Captura del Código CSS:</h3>
+        <div class="image-placeholder">
+            [INSERTAR CAPTURA DEL CÓDIGO CSS]
+        </div>
+
+        <h3>🌐 Resultado en HTML:</h3>
+        <div class="image-placeholder">
+            [INSERTAR CAPTURA DEL RESULTADO EN LA PÁGINA]
+        </div>
+    </div>
+
+    <!-- SELECTOR HERMANO ADYACENTE -->
+    <div class="selector-item">
+        <h2 class="selector-title">9. Selector Hermano Adyacente (+)</h2>
+        
+        <div class="definition">
+            <strong>Definición:</strong> Selecciona el elemento que aparece inmediatamente después de otro elemento específico. Se usa el símbolo +.
+        </div>
+
+        <h3>📄 Código CSS:</h3>
+        <div class="code-section">
+            <div class="code-box">
+h2 + p {
+    font-weight: bold;
+    color: #00d9ff;
+    margin-top: 10px;
+}
+
+header + p {
+    background: rgba(0, 217, 255, 0.1);
+    padding: 15px;
+}
+            </div>
+        </div>
+
+        <h3>📸 Captura del Código CSS:</h3>
+        <div class="image-placeholder">
+            [INSERTAR CAPTURA DEL CÓDIGO CSS]
+        </div>
+
+        <h3>🌐 Resultado en HTML:</h3>
+        <div class="image-placeholder">
+            [INSERTAR CAPTURA DEL RESULTADO EN LA PÁGINA]
+        </div>
+    </div>
+
+    <!-- SELECTOR HERMANO GENERAL -->
+    <div class="selector-item">
+        <h2 class="selector-title">10. Selector Hermano General (~)</h2>
+        
+        <div class="definition">
+            <strong>Definición:</strong> Selecciona todos los elementos que son hermanos y aparecen después de un elemento específico. Se usa el símbolo ~.
+        </div>
+
+        <h3>📄 Código CSS:</h3>
+        <div class="code-section">
+            <div class="code-box">
+h2 ~ p {
+    margin-left: 20px;
+    border-left: 3px solid #00d9ff;
+    padding-left: 15px;
+}
+
+section ~ footer {
+    margin-top: 40px;
+    border-top: 3px solid #00d9ff;
+}
+            </div>
+        </div>
+
+        <h3>📸 Captura del Código CSS:</h3>
+        <div class="image-placeholder">
+            [INSERTAR CAPTURA DEL CÓDIGO CSS]
+        </div>
+
+        <h3>🌐 Resultado en HTML:</h3>
+        <div class="image-placeholder">
+            [INSERTAR CAPTURA DEL RESULTADO EN LA PÁGINA]
+        </div>
+    </div>
+
+    <!-- CONCLUSIÓN -->
+    <div class="selector-item">
+        <h2 class="selector-title">Conclusión</h2>
+        <p>Los selectores CSS son fundamentales para aplicar estilos específicos a elementos HTML. Cada tipo de selector tiene su propósito y uso específico, permitiendo un control preciso sobre la presentación visual de las páginas web.</p>
+        
+        <h3>Archivos del proyecto:</h3>
+        <ul>
+            <li><strong>index-pasatiempos-copia.html</strong> - Copia del index de pasatiempos con selectores aplicados</li>
+            <li><strong>selectores.css</strong> - Archivo CSS con todos los selectores implementados</li>
+            <li><strong>reporte-selectores.html</strong> - Este reporte (archivo actual)</li>
+        </ul>
+    </div>
+
+    <footer style="text-align: center; margin-top: 40px; padding: 20px; background: #007bff; color: white; border-radius: 10px;">
+        <p><strong>Fernando Nicolás Molina Ramírez</strong> - Práctica de Selectores CSS - 2025</p>
+    </footer>
+</body>
+</html>
