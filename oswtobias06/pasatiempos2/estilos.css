@@ -1,8 +1,9 @@
-body {
-    background-color: #F4FDFF; 
-    color: #05204A;
+/* Selector universal */
+* {
+    font-family: "Century Gothic", Arial, sans-serif;
 }
 
+/* Selector de tipo */
 h1 {
     background-color: #05204A; 
     color: #F4FDFF;
@@ -10,22 +11,74 @@ h1 {
     padding: 20px;
 }
 
-h3 {
-    color: white;
-    background-color: #05204A;
+/* Selector por ID */
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
 }
 
-address {
-    border: 5px ridge #6F8695;
-}
-
+/* Selector por clase */
 .parraf {
-            color: black;
-            background-color: #F4FDFF;
-            padding: 20px;
-            border: 1px solid #6F8695;
-            border-radius: 10px;
-            width: 1000px;
+    color: black;
+    background-color: #F4FDFF;
+    padding: 20px;
+    border: 1px solid #6F8695;
+    border-radius: 10px;
+    width: 1000px;
+    margin-bottom: 10px;
+}
+
+/* Selector por atributo */
+#p2 [controls] {
+    width: 500px;
+}
+
+/* Selector de lista */
+address, aside {
+    border: 5px ridge #6F8695;
+    text-align: justify;
+    box-shadow: 8px 8px 8px #5f99c0;
+}
+
+/* Selector por descendiente */
+.back a {
+    border: 1px solid #05204A;
+    background-color: #05204A;
+    color: #F4FDFF;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* Selector hijos directos */
+main > h3 {
+    color: white;
+    background-color: #5f99c0;
+    padding: 10px;
+}
+
+/* Selector por hermano adyacente */
+#p2 .parraf p + img {
+    margin-bottom: 10px;
+    box-shadow: 8px 8px 8px #5f99c0;
+}
+
+/* Selector por hermano general */
+#p1 .parraf p ~ iframe {
+    margin-bottom: 10px;
+    box-shadow: 8px 8px 8px #5f99c0;
+}
+
+body {
+    background-color: #F4FDFF; 
+    color: #05204A;
+}
+
+img {
+    width: 300px;
+    margin-bottom: 10px;
+    box-shadow: 8px 8px 8px #5f99c0;
 }
 
 nav {
@@ -35,6 +88,8 @@ nav {
     border-radius: 10px;
     padding: 10px;
     width: 700px;
+    display: flex;
+    justify-content: space-around;
 }
 
 aside {
@@ -42,28 +97,9 @@ aside {
     background-color: #05204A;
     color: #F4FDFF;
     padding: 15px;
-    border: 1px solid #6F8695;
-    border-radius: 10px;
     padding: 10px;
     width: 150px;
     position: absolute;
     right: 90px;
     top: 150px; 
-}
-
-.audio {
-    width: 500px;
-    
-}
-
-form {
-    width: 200px;
-}
-
-.back {
-    border: 1px solid #05204A;
-    background-color: #05204A;
-    color: #F4FDFF;
-    border-radius: 20px;
-    padding: 10px;
 }

@@ -1,0 +1,11 @@
+#a22 a {
+    display: block;
+    width: 100%;
+    background-color: rgb(203, 98, 203);
+    color: rgb(0, 0, 0);
+    font-size: 15px;         
+    font-weight: bold;  
+    padding: 6px 0; 
+    border: 3.2px dotted rgb(105, 6, 88);
+    text-align: center;
+}

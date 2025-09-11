@@ -1,0 +1,292 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Header y navegación */
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+header h1 {
+    color: #fff;
+    text-align: center;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin: 0 0 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Contenido principal */
+main {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Secciones y artículos */
+section {
+    margin-bottom: 20px;
+}
+
+article {
+    background-color: #fafafa;
+    border: 1px solid #e0e0e0;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+article header {
+    background-color: transparent;
+    color: inherit;
+    padding: 0;
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+article header h2 {
+    color: #34495e;
+    border-left: 4px solid #3498db;
+    padding-left: 15px;
+    margin: 0 0 10px 0;
+}
+
+/* Texto y párrafos */
+p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Etiquetas de texto */
+strong, b {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+em, i {
+    font-style: italic;
+    color: #34495e;
+}
+
+mark {
+    background-color: #f1c40f;
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+
+small {
+    font-size: 0.85em;
+    color: #7f8c8d;
+}
+
+cite {
+    font-style: italic;
+    color: #8e44ad;
+}
+
+abbr {
+    border-bottom: 1px dotted #95a5a6;
+    cursor: help;
+}
+
+span {
+    color: inherit;
+}
+
+sup, sub {
+    font-size: 0.75em;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+/* Elementos de tiempo */
+time {
+    color: #7f8c8d;
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+/* Imágenes */
+img {
+    border: 2px solid #bdc3c7;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px 0;
+    border-radius: 3px;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    background-color: #fff;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #34495e;
+    color: #fff;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Elementos multimedia */
+audio, video {
+    max-width: 100%;
+    margin: 15px 0;
+    border-radius: 3px;
+}
+
+iframe {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin: 15px 0;
+    max-width: 100%;
+}
+
+embed {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin: 15px 0;
+    max-width: 100%;
+}
+
+/* Aside (barra lateral) */
+aside {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border-left: 4px solid #3498db;
+}
+
+aside h3 {
+    color: #2c3e50;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+aside p {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #2c3e50;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+footer p {
+    margin: 5px 0;
+    color: #ecf0f1;
+}
+
+footer cite {
+    color: #3498db;
+}
+
+footer span {
+    color: #bdc3c7;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    main {
+        padding: 20px;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav li {
+        margin: 5px 0;
+    }
+    
+    table {
+        font-size: 0.9em;
+    }
+    
+    th, td {
+        padding: 8px;
+    }
+    
+    iframe, embed {
+        height: 150px;
+    }
+}

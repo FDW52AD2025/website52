@@ -1,0 +1,99 @@
+.imagens {
+    float:left;
+    width: 400px;
+    margin-right:15px;
+    margin-bottom: 15;
+}
+
+.imagens1 {
+    float:left;
+    width: 280px;
+    margin-right:15px;
+    margin-bottom: 15;
+}
+
+h1{
+    
+    color:palevioletred;
+}
+
+h2{
+    background-color:pink;
+    color:white;
+}
+
+h3{
+    color: pink;
+    border: 2px solid pink;
+    padding: 5px;
+}
+
+h4{
+    font-style:italic;
+}
+
+h5{
+    border: 2px solid rgb(241, 92, 154);
+    color:rgb(241, 92, 154);
+    background-color:rgb(255, 186, 215) ;
+    padding: 10px;
+    border-radius:5px;
+    text-align: center;
+    font-size:30px;
+}
+
+.Link{
+    background-color:rgb(247, 178, 212);
+}
+
+.Link1{
+    background-color:rgb(170, 185, 252);
+}
+
+.Link2{
+    background-color:rgb(216, 153, 245);
+}
+
+.Link3{
+    border: 2px solid rgb(241, 92, 154);
+    padding: 0px;
+    border-radius:4px;
+    
+}
+
+.Link4{
+    border: 2px solid rgb(241, 206, 92);
+    padding: 0px;
+    border-radius:4px;
+    
+}
+
+#a05 a{
+    border: 2px solid rgb(245, 113, 194);
+    padding: 2px;
+    border-radius:5px;
+    background-color: rgb(252, 200, 229);
+    color: rgb(245, 113, 194);
+    font-style:bold;
+
+}
+
+*{
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(250, 239, 242);
+}
+
+#Parrafo{
+    font-weight: bold;
+}
+
+
+a[href*="youtu"] img {
+    border: 4px solid red;
+    border-radius: 7px;
+    padding: 3px;
+}
+
+

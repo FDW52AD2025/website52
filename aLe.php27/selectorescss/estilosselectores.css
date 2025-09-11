@@ -1,0 +1,84 @@
+/* Clases de selectores css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.bodyselectores {
+    background-color: #1A1A19;
+    color: #F6FCDF;
+    line-height: 1.6;
+}
+
+.headerselectores {
+    background: linear-gradient(90deg, #31511E, #859F3D);
+    color: #F6FCDF;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 4px solid #31511E;
+}
+
+.mainselectores {
+    display: block;
+    padding: 20px 30px;
+}
+
+#s505 {
+    background: transparent;
+    color: #F6FCDF;
+    padding: 25px 0;
+    border-bottom: 1px solid rgba(246,252,223,0.2);
+}
+
+#s505:last-child {
+    border-bottom: none;
+}
+
+#s505 h3 {
+    margin-bottom: 15px;
+    color: #F6FCDF;
+}
+
+#s505 img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+    border: 1px solid #859F3D;
+    max-width: 90%;
+}
+
+.asideselectores {
+    background: #859F3D;
+    color: black;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.footerselectores {
+    background: #31511E;
+    color: #F6FCDF;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.img-asideselectores {
+    margin-top: 10px;
+    max-width: 200px;
+    border-radius: 15px;
+    display: block;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+}
+
+.centradoselectores {
+    text-align: center;
+    margin: 20px auto;
+    background: transparent;
+}
+
+.centradoselectores p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
