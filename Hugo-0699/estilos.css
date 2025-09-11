@@ -2,41 +2,42 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.fondo {
-    background-color: #2A1A1F;
+.c-background {
+    background: radial-gradient(rgb(119, 20, 20), black) ;
 }
-.titulo-principal {
-    background:rgb(255, 209, 124);
-    border-bottom: 4px solid rgb(131, 86, 34);
+.first-header {
+    background:#e9b363;
+    border-bottom: 7px solid #745940;
     color: rgb(82, 27, 27);
     text-align: center;
     padding: 10px;
 }
-.cuerpo {
-    padding: 0px 50px 30px;
+.article-body {
+    padding: 20px 150px 30px;
 }
-#no-evidencia {
-    color: rgb(82, 27, 27);
-    background: rgb(196, 149, 63);
-    padding: 0px 70px 5px;
-
-}
-h2 {
+#no-ev {
+    color: black;
+    background: #a34915;
     text-align: center;
-    font-size: 27px;
-    padding: 10px 0px 0px;
+    padding: 0px 0px 0px;
+    font-size: 25px;
+}
+#no-practica {
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 0px 0px;
 }
 
-section {
-    background-color: #764134;
+.section {
+    background-color: #d3a365;
     border-radius: 10px;
-    color: white;
+    color: black;
     padding: 0px 70px 5px;
 }
 
 .datos-personales {
-    background: rgb(44, 46, 48);
-    border-bottom: 4px solid rgb(155, 106, 42);
+    background: rgb(27, 27, 31);
+    border-bottom: 10px solid black;
     color: whitesmoke;
     padding: 5px;
     font-size: 17px;
