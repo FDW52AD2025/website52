@@ -54,3 +54,8 @@ footer {
     margin-top: 20px;
     font-size: 0.9em;
 }
+
+/* Selector universal */
+* {
+    box-sizing: border-box;
+}

@@ -44,3 +44,13 @@ h4 {
     padding: 10px;
     border-radius: 12px;
 }
+
+header nav li a {
+    background-color: black;
+    display: block;
+    border-radius: 12px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    color: white;
+}
