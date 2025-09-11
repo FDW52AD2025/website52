@@ -1,3 +1,11 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+section {
+    background: linear-gradient(rgb(83, 159, 172), rgb(21, 70, 99));
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+    color: white;
+}
