@@ -96,3 +96,22 @@ h1, aside {
     text-shadow: 5px 5px 5px black;
 
 }
+
+/*Selector de descendientes*/
+article section li {
+    font-style: italic;
+}
+
+/*Selector hijos directos*/
+article > section > p {
+    color: rgb(255, 5, 5);
+}
+    
+/*Selector hermano adyacente*/
+.titulos + .textostyle {
+    color: red;
+    font-weight: bold;
+    background-color: #ffe6e6;
+    padding: 10px;
+    border-left: 4px solid red;
+}

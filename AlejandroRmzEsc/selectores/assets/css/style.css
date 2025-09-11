@@ -29,8 +29,15 @@ main{
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.21);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.21);
     padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .contenedor:hover{
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
+}
+.contenedor img{
+    margin: 1em;
 }
