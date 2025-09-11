@@ -35,6 +35,16 @@ header{
     width: 40%;
     box-shadow: -3px 13px 11px rgba(206,66,245,0.83);
     min-height: 400px;
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+.evidencia:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+.evidencia p {
+    text-align: justify;
 }
 
 .opcion {

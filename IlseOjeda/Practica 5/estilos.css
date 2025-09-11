@@ -1,67 +1,13 @@
-/* Selector universal */
-#s1 * {
-    margin: 0;
-}
-
-/* Selector de tipo */
 h2 {
     font-size: 1.4rem;
-}
-
-/* Selector por ID */
-#s1 {
-    border: 1px solid black;
-}
-
-/* Selector de clase */
-.bonito {
-    border: 5px groove rgb(243, 245, 170);
-    font-size: 15px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-/* Selector clase con tag particular */
-aside.bonito {
-    background-color: rgb(183, 117, 246);
-}
-
-/* Selector por atributo */
-#s2 [href*="you"] {
-    background-color: chartreuse;
-}
-
-#s2 [href^="#"] {
-    background-color: rgb(177, 234, 234);
-}
-
-#s2 [href$="mx"] {
-    border: 1px solid rgb(64, 65, 6);
-}
-
-/* Selector de lista */ 
-h2, p, li {
     color: #333;
 }
 
-/* Selector por descendientes */
-div p {
-    color: blueviolet;
-}
 
-/* Selector hijos directos > */
-#s3 > h2 {
-    background-color: rgb(179, 255, 162);
-}
-
-/* Selector hermano adyascente + */
-h2 + p {
+p {
+    color: darkgreen;
     border: 1px solid black;
     box-shadow: 4px 4px 6px rgba(0,0,0,0.2);
-}
-
-/* Selector hermano general ~ */
-h2 ~ p {
-    color: darkgreen;
 }
 
 
@@ -109,6 +55,17 @@ ul, ol {
 ul li, ol li {
     margin: 5px 0;
 }
+
+
+img {
+    display: block;        
+    margin: 15px auto;    
+    max-width: 100%;      
+    height: auto;          
+}
+
+
+
 
 footer {
     background-color: #b5ead7; 

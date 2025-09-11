@@ -5,8 +5,7 @@
 
 body {
     background-color: rgb(252, 231, 247);
-    margin: 0;
-    padding: 0;
+    padding: 5%;
 }
 /* Selector por tipo */
 header {
@@ -16,8 +15,9 @@ header {
     text-align: center;
 }
 
+/*Selector descendiente*/
 nav a {
-    margin: 0 10px; 
+    margin: 15px; 
     color: rgb(160, 17, 117);
 }
 
@@ -27,18 +27,20 @@ nav a {
 }
 
 main {
-    padding: 10px;
+    padding: 5%;
     flex:3;
 }
 
 aside {
     flex: 1;
     background-color: rgb(160, 17, 117);
-    padding: 10px;
     color: white;
+    padding: 10px;
+    align-content:flex-start;
 }
 
-aside a {
+/*Selector por atributo*/
+a[href*="github"] {
     color: white;
 }
 
@@ -47,7 +49,7 @@ h1 {
     background-color: rgb(160, 17, 117);
     font-style: oblique;
     font-size: 60px;
-    padding: 15px;
+    padding: 10px;
 }
 
 h2 {
@@ -61,7 +63,8 @@ h2 {
     font-size: x-large;
 }
 
-p {
+/*Selector de lista*/
+p, li {
     color: rgb(133, 6, 112);
 }
 
@@ -91,14 +94,32 @@ footer {
     margin: 0 auto;
 }
 
-
-li {
-    color: rgb(133, 6, 112);
-}
-
 .imgpeliculas {
     display: flex;
     justify-content: center;
     width: 200px;
     height: 300px;
+}
+
+/*Selector hijo directo*/
+form > input {
+  display: block;      
+  text-align: left;    
+  margin: 5px 0;
+  width: 90%; 
+}
+
+/*Selector hermano adyacente*/
+li + img {
+  border: 3px solid rgb(160, 17, 117);
+  display: block;
+  margin: 10px auto;
+  width: 200px;
+}
+
+/*Selector de hermano general*/
+section p ~ iframe {
+  border: 10px solid rgb(133, 6, 112);
+  display: block;
+  margin: 10px auto;
 }

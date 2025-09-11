@@ -144,3 +144,59 @@ footer {
   padding: 15px;
   margin-top: auto;
   font-size: 0.9rem;
+
+  /*Selector universal*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Selector de tipo */
+h2 {
+    color: rgb(41, 41, 41);
+}
+
+/*Selector por ID*/
+#n01 {
+color: #000000;
+}
+
+/*Selector por clase*/
+.hobbie {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+}
+
+/*Selecor de atributo*/
+section[data-tipo="arte"] {
+    background-color: rgb(255, 255, 255);
+}
+
+/*Selector de lista*/
+h2, p {
+    background-color: white
+}
+
+/*Selector de descendientes*/
+section p {
+    font-size: 1rem;
+    color: dimgray;
+}
+
+/*Selector de hijos directos*/
+section > h2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*Selector hermano adyacente*/
+h2 + p {
+    font-style: arial;
+}
+
+/*Selector hermano general*/
+h2 ~ p {
+    color: rgb(255, 255, 255);
+}
