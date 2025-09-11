@@ -69,7 +69,18 @@ color: blue;
 }
 
 /*Selector de tipo*/
-#imgconcert {
+img {
     border-radius: 15px;
-    color: black;
+    border: 8px solid rgb(132, 82, 231);
+}
+
+/*Selector por id*/
+#bordecocina{
+    border-radius: 12px;
+    border: 5px solid #4caf50;
+    float: left;
+    width: 300px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 5px;
 }
