@@ -1,0 +1,207 @@
+
+/* Archivo CSS con 10 tipos de selectores para aplicar a la copia del index de pasatiempos */
+
+/* 1. SELECTOR UNIVERSAL (*) */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. SELECTOR DE TIPO */
+h1 {
+    color: #00d9ff;
+    text-shadow: 0 0 10px rgba(0, 217, 255, 0.5);
+    text-align: center;
+    font-size: 2.5em;
+}
+
+section {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 25px;
+}
+
+p {
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* 3. SELECTOR POR ID (#) */
+#main-title {
+    background: linear-gradient(45deg, #00d9ff, #0099cc);
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+#footer-info {
+    background: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    padding: 20px;
+}
+
+/* 4. SELECTOR POR CLASE (.) */
+.links {
+    list-style: none;
+    padding: 20px;
+    background: rgba(0, 50, 100, 0.3);
+    border-radius: 10px;
+}
+
+.links a {
+    color: #00d9ff;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.main-footer {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    text-align: center;
+    border-top: 3px solid #00d9ff;
+}
+
+/* 5. SELECTOR DE ATRIBUTO */
+a[href^="https"] {
+    color: #28a745;
+    border: 2px solid #28a745;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: rgba(40, 167, 69, 0.1);
+}
+
+a[href*="github"] {
+    background: rgba(108, 117, 125, 0.2);
+    color: #6c757d;
+    border: 1px solid #6c757d;
+}
+
+input[type="text"] {
+    border: 2px solid #00d9ff;
+    border-radius: 8px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* 6. SELECTOR DE LISTA */
+h1, h2, h3 {
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+.links, .main-footer, section {
+    border: 1px solid rgba(0, 217, 255, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+header, footer, nav {
+    margin: 10px 0;
+}
+
+/* 7. SELECTOR DE DESCENDIENTES */
+section p {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 12px;
+    border-radius: 8px;
+    border-left: 3px solid #00d9ff;
+}
+
+.links a {
+    transition: color 0.3s, background 0.3s;
+}
+
+section header h2 {
+    color: #00d9ff;
+    margin-bottom: 10px;
+}
+
+/* 8. SELECTOR HIJOS DIRECTOS (>) */
+body > h1 {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    margin: 0;
+    border-bottom: 4px solid #00d9ff;
+}
+
+section > header {
+    border-bottom: 2px solid #00d9ff;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.links > li {
+    margin: 8px 0;
+    transform: translateX(0);
+    transition: transform 0.3s ease;
+}
+
+/* 9. SELECTOR HERMANO ADYACENTE (+) */
+h2 + p {
+    font-weight: bold;
+    color: #66d9ef;
+    margin-top: 15px;
+    font-size: 1.1em;
+}
+
+header + p {
+    background: rgba(0, 217, 255, 0.15);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+section + section {
+    margin-top: 40px;
+}
+
+/* 10. SELECTOR HERMANO GENERAL (~) */
+h2 ~ p {
+    margin-left: 25px;
+    border-left: 3px solid rgba(0, 217, 255, 0.5);
+    padding-left: 15px;
+}
+
+header ~ ul {
+    margin-top: 20px;
+    background: rgba(0, 100, 150, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+section ~ footer {
+    margin-top: 50px;
+    border-top: 4px solid #00d9ff;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 50, 100, 0.6));
+}
+
+/* ESTILOS ADICIONALES PARA MEJORAR LA VISUALIZACIÓN */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: url("img/atardecer.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+/* Efectos hover para mejorar la interactividad */
+.links a:hover {
+    background: rgba(0, 217, 255, 0.2);
+    color: #ffffff;
+    transform: translateX(5px);
+}
+
+.links > li:hover {
+    transform: translateX(10px);
+}
+
+section:hover {
+    box-shadow: 0 8px 25px rgba(0, 217, 255, 0.3);
+}
