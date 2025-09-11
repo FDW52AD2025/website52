@@ -14,7 +14,37 @@
     padding: 20px;
     background: #fff;
     min-height: 300px;
+    align-content: center;
 }
+
+.contenedor {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    background-color: #2a2d3e;
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.tarjeta:hover {
+    transform: translateY(-8px);
+}
+
+.tarjeta img {
+      width: 150px;
+      height: auto;
+      margin-bottom: 15px;
+}
+
 .asideflexbox {
     background: #eee;
     padding: 15px;
