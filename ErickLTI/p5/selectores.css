@@ -1,0 +1,21 @@
+body {
+    background-color: lightcyan;
+}
+
+header h2 {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+section {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+}
+
+img {
+    border: 3px solid black;
+    
+}
