@@ -36,3 +36,11 @@ a[href*="The"] {
     border-radius: 12px;
     margin: 12px;
 }
+
+h3,
+h4 {
+    text-transform: uppercase;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 12px;
+}
