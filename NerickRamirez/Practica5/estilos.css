@@ -1,0 +1,79 @@
+h1 {
+  color: rgb(0, 0, 0);
+  background-color: rgb(39, 68, 148);
+  border: 3px solid rgb(7, 2, 88);
+}
+
+h2 {
+  color: rgb(2, 71, 2);
+}
+
+h3 {
+  color: darkblue;
+}
+
+h4 {
+    color: ;
+}
+
+.bf {
+    border: 3px solid black;
+    width: 600px;
+}
+
+.bf2 {
+    border: 3px solid black;
+    width: 800px;
+}
+
+.bf3 {
+    border: 3px solid black;
+    width: 800px;
+}
+
+.bf4 {
+    border: 3px solid black;
+    width: 800px;    
+}
+
+.bf5 {
+    border: 3px solid black;
+    width: 100px; 
+}
+
+.bf6 {
+    border: 3px solid black;
+    width: 100px; 
+}
+
+.bf7 {
+    border: 3px solid black;
+    width: 900px; 
+}
+
+.bf8 {
+    border: 3px solid black;
+    width: 500px; 
+}
+
+.bf9 {
+    border: 3px solid black;
+    width: 200px; 
+}
+
+.bf10 {
+    border: 3px solid black;
+    width: 300px; 
+}
+
+body {
+  background-color: rgb(139, 160, 177);
+}
+
+/* Selecciona todos los article dentro de main */
+main article {
+    border: 3px solid rgb(2, 93, 93);
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border-radius: 10px;
+}
