@@ -1,0 +1,55 @@
+header {
+    color: rgb(105, 64, 71);
+    font-family: 'Times New Roman', Times, serif, Courier, monospace;
+    text-shadow: 2px 2px 2px rgb(157, 102, 111);
+    text-align: center;
+}
+
+.fondo{
+    background-color: rgb(231, 192, 198);
+} 
+
+#posicion {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+section > div{
+    flex-basis: 100px;
+    margin: 3px;
+    padding: 20px;
+    text-align: center;
+    height: 130px;
+    background-color: rgb(105, 64, 71);
+    border-radius: 15px;
+}
+
+div > img{
+    border-radius: 12px;
+    border: 5px solid black;
+    background-color: rgb(37, 33, 33);
+    width: 100px;
+    max-width: 280px;
+}
+
+.excp img{
+    border-radius: 12px;
+    border: 5px solid black;
+    background-color: rgb(37, 33, 33);
+    width: 140px;
+    max-width: 280px;
+}
+
+div > p{
+    color: rgb(231, 192, 198);
+    font-size: 20px;
+    text-shadow: 20px black;
+}
+
+div:hover{
+    height: 100px;
+    width: auto;
+    box-shadow: 0 20px 30px rgb(157, 102, 111);
+}
+

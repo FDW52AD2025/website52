@@ -1,0 +1,82 @@
+* {
+    font-family: Georgia, serif;
+    color: rgb(243, 250, 222);
+}
+
+body {
+    background-color: rgb(219,234,210);
+    padding: 2%;
+    text-align: center;
+}
+
+header h1 {
+    background-color: rgb(157,186,154); 
+    color: rgb(220,227,199);
+    display: inline-block;             
+    text-align: center;                
+    padding: 15px 30px;                
+    border-radius: 25px;               
+    margin: 30px auto;                 
+    font-size: 50px;                   
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.2); 
+}
+
+header p {
+    font-family: Georgia, serif;
+    font-size: large;
+    text-align: center;
+    color: rgb(125, 151, 122);
+}
+
+section h2 {
+    font-family: 'Times New Roman';
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: normal;
+    color: rgb(220,227,199);
+    display: block;             
+    text-align: center;  
+    margin-bottom: 10px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;                
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.seccion-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;            
+    align-items: flex-start;     
+    gap: 20px;                   
+    padding: 20px;
+    background-color: rgb(96, 121, 93);
+    border-radius: 20px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+}
+
+.seccion-flex p {
+    text-align: justify;
+    margin-bottom: 10px; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.seccion-flex ul {
+    text-align: left;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+address {
+    font-family: Georgia, serif;
+    font-size: large;
+    text-align: center;
+    color: rgb(78, 95, 76);
+}
