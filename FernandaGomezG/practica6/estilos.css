@@ -18,8 +18,11 @@ header {
 section > div{
     flex-basis: 100px;
     margin: 3px;
-    padding: 40px;
+    padding: 20px;
     text-align: center;
+    height: 130px;
+    background-color: rgb(105, 64, 71);
+    border-radius: 15px;
 }
 
 div > img{
@@ -39,12 +42,14 @@ div > img{
 }
 
 div > p{
-    color: rgb(105, 64, 71);
+    color: rgb(231, 192, 198);
     font-size: 20px;
+    text-shadow: 20px black;
 }
 
-div > img:hover{
+div:hover{
     height: 100px;
     width: auto;
     box-shadow: 0 20px 30px rgb(157, 102, 111);
 }
+
