@@ -2,9 +2,13 @@ body {
   font-family: Arial, sans-serif;
   background-color: black;
   color: white;
-  text-align: center;
-  padding: 20px;
+  margin: 0;
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;     
 }
+
 
 .pract_flex {
   display: flex;
