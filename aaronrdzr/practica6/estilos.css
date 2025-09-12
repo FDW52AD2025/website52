@@ -2,3 +2,37 @@ body{
     background-color:hsl(227.37deg 12.26% 30.39%) ;
 }
 
+h1{
+    border: 10px solid hsl(227.37deg 12.26% 30.39%)  ;
+    margin: 0;
+    padding: 8px;
+    text-align: center;
+    font-size: 90px solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    
+}
+hr{
+    background-color: #D3DAD9;
+    border: 3px solid #D3DAD9;
+    width: auto;
+    clear: both;
+}
+h2{
+    border: 10px solid hsl(227.37deg 12.26% 30.39%)  ;
+    margin: 0;
+    padding: 8px;
+    text-align: center;
+    font-size: 45px solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hr2{
+    background-color: hsl(227.37deg 12.26% 30.39%);
+    border: 3px solid hsl(227.37deg 12.26% 30.39%);
+    width: auto;
+    clear: both;
+}
+section{
+    background-color: #37353E;
+}
