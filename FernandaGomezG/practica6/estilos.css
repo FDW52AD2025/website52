@@ -9,7 +9,7 @@ header {
     background-color: rgb(231, 192, 198);
 } 
 
-.posiciones {
+#posicion {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
