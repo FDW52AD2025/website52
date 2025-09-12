@@ -1,3 +1,17 @@
+header > h2 {
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
+}
+
+video + h4 {
+    text-align: center;    
+}
+
+h4 ~ form {
+    font-weight: bold;
+}
+
 body {
     background-color: lightcyan;
 }

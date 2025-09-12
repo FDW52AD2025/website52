@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(32, 32, 32);
+}
+
+.logo div:hover{
+    outline: 1px solid black;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    color: rgb(180, 181, 182);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+
+
+
+h1{
+    color: rgb(74, 202, 252);
+    font-size: 20px;
+    
+}
+
+
+.logo > div{
+    background-color: rgba(202, 198, 198, 0.288);
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+    margin:17px;
+}
+
+h2{
+    color: rgb(212, 213, 214);
+    text-align: center;
+    font-size: 35px;
+}

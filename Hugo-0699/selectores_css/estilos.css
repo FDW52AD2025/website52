@@ -1,69 +1,49 @@
 /* Estilos para el index de los selectores */
 
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
 .bodyprincipal {
   background-color: rgb(231, 231, 231);
 }
 .headerprincipal {
   background:chocolate;
-  color:cornsilk;
-  text-align: center;
-  padding: 10px;
   border-bottom: 4px solid brown;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:cornsilk;
+  padding: 10px;
 }
-.mainselector {
+.articuloselector{
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 20px;
-  padding: 20px 30px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; 
+  padding: 10px 30px;
 }
 .sectionselector {
-  background:transparent;
-  border-bottom: 1px solid black;
-  color: black;
-  padding: 25px 0; 
-  display: block;
+  background:white;
+  border-bottom: 2px solid rgb(56, 54, 54);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.4);    
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 15px; 
 }
-#sectionselector h3 {
+.sectionselector:hover {
+  transform: scale(1.05);          /* Este genera un efecto de acercamiento */
+  z-index: 10;                     /* Se asegura de que quede por encima de otros */
+}
+.sectionselector h3 {
   font-size: 25px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-  border-bottom: 15px;
-  color:black;
 }
-#sectionselector img {
-  margin: 10px 0;
-  max-width: 50%;
-  display: block;
+.sectionselector img {
+  display: flexbox;
+  max-width: 100%;
+  border-radius: 5px;
+  margin: 5px 0px;
 }
 .footer {
     background-color: rgb(44, 46, 48);
-    color:cornsilk;
     border-bottom: 4px solid rgb(65, 19, 19);
+    color:cornsilk;
+    font-size: 15px;
     padding: 10px;
-    text-align: center;
-    font-size: 20px;
 }
-
-/* Contenido principal */
-/*
-section {
-    background: #5A5A85;
-    color: #fff;
-    padding: 20px;
-    border-radius: 15px;
-    margin-bottom: 20px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
-    transition: transform 0.2s ease-in-out;
-}
-
-section:hover {
-    transform: scale(1.02);
-    background: #7A1235;
-}
-
-section img {
-    display: block;
-    margin: 10px auto;
-    border-radius: 10px;
-    border: 2px solid #D8163A;
-} */

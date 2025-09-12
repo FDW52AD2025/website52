@@ -172,6 +172,10 @@ aside form {
     gap: 15px;
 }
 
+aside label + input {
+    border: 2px solid #81514b;
+}
+
 aside label {
     font-weight: 600;
     color: #260000;

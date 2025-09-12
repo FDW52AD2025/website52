@@ -77,3 +77,40 @@ h5{
     font-style:bold;
 
 }
+
+*{
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+#Parrafo{
+    font-weight: bold;
+}
+
+
+a[href*="youtu"] img {
+    border: 4px solid red;
+    border-radius: 7px;
+    padding: 3px;
+}
+
+
+.Stylesss nav ul li a:hover {
+    background-color: #fadeef;
+}
+
+div p {
+    color: rgb(230, 78, 184);
+    font-size: 18px;
+}
+
+div> section > p{
+    background-color: rgb(189, 148, 228);
+}
+
+.header + div{
+    background-color: #fadeef;
+
+}
