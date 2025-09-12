@@ -115,3 +115,11 @@ article > section > p {
     padding: 10px;
     border-left: 4px solid red;
 }
+
+/*Selector por hermanos generales*/
+.titulos ~ .textostyle {
+    color: rgb(0, 50, 100);
+    background-color: #a88918;
+    padding: 10px;
+    border-left: 4px solid rgb(0, 49, 128);
+}

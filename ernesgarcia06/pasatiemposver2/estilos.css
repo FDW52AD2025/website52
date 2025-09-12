@@ -24,17 +24,6 @@ body.menu{
     text-align: center;
 }
 
-@media (max-width: 768px) {
-    .contenido {
-        position: static;   
-        width: 100%;        
-        margin-top: 20px;  
-    }
-
-    main {
-        width: 100%;
-    }
-}
 
 /* Selector universal */
 #img1 *{
@@ -85,6 +74,18 @@ img[src] {
     right: 120px;
     top: 80px; 
     width: 250px; 
+}
+
+@media (max-width: 768px) {
+    .contenido {
+        position: static;   
+        width: 100%;        
+        margin-top: 20px;  
+    }
+
+    main {
+        width: 100%;
+    }
 }
 /* Selector de lista */
 footer, address {
