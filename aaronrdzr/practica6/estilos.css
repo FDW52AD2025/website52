@@ -1,6 +1,12 @@
 body{
     background-color:hsl(227.37deg 12.26% 30.39%) ;
-    
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex: 1;
 }
 
 h1{
@@ -39,9 +45,10 @@ h2{
     gap: 15px;
     justify-content: center;
     align-items: center;
+    
 }
 .cajas{
-    width: 300px;
+    width: 150px;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -51,5 +58,22 @@ h2{
 }
 
 .cajas img{
-    border-radius: 55px;
+    border-radius: 45px;
+}
+
+footer{
+    font-family: monospace;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hr3{
+    background-color: #D3DAD9;
+    border: 1px solid #D3DAD9;
+    width: auto;
+    clear: both;
+    
 }
