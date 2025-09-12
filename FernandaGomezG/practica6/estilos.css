@@ -13,4 +13,19 @@ header {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    }
+
+section > div{
+    flex-basis: 100px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+div > img{
+    border-radius: 12px;
+    border: 5px solid black;
+    background-color: rgb(37, 33, 33);
+    width: 100px;
+    max-width: 280px;
 }
