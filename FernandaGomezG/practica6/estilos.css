@@ -1,0 +1,16 @@
+header {
+    color: rgb(105, 64, 71);
+    font-family: 'Times New Roman', Times, serif, Courier, monospace;
+    text-shadow: 2px 2px 2px rgb(157, 102, 111);
+    text-align: center;
+}
+
+.fondo{
+    background-color: rgb(231, 192, 198);
+} 
+
+.posiciones {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
