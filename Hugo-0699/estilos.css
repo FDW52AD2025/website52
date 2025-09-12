@@ -1,45 +1,45 @@
-/* Hoja de estilos para el apartado de las actividades */
+/* Hoja de estilos para el apartado de las evidencias */
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .c-background {
-    background: radial-gradient(rgb(119, 20, 20), black) ;
+    background: radial-gradient(rgb(214, 6, 6), black) ;
 }
 .first-header {
     background:#e9b363;
     border-bottom: 7px solid #745940;
-    color: rgb(82, 27, 27);
+    color:rgb(68, 19, 19);
+    font-size: 18px;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 .article-body {
-    padding: 20px 150px 30px;
+    padding: 0px 150px 30px;
 }
 #no-ev {
-    color: black;
-    background: #a34915;
-    text-align: center;
-    padding: 0px 0px 0px;
+    background: #be9955;
+    border-radius: 10px;
+    color: rgb(68, 19, 19);
     font-size: 25px;
+    text-align: center;
+}
+.section {
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    text-align: justify;
+    padding: 5px 70px 15px;
 }
 #no-practica {
-    text-align: center;
+    background: rgb(185, 183, 183);
+    border-radius: 20px;
     font-size: 20px;
-    padding: 0px 0px 0px;
+    text-align: center;
 }
-
-.section {
-    background-color: #d3a365;
-    border-radius: 10px;
-    color: black;
-    padding: 0px 70px 5px;
-}
-
 .datos-personales {
     background: rgb(27, 27, 31);
+    color:blanchedalmond;
     border-bottom: 10px solid black;
-    color: whitesmoke;
-    padding: 5px;
-    font-size: 17px;
-    padding: 1px 70px 5px;
+    font-size: 15px;
+    font-weight:bold;
+    padding: 5px 150px 5px;
 }
