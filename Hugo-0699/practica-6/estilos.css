@@ -1,6 +1,7 @@
 /* Estilos para la practica 6 */
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 15px;
 }
 .c-background {
     background: radial-gradient(rgb(13, 39, 117), rgb(0, 0, 0)) ;
@@ -8,18 +9,20 @@
 .first-header {
     background:#004d6b;
     border-bottom: 7px solid #008bc2;
-    color:cornsilk;
+    color:rgb(247, 228, 153);
     font-size: 20px;
     text-align: center;
     padding: 5px;
 }
 .config-img {
-    padding: 30px 110px 30px;
+    gap: 2px;
+    display: flex;
+    align-items: center;
 }
 .config-img img {
     height: 300px;
-    width: 200px;
-    padding: 0px 5px;
+    width: 200px; 
+    border-radius: 20px;
 }
 .datos-personales {
     background: rgb(27, 27, 31);
