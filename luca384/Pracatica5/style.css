@@ -1,5 +1,4 @@
 body {
-  text-align: center;
   background-color: rgb(230, 246, 250); 
   font-family: Verdana, Helvetica, sans-serif;
   padding: 15px;
@@ -12,4 +11,10 @@ li{
 
 p.titulo{
      font-weight: bold;
+}
+
+img {
+  display: block;
+  margin-bottom: 10px;
+  
 }
