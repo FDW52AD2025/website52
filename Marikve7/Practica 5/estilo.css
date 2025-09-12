@@ -11,6 +11,7 @@ section{
 }
 
 h3 {
+    margin: 15px;
     color: rgb(109, 4, 109);
 }
 
@@ -24,4 +25,8 @@ img {
     border: 3px solid rgb(136, 3, 136);
     background-color: rgb(223, 194, 223);
     color: rgb(96, 3, 96);
+}
+
+p, h4{
+    margin: 15px;
 }
