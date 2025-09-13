@@ -1,0 +1,113 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f2f5;
+        }
+
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+            color: #e74c3c;
+        }
+
+        .caja_sombreada {
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            margin: 2rem;
+        }
+        
+        .caja_sombreada_titulos {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+            margin-bottom: 2.5rem;
+            padding: 2.5rem;
+        }
+        .caja_sombreada_titulos h1 {
+            font-size: 3rem;
+        }
+
+        .caja_sombreada_lucha {
+            background-color: #95a5a6;
+            color: #34495e;
+        }
+
+        .caja_sombreada_musica {
+            background-color: #c0392b;
+            color: #ecf0f1;
+        }
+
+        .caja_sombreada_pelicula {
+            background-color: #27ae60;
+            color: #ecf0f1;
+        }
+
+        .imagen3, .imagen2, .acomodo {
+            display: block;
+            margin: 1rem auto;
+            max-width: 50%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .parrafos-musica * {
+            border: 2px dotted #ff0000;
+            padding: 10px;
+        }
+
+        .parrafo-principal {
+            color: #fff;
+            background-color: #1a5276;
+            padding: 15px;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        #titulo-musica {
+            background-color: #f1c40f;
+            color: #333;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        a[title] {
+            font-weight: bold;
+            color: #f1c40f;
+            border-bottom: 3px solid #f1c40f;
+            padding-bottom: 5px;
+            text-decoration: none;
+            font-size: 1.4em;
+        }
+
+        article h1 {
+            color: #3498db;
+            font-size: 2.5rem;
+        }
+        
+        .caja_sombreada_lucha h1 + p {
+            color: #34495e;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-top: 15px;
+        }
+
+        .caja_sombreada_lucha h1 ~ p {
+            font-style: italic;
+            margin-left: 20px;
+        }
+
+        a:hover {
+            color: #e74c3c;
+            border-bottom: 3px solid #e74c3c;
+        }
+
+        .parrafos-musica p:first-child {
+            background-color: #ecf0f1;
+            color: #2c3e50;
+            padding: 10px;
+            border-radius: 5px;
+        }

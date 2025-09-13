@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  margin: 0;
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+}
+
+
+.pract_flex {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.imagenes {
+  background-color: rgb(46, 46, 48); 
+  border-radius: 10px;       
+  padding: 20px;         
+  width: 150px;
+  text-align: center;
+}
+
+
+.imagenes img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.imagenes p {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: cadetblue;
+}

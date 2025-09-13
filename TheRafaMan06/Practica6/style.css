@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(32, 38, 41);
+    margin: 0;
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+div {
+
+    display: flex;
+    flex-direction: row; 
+    gap: 15px; 
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 150px;
+    margin-top: 40px;
+}
+
+.Recuadro {
+    background-color: rgb(46, 56, 61);
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #61DAFB;
+    font-size: 30px;
+}
