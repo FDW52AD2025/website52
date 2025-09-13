@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111111;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.tarjeta {
+  background-color: #2c303a;
+  width: 150px;
+  height: 220px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #76daff;
+  font-weight: bold;
+}
+
+.tarjeta img {
+  max-width: 80px;
+  max-height: 80px;
+  margin-bottom: 15px;
+}
+
+
+h3 {
+  font-size: 18px;
+}

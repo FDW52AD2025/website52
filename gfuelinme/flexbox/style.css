@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #181b20;
+    padding-top: 250px;
+}
+
+#contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+#contenedor > div {
+    background-color: #2c303a;
+    box-shadow: 5px 5px 5px #0d0e10;
+    border-radius: 5px;
+    height: 230px;
+    width: 170px;
+}
+
+.tarjetas {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.tarjetas > img {
+    height: 100px;
+    width: 108px;
+    padding-bottom: 45px;
+}
+
+.tarjetas > a {
+    color: #10d7f1;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding-bottom: 30px;
+}
+
+.tarjetas a:hover {
+    color: #f0f1f3;
+}
