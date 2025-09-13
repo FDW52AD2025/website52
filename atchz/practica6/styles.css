@@ -24,6 +24,7 @@ div {
     background-color: #2c303a;
     padding: 30px;
     border-radius: 12px;
+    transition: 0.2s;
 }
 
 a {
@@ -34,4 +35,9 @@ a {
 svg {
     height: 120px;
     width: 120px;
+}
+
+div:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
