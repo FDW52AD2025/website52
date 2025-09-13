@@ -1,0 +1,43 @@
+body {
+  background-color: #1e1e24; 
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+
+.card {
+  background-color: #2a2a35;
+  padding: 30px 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 120px;
+  transition: transform 0.3s ease;
+}
+
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+
+.card img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+
+.card p {
+  color: #61dafb;;
+  font-weight: bold;
+  margin: 0;
+}
