@@ -1,0 +1,102 @@
+body{
+background-color: #131417;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    color: aliceblue;
+    padding: 20px 0px 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.header-p{
+    color: aliceblue;
+    padding: 5px 0px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.contenedores{
+    height: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.contenedor{
+    background-color: #2c303a;
+    border-radius: 7px ;
+    margin: 1rem;
+    transition: 
+    transform 0.3s ease,
+    background-color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.contenedor img{
+    width: 125px;
+    height: 130px;
+    padding: 2rem;
+    object-fit:contain;
+}
+
+.contenedor:hover{
+    transform: scale(1.1);
+}
+
+#contendor-boards div a{
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor h3{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    padding: 1rem;
+
+    
+}
+
+.contenedor:hover h3 {
+    transition: 
+    transform 0.3s ease,
+    background-color 0.3s ease,
+    border-color 0.3s ease;
+    color: white;
+}
+
+/* Pie de pagina */
+.pie{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 0.9em;
+    font-family: monospace;
+    text-align: center;
+    font-style: oblique;
+    color: aliceblue;
+}
+
+.boton{
+    padding: 15px 25px;
+    text-align: center;
+}
+
+.boton button{
+    font-family: monospace;
+    background-color:#2c303a;
+  border-radius: 7px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.boton button:hover{
+    background-color: black;
+}
