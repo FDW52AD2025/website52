@@ -1,0 +1,37 @@
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #131417;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 100px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    background-color: #2c303a;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+a {
+    color: #76daff;
+    text-decoration: none;
+}
+
+svg {
+    height: 120px;
+    width: 120px;
+}
