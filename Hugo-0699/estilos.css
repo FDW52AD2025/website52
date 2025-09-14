@@ -35,6 +35,25 @@
     font-size: 20px;
     text-align: center;
 }
+img {
+    border-radius: 10px;
+    box-shadow:5px 5px 15px rgba(0,0,0,0.5);
+}
+#boton {
+    list-style: none;
+    display: flex;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+#boton a {
+    background-color:goldenrod;
+    border-radius: 15px;
+    color:#3f2208;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 10px 10px;
+}
 .datos-personales {
     background: rgb(27, 27, 31);
     color:blanchedalmond;
