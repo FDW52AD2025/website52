@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(255, 248, 234); 
+  padding: 15px;
+}
+
+li{
+  list-style: none;
+  text-decoration: none;
+}
+
+/*Selector Universal*/
+* {
+  font-family: Verdana, Helvetica, sans-serif;
+}
+
+/*Selector de Tipo*/
+h2 {
+  font-weight: 500;
+}
+
+/*Selector por ID*/
+#top_de_gustos {
+  background-color: red;
+}
+
+/*Selector por Clase*/
+.formulario {
+  text-align: center;
+}
+
+/*Selector por un tag en particular*/
+h3.formulario{
+  border: 5px solid blue;
+}
+
+/*Selector por Atributo*/
+a[href="index.html"]{
+  background-color: green;
+}
+
+/* Selector por Lista*/
+p, h1{
+  border: dotted 2px whitesmoke;
+}
+
+/*Selector Compuesto*/
+h3.formulario{
+  font-family: 'Times New Roman', Times, serif;
+}
+

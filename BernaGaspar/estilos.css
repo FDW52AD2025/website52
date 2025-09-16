@@ -1,17 +1,63 @@
-.Fondo{
-    background-color: darkblue;
-    color: white;
+body {
+    margin: 0;
+    background-color: whitesmoke;
 }
 
-.Articulo{
-    background-color: gold;
-    color: darkblue;
-    padding-left: 2em;
-    padding-bottom: 1em;
-    margin-bottom: 2em;
-    border-radius: 0.5em;
-    border-top: 1px solid white;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
-    border-bottom: 1px solid white;
+h1, h2, h3 {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+
+header {
+    padding: 25px 0 25px;
+    background-color: black;
+    color: whitesmoke;
+    border-top: 10px solid slategray;
+    border-bottom: 10px solid slategray;
+    text-align: center;
+}
+
+article {
+    margin: 50px;
+    padding: 25px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 5px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    padding: 25px 0 25px;
+    background-color: black;
+    color: whitesmoke;
+    border-top: 10px solid slategray;
+    text-align: center;
+}
+
+#a1 {
+    color: #fabb3b;
+}
+
+#a2 {
+    color: #39ae60;
+}
+
+#a3 {
+    color: #ea5718;
+}
+
+#s1 {
+    margin-top: 25px;
+    border-bottom: 5px solid #fabb3b;
+}
+
+#s2 {
+    margin-top: 25px;
+    border-bottom: 5px solid #39ae60;
+}
+
+#s3 {
+    margin-top: 25px;
+    border-bottom: 5px solid #ea5718;
 }
