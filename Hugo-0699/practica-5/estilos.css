@@ -1,0 +1,49 @@
+/* Estilos para el index de los selectores */
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+.bodyprincipal {
+  background-color: rgb(231, 231, 231);
+}
+.headerprincipal {
+  background:chocolate;
+  border-bottom: 4px solid brown;
+  color:cornsilk;
+  padding: 10px;
+}
+.articuloselector{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; 
+  padding: 10px 30px;
+}
+.sectionselector {
+  background:white;
+  border-bottom: 2px solid rgb(56, 54, 54);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.4);    
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 15px; 
+}
+.sectionselector:hover {
+  transform: scale(1.05);          /* Este genera un efecto de acercamiento */
+  z-index: 10;                     /* Se asegura de que quede por encima de otros */
+}
+.sectionselector h3 {
+  font-size: 25px;
+}
+.sectionselector img {
+  display: flexbox;
+  max-width: 100%;
+  border-radius: 5px;
+  margin: 5px 0px;
+}
+.footer {
+    background-color: rgb(44, 46, 48);
+    border-bottom: 4px solid rgb(65, 19, 19);
+    color:cornsilk;
+    font-size: 15px;
+    padding: 10px;
+}

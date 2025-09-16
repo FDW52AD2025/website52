@@ -154,12 +154,12 @@ footer {
 
 /*Selector de tipo */
 h2 {
-    color: darkblue;
+    color: rgb(41, 41, 41);
 }
 
 /*Selector por ID*/
-#S1 {
-color: #ffd700;
+#n01 {
+color: #000000;
 }
 
 /*Selector por clase*/
@@ -171,12 +171,12 @@ color: #ffd700;
 
 /*Selecor de atributo*/
 section[data-tipo="arte"] {
-    background-color: lavender;
+    background-color: rgb(255, 255, 255);
 }
 
 /*Selector de lista*/
 h2, p {
-    margin-bottom: 0.5rem;
+    background-color: white
 }
 
 /*Selector de descendientes*/
@@ -193,10 +193,10 @@ section > h2 {
 
 /*Selector hermano adyacente*/
 h2 + p {
-    font-style: italic;
+    font-style: arial;
 }
 
 /*Selector hermano general*/
 h2 ~ p {
-    color: teal;
+    color: rgb(255, 255, 255);
 }

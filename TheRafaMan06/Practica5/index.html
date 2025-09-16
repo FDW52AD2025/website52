@@ -117,65 +117,83 @@
                 <h2>Selector de lista</h2>
                 <h3>Codigo CSS</h3>
                 <pre><code class="caja-codigo">
-                function saludo() {
-                    console.log("Hola mundo");
+                aside input,
+                aside select,
+                aside textarea {
+                    padding: 10px 12px;
+                    border: none;
+                    border-radius: 10px;
+                    outline: none;
+                    font-size: 0.95rem;
+                    color: #260000;
+                    background: rgba(255, 255, 255, 0.7);
+                    transition: all 0.3s ease;
                 }
                 </code></pre>
                 <h3>Resultado</h3>
                 <div class="caja-resultado">
-                    <img src="ejemplo.png" alt="Resultado del código">
+                    <img src="img/SL.png" alt="Resultado del código">
                 </div>
             </div>
             <div class="caja-selector" id="descendientes">
                 <h2>Selector de descendientes</h2>
                 <h3>Codigo CSS</h3>
                 <pre><code class="caja-codigo">
-                function saludo() {
-                    console.log("Hola mundo");
+                header h1 {
+                    color: #260000;
+                    font-size: 2.5rem;
+                    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+                    animation: glow 2s ease-in-out infinite alternate;
                 }
                 </code></pre>
                 <h3>Resultado</h3>
                 <div class="caja-resultado">
-                    <img src="ejemplo.png" alt="Resultado del código">
+                    <img src="img/SD.png" alt="Resultado del código">
                 </div>
             </div>
             <div class="caja-selector" id="hijos">
                 <h2>Selector hijos directos</h2>
                 <h3>Codigo CSS</h3>
                 <pre><code class="caja-codigo">
-                function saludo() {
-                    console.log("Hola mundo");
+                main > p {
+                    color: #260000;
+                    line-height: 1.6;
+                    font-size: 1.1rem;
+                    margin-bottom: 20px;
                 }
+
                 </code></pre>
                 <h3>Resultado</h3>
                 <div class="caja-resultado">
-                    <img src="ejemplo.png" alt="Resultado del código">
+                    <img src="img/SHD.png" alt="Resultado del código">
                 </div>
             </div>
             <div class="caja-selector" id="hermano">
                 <h2>Selector hermano adyacente</h2>
                 <h3>Codigo CSS</h3>
                 <pre><code class="caja-codigo">
-                function saludo() {
-                    console.log("Hola mundo");
+                aside label + input {
+                    border: 2px solid #81514b;
                 }
                 </code></pre>
                 <h3>Resultado</h3>
                 <div class="caja-resultado">
-                    <img src="ejemplo.png" alt="Resultado del código">
+                    <img src="img/SHA.png" alt="Resultado del código">
                 </div>
             </div>
             <div class="caja-selector">
-                <h2>Selector hermano adyacente</h2>
+                <h2>Selector hermano general</h2>
                 <h3>Codigo CSS</h3>
                 <pre><code class="caja-codigo">
-                function saludo() {
-                    console.log("Hola mundo");
+                aside label ~ input,
+                aside label ~ select,
+                aside label ~ textarea {
+                    border: 2px solid #81514b;
                 }
                 </code></pre>
                 <h3>Resultado</h3>
                 <div class="caja-resultado">
-                    <img src="ejemplo.png" alt="Resultado del código">
+                    <img src="img/SHG.png" alt="Resultado del código">
                 </div>
             </div>
         </div>

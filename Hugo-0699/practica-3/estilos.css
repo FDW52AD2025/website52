@@ -1,0 +1,191 @@
+/* Pagina principal */
+.bodyprincipal {
+  background-image: url(imagenes/nuevo-fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+	margin: 0;
+  padding: 0;
+}
+.headerprincipal {
+  background: brown;
+  border: 4px double black;
+  color:cornsilk;
+}
+.ulprincipal {
+  background-color:burlywood;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.liprincipal {
+  float: left;
+}   
+.aprincipal {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.aprincipal:hover {
+  background-color:chocolate;
+}
+.imgprincipal {
+  border: 3px solid black;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+/* Bloque footer */
+.copyright {
+  background-color: rgb(44, 46, 48);
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+  font-size: 15px;
+  padding: 5px;
+}
+
+
+/* Pasatiempo 1 */
+#titulo1 {
+  background-color: brown;
+  color: white;
+  border: 4px double black;
+}
+.centrarimg {
+  display: flex;
+  align-content: center;    
+  margin-left: 80px;
+}
+#bordecolor > h3 {
+  background-color: goldenrod;
+  border-radius: 10px;
+  border-bottom: 5px;
+  padding: 10px;
+}
+
+
+/* Segundo pasatiempo */
+#titulo2 {
+  background-color:darkslateblue;
+  color: white;
+  border: 4px double black;
+}
+/* Estilos para las imagenes y para sus descripciones*/
+.contenedor-img {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.contenedor-img img {
+  width: 500px;
+  height: 300px;
+  margin-right: 30px;
+  border-radius: 15px;
+}
+.contenedor-img dt,dd {
+  font-size: 20px;
+  color: black;
+  margin-left: 20px;
+  margin-right: 50px;
+  text-align: justify;
+}
+section[cfondo="favorito"] {
+  background-color:goldenrod;
+  padding: 20px;
+}
+
+
+/* Tercer pasatiempo */
+#titulo3 {
+  background-color: green;
+  color: white;
+  border: 4px double black;
+}
+/* Estilos para la imagen */
+.fila-img-tabla {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.fila-img-tabla img {
+  width: 600px;
+  height: 300px;
+  margin-right: 30px;
+  border-radius: 15px;
+}
+.justificar-video {
+  margin-left: 400px;
+}
+#cfondolista h3, b {
+  background-color: rgb(198, 214, 194);
+  border-radius: 10px;
+}
+#cfondolista ~ section {
+  background-color:rgb(194, 255, 153);
+  padding: 20px;
+  border: 2px dashed green;
+  width: 80%;       
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+
+/* Cuarto pasatiempo */
+#titulo4 {
+  background-color:darkmagenta;
+  color: white;
+  border: 4px double black;
+}
+.fila-img-formulario {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.fila-img-formulario img {
+  width: 500px;
+  height: 300px;
+  margin-right: 30px;
+  border-radius: 15px;
+}
+/* Estilos del formulario */
+.fila-img-formulario {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.fila-img-formulario figure {
+  max-width: 50%;
+}
+.fila-img-formulario img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.formulario-escritura {
+  max-width: 50%;
+}
+.formulario-escritura table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.formulario-escritura td, 
+.formulario-escritura th {
+  border: 1px solid black;
+  padding: 8px;
+}
+#colortabla td {
+  background-color:khaki;
+}
+#color_fondo + .fila-img-formulario {
+  background-color:rgb(212, 201, 192);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* Selector universal */
+#h1uni * {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

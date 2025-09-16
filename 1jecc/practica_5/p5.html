@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="p5.css">
+
+    <title>Demostración de Selectores CSS</title>
+
+</head>
+<body>
+    <h1>Demostración de Selectores CSS</h1>
+
+    <div class="selector-section">
+        <h2>1. Selector de Tipo</h2>
+        <h3>Nombre: Selector de Tipo</h3>
+        <h3>Imagen del código CSS:</h3>
+        <img src="h1.jpeg" >
+        <h3>Descripción:</h3>
+        <p>Este selector se usa para seleccionar y estilizar todas las etiquetas HTML de un tipo específico, como <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code> o <code>&lt;span&gt;</code>. Aplica los estilos a todos los elementos del mismo tipo en la página.</p>
+        <h3>Imagen del resultado:</h3>
+        <img src="h1_ejem.jpg" >
+        <p></p>
+    </div>
+
+    <div class="selector-section">
+        <h2>2. Selector Universal</h2>
+        <h3>Nombre: Selector Universal</h3>
+        <h3>Imagen del código CSS:</h3>
+        <img src="s2_.jpg">
+        <h3>Descripción:</h3>
+        <p>El selector universal (<code>*</code>) selecciona todos los elementos que son descendientes de otro elemento. Se usa para aplicar un estilo a cada elemento dentro de un contenedor específico.</p>
+        <h3>Imagen del resultado:</h3>
+        <img src="s2_ejem.jpg">
+        <p></p>
+    </div>
+
+    <div class="selector-section">
+        <h2>3. Selector de Clase</h2>
+        <h3>Nombre: Selector de Clase</h3>
+        <h3>Imagen del código CSS:</h3>
+        <img src="s3_.jpg">
+        <h3>Descripción:</h3>
+        <p>Este selector se usa para estilizar todos los elementos que comparten una clase en particular. Se identifica con un punto (<code>.</code>) seguido del nombre de la clase.</p>
+        <h3>Imagen del resultado:</h3>
+        <img src="s3_.ejem.jpg" >
+    </div>
+
+    <div class="selector-section">
+        <h2>4. Selector de ID</h2>
+        <h3>Nombre: Selector de ID</h3>
+        <h3>Imagen del código CSS:</h3>
+        <img src="s4_.jpg">
+        <h3>Descripción:</h3>
+        <p>Un selector de ID (<code>#</code>) selecciona un único elemento en la página con un identificador específico. Solo un elemento puede tener un ID en todo el documento.</p>
+        <h3>Imagen del resultado:</h3>
+        <img src="s5_ejem.jpg" >
+        <p></p>
+    </div>
+
+    <div class="selector-section">
+        <h2>5. Selector de Atributo</h2>
+        <h3>Nombre: Selector de Atributo</h3>
+        <h3>Imagen del código CSS:</h3>
+        <img src="s5_.jpg" >
+        <h3>Descripción:</h3>
+        <p>Este selector busca elementos que tienen un atributo específico. Se escribe el nombre de la etiqueta seguido del atributo entre corchetes, por ejemplo, <code>a[title]</code> para seleccionar enlaces con un atributo <code>title</code>.</p>
+        <h3>Imagen del resultado:</h3>
+        <img src="s4_ejem1.jpg">
+        <img src="s4_ejem2.jpg" >
+    </div>
+
+    <div class="selector-section">
+        <h2>6. Selector de Descendencia</h2>
+        <h3>Nombre: Selector de Descendencia</h3>
+        <h3>Imagen del código CSS:</h3>
+        <img src="s6_.jpg" >
+        <h3>Descripción:</h3>
+        <p>Este selector aplica estilos a un elemento que está contenido dentro de otro. Un espacio entre los selectores indica la relación de descendencia, por ejemplo, <code>article h1</code> estiliza cualquier <code>&lt;h1&gt;</code> que esté dentro de una etiqueta <code>&lt;article&gt;</code>.</p>
+        <h3>Imagen del resultado:</h3>
+        <img src="s6_ejem.jpg" >
+        <p></p>
+    </div>
+
+    <div class="selector-section">
+        <h2>7. Selector de Hermano Adyacente</h2>
+        <h3>Nombre: Selector de Hermano Adyacente</h3>
+        <h3>Imagen del código CSS:</h3>
+        <img src="s7_.jpg">
+        <h3>Descripción:</h3>
+        <p>Este selector (<code>+</code>) selecciona un elemento que es el siguiente hermano directo de otro. El estilo se aplica solo al elemento que viene inmediatamente después del primero en la estructura del HTML.</p>
+        <h3>Imagen del resultado:</h3>
+        <img src="s7_ejem.jpg" height="600" width="600">
+        <p></p>
+    </div>
+
+    <div class="selector-section">
+        <h2>8. Selector de Hermano General</h2>
+        <h3>Nombre: Selector de Hermano General</h3>
+        <h3>Imagen del código CSS:</h3>
+        <img src="s8_.jpg" >
+        <h3>Descripción:</h3>
+        <p>Este selector (<code>~</code>) selecciona todos los elementos que son hermanos de otro y que están precedidos por él, sin importar si son el siguiente inmediato. El estilo se aplica a todos los elementos que siguen a un elemento específico.</p>
+        <h3>Imagen del resultado:</h3>
+        <img src="s7_ejem.jpg" height="600" width="600">
+        <p></p>
+    </div>
+
+    <div class="selector-section">
+        <h2>9. Pseudo-clase :hover</h2>
+        <h3>Nombre: Pseudo-clase :hover</h3>
+        <h3>Imagen del código CSS:</h3>
+        <img src="s9_.jpg" >
+        <h3>Descripción:</h3>
+        <p>Las pseudo-clases permiten aplicar estilos a un elemento basándose en su estado. <code>:hover</code> aplica estilos cuando el cursor se sitúa sobre el elemento.</p>
+        <h3>Imagen del resultado:</h3>
+        <img src="s4_ejem1.jpg">
+        <img src="s4_ejem2.jpg" >
+        <p></p>
+    </div>
+
+    <div class="selector-section">
+        <h2>10. Pseudo-clase :first-child</h2>
+        <h3>Nombre: Pseudo-clase :first-child</h3>
+        <h3>Imagen del código CSS:</h3>
+        <img src="s10_.jpg" >
+        <h3>Descripción:</h3>
+        <p>Este selector aplica estilos a un elemento solo si es el primer hijo de su elemento padre. Es útil para estilizar el primer elemento en una lista o en un grupo de elementos.</p>
+        <h3>Imagen del resultado:</h3>
+        <img src="s2_ejem.jpg">
+
+        <p></p>
+    </div>
+</body>
+</html>
