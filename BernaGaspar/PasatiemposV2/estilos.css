@@ -1,1 +1,94 @@
+body {
+    margin: 0;
+    background-color: #ede8de;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
 
+h1, h2, a {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+main {
+    margin: 50px;
+    text-align: justify;
+}
+
+#h_i {
+    padding: 25px 0 25px;
+    background-color: #003a79;
+    border-bottom: 10px solid #ff041b;
+    color: #ede8de;
+    font-size: 32;
+}
+
+#n_i, #a_i {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#n_i ul, #m_i section div ul, #a_i ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#n_i li, #m_i section div li, #a_i li {
+    display: inline-block;
+    margin: 0 45px 0;
+}
+
+#m_i section {
+    margin: 50px 0 50px;
+    padding: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top: 10px solid #003a79;
+    border-left: 10px solid #003a79;
+    border-right: 10px solid #ff041b;
+    border-bottom: 10px solid #ff041b;
+}
+
+#m_i section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#m_i img {
+    width: 450px;
+    height: 250px;
+    margin: 25px 0 50px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top: 5px solid #003a79;
+    border-left: 5px solid #003a79;
+    border-right: 5px solid #ff041b;
+    border-bottom: 5px solid #ff041b;
+}
+
+#m_i table, #m_i form {
+    margin: 25px 0 50px;
+}
+
+#m_i form input, #m_i form textarea, #m_i form button {
+    width: 500px;
+}
+
+#a_i {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#f_i {
+    padding: 25px 0 25px;
+    background-color: #003a79;
+    border-top: 10px solid #ff041b;
+    color: #ede8de;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
