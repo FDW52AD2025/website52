@@ -1,0 +1,71 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(232, 232, 232);
+}
+
+#encabezado {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: orange;
+    padding: 35px;
+}
+
+#encabezado > h1 {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#articulo > section {
+    background-color: white;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.secciones > h2 {
+    margin: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.secciones > p {
+    margin: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-justify: auto;
+}
+
+.secciones > img {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 2px solid red;
+}
+
+.imagenGrande {
+    height: 400px;
+    width: 1040px;
+}
+
+#piePagina {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: orange;
+    padding: 35px;
+}
+
+#piePagina > p {
+    background-color: orange;
+    color: white;
+}
