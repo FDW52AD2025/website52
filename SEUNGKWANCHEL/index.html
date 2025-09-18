@@ -3,371 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evidencias SEUNGKWANCHEL - Grupo 52 LTI</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        body {
-            background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
-            color: #333;
-            line-height: 1.6;
-            padding: 20px;
-            min-height: 100vh;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 40px;
-            padding: 30px 20px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-        }
-
-        h1 {
-            color: #2c3e50;
-            margin-bottom: 15px;
-            font-size: 2.5rem;
-        }
-
-        .user-info {
-            background: #e8f4fc;
-            padding: 10px 15px;
-            border-radius: 20px;
-            display: inline-block;
-            margin: 10px 0;
-            font-weight: 500;
-            color: #2c3e50;
-        }
-
-        .subtitle {
-            color: #7f8c8d;
-            font-size: 1.2rem;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .intro {
-            background: white;
-            border-radius: 10px;
-            padding: 25px;
-            margin-bottom: 30px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-            border-left: 5px solid #3498db;
-        }
-
-        .intro p {
-            margin-bottom: 15px;
-        }
-
-        .warning {
-            background: #fff3e0;
-            border-left: 5px solid #ff9800;
-            padding: 15px;
-            border-radius: 5px;
-            margin: 15px 0;
-        }
-
-        .evidences-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-            gap: 25px;
-            margin-bottom: 40px;
-        }
-
-        .evidence {
-            background: white;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .evidence:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-        }
-
-        .evidence-header {
-            background: linear-gradient(135deg, #3498db 0%, #2c3e50 100%);
-            color: white;
-            padding: 20px;
-        }
-
-        .evidence-header h2 {
-            font-size: 1.5rem;
-            margin: 0;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .evidence-content {
-            padding: 25px;
-        }
-
-        .date {
-            background: #e8f4fc;
-            padding: 8px 15px;
-            border-radius: 20px;
-            display: inline-block;
-            margin-bottom: 15px;
-            font-weight: 500;
-            color: #2c3e50;
-        }
-
-        .description {
-            margin-bottom: 20px;
-            line-height: 1.6;
-            color: #555;
-        }
-
-        .links {
-            margin-top: 20px;
-        }
-
-        .links h3 {
-            margin-bottom: 10px;
-            color: #2c3e50;
-            font-size: 1.1rem;
-        }
-
-        .link-list {
-            list-style: none;
-        }
-
-        .link-list li {
-            margin-bottom: 10px;
-            padding-left: 25px;
-            position: relative;
-        }
-
-        .link-list li:before {
-            content: "•";
-            color: #3498db;
-            font-weight: bold;
-            position: absolute;
-            left: 0;
-            font-size: 1.5rem;
-        }
-
-        .link-list a {
-            color: #3498db;
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.3s ease;
-            display: inline-block;
-            padding: 5px 0;
-        }
-
-        .link-list a:hover {
-            color: #2c3e50;
-            text-decoration: underline;
-        }
-
-        .note {
-            background: #f9f9f9;
-            padding: 15px;
-            border-radius: 5px;
-            margin-top: 15px;
-            font-size: 0.9rem;
-            border-left: 3px solid #3498db;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 50px;
-            padding: 20px;
-            color: #7f8c8d;
-            font-size: 0.9rem;
-        }
-
-        @media (max-width: 768px) {
-            .evidences-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            h1 {
-                font-size: 2rem;
-            }
-        }
-
-        .icon {
-            font-size: 1.2rem;
-        }
-
-        .code {
-            font-family: 'Courier New', monospace;
-            background: #f5f5f5;
-            padding: 2px 5px;
-            border-radius: 3px;
-        }
-        
-        .github-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 5px;
-            margin-top: 10px;
-        }
-    </style>
+    <meta name="description" content="Página de pasatiempos personales">
+    <title>Mis Pasatiempos</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Evidencias Grupo 52 LTI</h1>
-            <div class="user-info">
-                <i class="fab fa-github"></i> Usuario: SEUNGKWANCHEL
-            </div>
-            <p class="subtitle">Fundamentos de Desarrollo Web - Prácticas y Entregas</p>
-        </header>
+    <header>
+        <h1>🌟 Mis Pasatiempos 🌟</h1>
+    </header>
 
-    
-        <div class="evidences-grid">
-            <!-- Práctica 1 -->
-            <div class="evidence">
-                <div class="evidence-header">
-                    <h2><span class="icon">📄</span> Práctica 1</h2>
-                </div>
-                <div class="evidence-content">
-                    <div class="date">13 al 15 de Agosto</div>
-                    <div class="description">
-                        <p>Publicar página web sencilla en cuenta personal Github. Se debe realizar un solo documento HTML donde se integra información sobre sus pasatiempos.</p>
-                        <p>Utilizar las etiquetas: meta, título, encabezado, principal, pie de página, artículo, sección, img y p. Aplique estilos sencillos con un archivo externo CSS.</p>
-                    </div>
-                    <div class="links">
-                        <h3>Enlaces a guardar:</h3>
-                        <ul class="link-list">
-                            <li><a href="#"><i class="fas fa-link"></i> Repositorio de enlaces: https://github.com/SEUNGKWANCHEL/demo</a></li>
-                            <li><a href="#"><i class="fas fa-globe"></i> Sitio Publicado: https://SEUNGKWANCHEL.github.io/demo/</a></li>
-                            <li><a href="#"><i class="fas fa-history"></i> Enlaces de confirmación: https://github.com/SEUNGKWANCHEL/demo/commits/</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+    <main>
+        <article class="card rojo">
+            <h2>🥋 Taekwondo</h2>
+            <img src="https://i0.wp.com/www.eagletkd.ca/wp-content/uploads/2019/05/2018-10-11-Taekwondo-73kg-Men-02.jpg?fit=2330%2C1600&ssl=1" alt="Taekwondo">
+            <p>Me apasiona el taekwondo porque combina disciplina, fuerza, agilidad y respeto. 
+               Cada entrenamiento me ayuda a mejorar tanto física como mentalmente.</p>
+        </article>
 
-            <!-- Práctica 2 -->
-            <div class="evidence">
-                <div class="evidence-header">
-                    <h2><span class="icon">📁</span> Práctica 2</h2>
-                </div>
-                <div class="evidence-content">
-                    <div class="date">20 al 22 de Agosto</div>
-                    <div class="description">
-                        <p>Crear una carpeta personal en la organización y dentro de la misma agregar un archivo llamado index.html que será la página personal de cada estudiante.</p>
-                        <p>Se solicita agregar los enlaces de la primera práctica.</p>
-                    </div>
-                    <div class="links">
-                        <h3>Enlaces a guardar:</h3>
-                        <ul class="link-list">
-                            <li><a href="#"><i class="fas fa-globe"></i> Página personal de evidencias: https://fdw52ad2025.github.io/website52/SEUNGKWANCHEL/index.html</a></li>
-                            <li><a href="#"><i class="fas fa-history"></i> Enlaces de confirmación: https://github.com/FDW52AD2025/website52/commits/?author=SEUNGKWANCHEL</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        <article class="card azul">
+            <h2>🎬 Goblin Drama</h2>
+            <img src="https://images.saymedia-content.com/.image/t_share/MTc1MTEzNzA1MTcwOTM2OTI3/best-korean-dramas-you-should-watch.jpg" alt="Goblin Drama">
+            <p>Los dramas coreanos como <b>Goblin</b> me gustan por su mezcla de fantasía, romance e historias emotivas 
+               que me mantienen enganchado de principio a fin.</p>
+        </article>
 
-            <!-- Práctica 3 -->
-            <div class="evidence">
-                <div class="evidence-header">
-                    <h2><span class="icon">⚙️</span> Práctica 3</h2>
-                </div>
-                <div class="evidence-content">
-                    <div class="date">27 al 29 de Agosto</div>
-                    <div class="description">
-                        <p>Modificar la página pasatiempos desarrollada en la cuenta personal. Realizar la versión 2 sobre sus pasatiempos, guardada en la organización.</p>
-                        <p>Utilizar 5 archivos HTML con etiquetas de estructura (encabezado, navegación, principal, aparte, pie de página). Agregar nuevas etiquetas y diseñar algún formulario.</p>
-                    </div>
-                    <div class="note">
-                        <p><strong>Nota:</strong> Crear una subcarpeta dentro de la carpeta personal para organizar los archivos. Las imágenes si las manejan como locales que no sean de alta resolución.</p>
-                    </div>
-                    <div class="links">
-                        <h3>Enlaces a guardar:</h3>
-                        <ul class="link-list">
-                            <li><a href="#"><i class="fas fa-globe"></i> Página pasatiempos versión 2: https://fdw52ad2025.github.io/website52/SEUNGKWANCHEL/pasatiemposver2/index.html</a></li>
-                            <li><a href="#"><i class="fas fa-history"></i> Commits trabajo en clase 27 de agosto</a></li>
-                            <li><a href="#"><i class="fas fa-history"></i> Enlaces de confirmación: https://github.com/FDW52AD2025/website52/commits/?author=SEUNGKWANCHEL</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        <article class="card verde">
+            <h2>💃 Baile Kpop, HipHop y Urbano</h2>
+            <img src="https://i.pinimg.com/originals/7e/73/f8/7e73f803ab3d6e364064bd90585e3b4d.jpg" alt="Baile Kpop">
+            <p>Bailar me permite expresarme con energía y diversión. 
+               Me encanta aprender coreografías de Kpop, así como fusionar estilos de hiphop y urbano.</p>
+        </article>
 
-            <!-- Práctica 4 -->
-            <div class="evidence">
-                <div class="evidence-header">
-                    <h2><span class="icon">🎨</span> Práctica 4</h2>
-                </div>
-                <div class="evidence-content">
-                    <div class="date">1 al 3 de Septiembre</div>
-                    <div class="description">
-                        <p>Aplicar estilo personalizado al enlace de la página principal de la organización. Los estilos aplicados deben ser almacenados dentro de su carpeta en la organización.</p>
-                    </div>
-                    <div class="links">
-                        <h3>Enlaces a guardar:</h3>
-                        <ul class="link-list">
-                            <li><a href="#"><i class="fas fa-history"></i> Enlaces de confirmación: https://github.com/FDW52AD2025/website52/commits/?author=SEUNGKWANCHEL</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Práctica 5 -->
-            <div class="evidence">
-                <div class="evidence-header">
-                    <h2><span class="icon">🔍</span> Práctica 5</h2>
-                </div>
-                <div class="evidence-content">
-                    <div class="date">8 al 10 de Septiembre</div>
-                    <div class="description">
-                        <p>Utilizando los archivos HTML sobre sus pasatiempos versión 2, crear un sitio donde se muestre por lo menos un ejemplo de cada selector CSS.</p>
-                        <p>Cada selector debe contener: nombre del selector, imagen del código CSS y imagen del resultado aplicado.</p>
-                    </div>
-                    <div class="links">
-                        <h3>Enlaces a guardar:</h3>
-                        <ul class="link-list">
-                            <li><a href="#"><i class="fas fa-globe"></i> Página selectores: https://fdw52ad2025.github.io/website52/SEUNGKWANCHEL/selectores/index.html</a></li>
-                            <li><a href="#"><i class="fas fa-history"></i> Enlaces de confirmación: https://github.com/FDW52AD2025/website52/commits/?author=SEUNGKWANCHEL</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Práctica 6 -->
-            <div class="evidence">
-                <div class="evidence-header">
-                    <h2><span class="icon">📊</span> Práctica 6</h2>
-                </div>
-                <div class="evidence-content">
-                    <div class="date">10 al 12 de Septiembre</div>
-                    <div class="description">
-                        <p>Utilizando flexbox, crear un documento HTML donde se diseña el layout solicitado.</p>
-                    </div>
-                    <div class="links">
-                        <h3>Enlaces a guardar:</h3>
-                        <ul class="link-list">
-                            <li><a href="#"><i class="fas fa-globe"></i> Página Diseño solicitado: https://fdw52ad2025.github.io/website52/SEUNGKWANCHEL/flexbox/index.html</a></li>
-                            <li><a href="#"><i class="fas fa-history"></i> Enlaces de confirmación: https://github.com/FDW52AD2025/website52/commits/?author=SEUNGKWANCHEL</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <footer>
-            <p>Fundamentos de Desarrollo Web - Grupo 52 LTI</p>
-            <p>Alumno: SEUNGKWANCHEL</p>
-            <p>© 2025 - Todos los derechos reservados</p>
-        </footer>
-    </div>
-</body>
+        <article class="card morado">
+            <h2>🎶 Ver Kpop</h2>
+            <img src="https://i.pinimg.com/originals/5e/b7/7a/5eb77a312667212a48b7064962cc1014.jpg" alt="Kpop">
+            <p>Ver presentaciones de mis grupos favoritos de Kpop es una de mis actividades favoritas. 
+               Me inspiran con sus canciones, coreografías y producciones espectaculares.</p>
+        </article>
+    </main>
 </html>
+
