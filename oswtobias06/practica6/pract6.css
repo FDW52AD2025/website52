@@ -19,7 +19,7 @@ section {
     color: #87d5f7;
     align-items: center;
     padding: 10px;
-    flex-basis: 10px;
+    flex-basis: 5px;
     font-weight: bold;
 }
 
@@ -30,17 +30,22 @@ img {
 
 h1 {
     background-color: #2d303a; 
-    color: white;
+    color: #87d5f7;
     text-align: center;
     padding: 20px;
-    border: 5px solid white;
+    border: 5px solid #87d5f7;
 }
 
 address {
     background-color: #2d303a;
-    color: #EEE1C6;
+    color: #87d5f7;
     font-weight: bold;
-    border: 5px ridge white;
+    border: 5px ridge #87d5f7;
     text-align: justify;
-    box-shadow: 8px 8px 8px white;
+    box-shadow: 8px 8px 8px #87d5f7;
+}
+
+#code div:hover {
+    transform: scale(.95);
+    transition: all .3s;
 }

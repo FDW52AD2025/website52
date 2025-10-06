@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina principal">
+    <meta name="keywords" content="Fútbol, Música, Lectura, Cine">
+    <meta name="author" content="Jorge Ignacio Salazar Mares">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina principal</title>
+</head>
+<body>
+    <header>
+        <h1>MIS PASATIEMPOS</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="pasatiempo1.html">Fútbol</a></li>
+            <li><a href="pasatiempo2.html">Música</a></li>
+            <li><a href="pasatiempo3.html">Lectura</a></li>
+            <li><a href="pasatiempo4.html">Cine</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <section>
+                <h2>Un poco sobre mí</h2>
+                <p>Soy un estudiante de 22 años originario de Monterrey, Nuevo León. Me llamo Jorge, nunca he tenido ningún apodo, así que todos me llaman por mi nombre. Soy egresado del Centro de Educación Artística "Alfonso Reyes", donde cursé el bachillerato en Artes y Humanidades con una especialidad en Música. Actualmente, estoy cursando el 5.° semestre de la Licenciatura en Tecnologías de Información en la Facultad de Contaduría Pública y Administración de la UANL.</p>
+            </section>
+        </article>
+        <article>
+            <section>
+                <h2>Cuentame sobre tí</h2>
+                <p>Una de las cosas que más disfruto es escuchar a las personas hablar de sus gustos o temas de interes.</p>
+
+                <p>
+                    <label for="genero">Género:</label>
+                    <select name="genero" id="genero">
+                        <option value="1">Masculino</option>            
+                        <option value="2">Femenino</option>            
+                        <option value="3">Sin especificar</option>
+                    </select>      
+                </p>
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input name="nombre" id="nombre">
+                </p>
+                <p> 
+                    <label for="edad">Edad:</label>
+                    <input type="number" name="edad" id="edad">
+                </p>
+                <p>
+                    <label for="fechanac">Cumpleaños:</label>
+                    <input type="date" name="fechanac" id="fechanac">
+                </p>
+                <p>
+                    <label for="color">Color favorito:</label>
+                    <input type="color" name="color" id="color">
+                </p>
+                <p>
+                    <label for="artista">Artista favorito:</label>
+                    <input name="artista-fav" id="artista">
+                </p>
+                <p>
+                    <label for="pelicula">Pelicula favorita:</label>
+                    <input name="pelicula-fav" id="pelicula">
+                </p>
+                <p>
+                    <label for="animal">Animal favorito:</label>
+                    <input name="animal-fav" id="animal">
+                </p>
+
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p class="textoFooter">&copy; Jorge Ignacio Salazar Mares</p>
+    </footer>
+</body>
+</html>

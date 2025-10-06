@@ -1,0 +1,34 @@
+.contenedor {
+    background-color: palegoldenrod;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;     
+    gap: 10px;            
+    padding: 10px;
+}
+
+.rosa {
+    background-color: pink;
+}
+
+.azul {
+    background-color: powderblue;
+}
+
+.amarillo {
+    background-color: papayawhip;
+}
+
+.cafe {
+    background-color: rgba(118, 148, 123, 0.9);
+}
+
+.morado {
+    background-color: rgba(91, 38, 79, 0.977);
+}
+
+.contenedor img:hover {
+    border: 1px solid black;
+    background-color: white-space;
+    color: black;
+}
