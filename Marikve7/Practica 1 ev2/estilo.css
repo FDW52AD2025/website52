@@ -1,0 +1,26 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(164, 92, 164);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin: 0 auto;
+    gap: .3em
+}
+
+form > label {
+    color: rgb(199, 138, 199);
+}
+
+button:hover {
+    background-color: plum;
+}
