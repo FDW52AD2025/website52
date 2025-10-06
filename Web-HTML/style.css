@@ -1,0 +1,60 @@
+/* Fondo general */
+body {
+  background-color: #f4f4f9;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  color: #333;
+}
+
+/* Títulos */
+h1 {
+  text-align: center;
+  color: #d62828;
+}
+
+h3, h4 {
+  color: #003049;
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #003049;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #eaeaea;
+}
+
+tr:hover {
+  background-color: #fcbf49;
+}
+
+/* Imagen */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Video centrado */
+iframe {
+  display: block;
+  margin: 20px auto;
+  border: 3px solid #333;
+  border-radius: 8px;
+}

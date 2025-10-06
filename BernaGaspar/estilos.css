@@ -41,6 +41,19 @@ aside a {
     font-style: italic;
 }
 
+aside {
+    margin-bottom: 50px;
+    padding: 25px;
+    border-top: 5px dashed black;
+    border-bottom: 5px dashed black;
+}
+
+aside a {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+
 footer {
     padding: 25px 0 25px;
     background-color: black;
