@@ -45,13 +45,13 @@ input, select {
 
 input:focus, select:focus {
     outline: none;
-    border-color: #4CAF50;
+    border-color: #32b2b4;
 }
 
 button {
     width: 100%;
     padding: 12px;
-    background-color: #4CAF50;
+    background-color: #32b2b4;
     color: white;
     border: none;
     border-radius: 5px;
@@ -62,13 +62,13 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #32b2b4;
 }
 
 
 #resultado {
     background-color: #f9f9f9;
     font-weight: bold;
-    color: #4CAF50;
+    color: #000000;
     text-align: center;
 }
