@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV2 PRACTICA1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav></nav>
+    </header>
+    <main>
+        <div id="calculadora">
+            <h1>Calculadora de figuras</h1>
+            <form action="">
+                <ul>
+                    <li>
+                        <label for="v1">Valor 1</label>
+                        <input type="text" name="valor 1" id="v1">
+                    </li>
+                    <li>
+                        <label for="v2">Valor 1</label>
+                        <input type="text" name="valor 2" id="v2">
+                    </li>
+                    <li>
+                        <label for="fig">Figura</label>
+                        <select name="figura" id="fig">
+                            <option value="triangulo">Triangulo</option>
+                            <option value="rectangulo">Rectangulo</option>
+                            <option value="cuadrado">Cuadrado</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="resultado">Resultado</label>
+                        <input type="text" id="resultado">
+                    </li>
+                    <li>
+                        <button type="button" onclick="calcular()">Calcular</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </main>
+    <aside></aside>
+    <footer></footer>
+    <script src="scripts.js" ></script>
+</body>
+</html>
