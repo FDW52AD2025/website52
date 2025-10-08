@@ -1,0 +1,20 @@
+body {
+    font-family: fantasy;
+}
+
+body {
+    background-color: pink;
+}
+
+h1 {
+    text-align: center;
+    color: palevioletred;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin:  0 auto;
+    gap: .3em;
+}
