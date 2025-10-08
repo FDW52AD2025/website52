@@ -11,6 +11,6 @@ form{
     display: flex;
     flex-direction: column;
     width: 30v;
-    margin: 50px auto;
+    margin: 0 auto;
     gap: .3em;
 }
