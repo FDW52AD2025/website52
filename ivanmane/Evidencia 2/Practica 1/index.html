@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de areas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Evidencia 2 - Practica 1</h1>
+
+    <form action="">
+        <label for="valor 1">Ingresa valor 1:</label>
+        <input type="number" id="valor1" name="valor1" required>
+
+        <label for="valor 2">Ingresa valor 2:</label>
+        <input type="number" id="valor2" name="valor2" required>
+
+        <label for="figura">Selecciona la figura:</label>
+        <select id="figura" name="figura" required>
+            <option value="cuadrado">Cuadrado</option>
+            <option value="rectangulo">Rectangulo</option>
+            <option value="triangulo">Triangulo</option>
+        </select>
+
+        <label for="resultado">Resultado:</label>
+        <input type="text" id="resultado" name="resultado" readonly>
+
+        <button id="calculadora" type="button">Calcular</button>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>

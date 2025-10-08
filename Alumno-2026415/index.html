@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Áreas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      text-align: center;
+      padding: 30px;
+    }
+    h1 {
+      color: #333;
+    }
+    select, input, button {
+      margin: 8px;
+      padding: 8px;
+      font-size: 16px;
+    }
+    #resultado {
+      margin-top: 20px;
+      font-weight: bold;
+      color: #007b00;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Calculadora de Áreas</h1>
+
+  <label for="figura">Selecciona una figura:</label>
+  <select id="figura">
+    <option value="1">Triángulo</option>
+    <option value="2">Rectángulo</option>
+    <option value="3">Cuadrado</option>
+  </select>
+
+  <div id="inputs"></div>
+
+  <button onclick="calcularArea()">Calcular área</button>
+
+  <div id="resultado"></div>
+
+  <script>
+    const figura = document.getElementById("figura");
+    const inputsDiv = document.getElementById("inputs");
+    const resultadoDiv = document.getElementById("resultado");
+
+    // Cambia los campos de entrada según la figura seleccionada
+    figura.addEventListener("change", mostrarCampos);
+    mostrarCampos();
+
+    function mostrarCampos() {
+      let opcion = figura.value;
+      let html = "";
+
+      switch (opcion) {
+        case "1": // Triángulo
+          html = `
+            <input type="number" id="base" placeholder="Base">
+            <input type="number" id="altura" placeholder="Altura">
+          `;
+          break;
+        case "2": // Rectángulo
+          html = `
+            <input type="number" id="base" placeholder="Base">
+            <input type="number" id="altura" placeholder="Altura">
+          `;
+          break;
+        case "3": // Cuadrado
+          html = `<input type="number" id="lado" placeholder="Lado">`;
+          break;
+      }
+
+      inputsDiv.innerHTML = html;
+      resultadoDiv.textContent = "";
+    }
+
+    function calcularArea() {
+      let opcion = figura.value;
+      let area;
+
+      switch (opcion) {
+        case "1": // Triángulo
+          let baseT = parseFloat(document.getElementById("base").value);
+          let alturaT = parseFloat(document.getElementById("altura").value);
+          area = (baseT * alturaT) / 2;
+          resultadoDiv.textContent = `El área del triángulo es: ${area}`;
+          break;
+
+        case "2": // Rectángulo
+          let baseR = parseFloat(document.getElementById("base").value);
+          let alturaR = parseFloat(document.getElementById("altura").value);
+          area = baseR * alturaR;
+          resultadoDiv.textContent = `El área del rectángulo es: ${area}`;
+          break;
+
+        case "3": // Cuadrado
+          let lado = parseFloat(document.getElementById("lado").value);
+          area = lado * lado;
+          resultadoDiv.textContent = `El área del cuadrado es: ${area}`;
+          break;
+
+        default:
+          resultadoDiv.textContent = "Opción no válida.";
+      }
+    }
+  </script>
+
+</body>
+</html>
