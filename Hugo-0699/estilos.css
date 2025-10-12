@@ -3,7 +3,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .c-background {
-    background: radial-gradient(rgb(214, 6, 6), black) ;
+    background:radial-gradient(rgb(124, 124, 124), black) ;
 }
 .first-header {
     background:#e9b363;
@@ -14,24 +14,28 @@
     padding: 5px;
 }
 .article-body {
-    padding: 0px 150px 30px;
+    padding: 0px 150px 20px;
 }
 #no-ev {
     background: #be9955;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 4px solid #745940;
     color: rgb(68, 19, 19);
     font-size: 25px;
     text-align: center;
 }
+#no-ev h2 {
+    margin-bottom: 0;
+}
 .section {
     background-color: rgb(231, 231, 231);
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
     text-align: justify;
     padding: 5px 70px 15px;
 }
 #no-practica {
     background: rgb(185, 183, 183);
-    border-radius: 20px;
+    border-radius: 5px;
     font-size: 20px;
     text-align: center;
 }
@@ -42,23 +46,28 @@ img {
 #boton {
     list-style: none;
     display: flex;
-    margin-bottom: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
     gap: 10px;
 }
 #boton a {
     background-color:goldenrod;
-    border-radius: 15px;
+    border-radius: 10px;
     color:#3f2208;
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
     padding: 10px 10px 10px;
 }
+#boton a:hover {
+    background-color: #b16a28;
+    color: white;
+}
 .datos-personales {
-    background: rgb(27, 27, 31);
-    color:blanchedalmond;
-    border-bottom: 10px solid black;
+    background: transparent;
     font-size: 15px;
     font-weight:bold;
-    padding: 5px 150px 5px;
+    text-align: center;
+    color:white;
+    padding: 0px 150px 5px;
 }
