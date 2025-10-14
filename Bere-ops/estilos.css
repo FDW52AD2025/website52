@@ -20,7 +20,12 @@ header h1 {
   color: rgb(74, 21, 75); 
 }
 
-h1, h2 {
+h1 {
+  color: rgb(173, 20, 87); 
+    text-align: center;
+}
+
+h2 {
   color: rgb(173, 20, 87); 
   margin-top: 20px;
 }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Areas</title>
+    <link rel="stylesheet" href="estilos_areas.css">
+</head>
+<body>
+    <header><h1>Aplicacion Areas</h1></header>
+    
+    <p>Calcula el area de una figura seleccionada</p>
+
+    <form>
+        <label for="lbl1">Base</label>
+        <input type="number" name="txtNum1" id="txtNum1">
+    
+        <label for="lbl2">Altura</label>
+        <input type="number" name="txtNum2" id="txtNum2">
+    
+        <label for="lbl3">Figura</label>
+        <select name="cmbFig" id="cmbFig">
+            <option value="Triangulo">Triangulo</option>
+            <option value="Rectangulo">Rectangulo</option>
+            <option value="Cuadrado">Cuadrado</option>
+        </select>
+        <label for="lbl4">Area</label>
+        <input type="text" name="txtResp" id="txtResp" readonly>
+    
+        <button id="btnResp">Calcular</button>
+    </form>
+
+    <footer>
+        <p>Aplicacion hecha por: Bernardo Gaspar Ibarra (2070265)</p>
+        <p>UNIVERSIDAD AUTONOMA DE NUEVO LEON</p>
+        <p>Facultadad de Contaduria Publica y Administracion</p>
+    </footer>
+
+    <script src="areas.js"></script>
+</body>
+</html>

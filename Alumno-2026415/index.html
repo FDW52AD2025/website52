@@ -1,71 +1,113 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda Online - Productos</title>
-    <link rel="stylesheet" href="estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Áreas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      text-align: center;
+      padding: 30px;
+    }
+    h1 {
+      color: #333;
+    }
+    select, input, button {
+      margin: 8px;
+      padding: 8px;
+      font-size: 16px;
+    }
+    #resultado {
+      margin-top: 20px;
+      font-weight: bold;
+      color: #007b00;
+    }
+  </style>
 </head>
 <body>
-    <!-- Encabezado de la página -->
-    <header class="cabecera">
-        <h1>Mi Tienda Online</h1>
-        <nav class="navegacion">
-            <a href="#">Inicio</a>
-            <a href="#">Productos</a>
-            <a href="#">Ofertas</a>
-            <a href="#">Contacto</a>
-        </nav>
-    </header>
 
-    <!-- Contenido principal -->
-    <main class="contenedor-principal">
-        <h2>Nuestros Productos Destacados</h2>
-        
-        <!-- Lista de productos -->
-        <div class="lista-productos">
-            
-            <!-- Producto 1 -->
-            <article class="producto">
-                <img src="https://via.placeholder.com/250" alt="Producto 1" class="imagen-producto">
-                <h3 class="nombre-producto">Camiseta Básica</h3>
-                <p class="descripcion-producto">Camiseta de algodón 100% de alta calidad, disponible en varios colores.</p>
-                <div class="precio-producto">$25.000</div>
-                <button class="boton-comprar">Añadir al Carrito</button>
-            </article>
-            
-            <!-- Producto 2 -->
-            <article class="producto">
-                <img src="https://via.placeholder.com/250" alt="Producto 2" class="imagen-producto">
-                <h3 class="nombre-producto">Zapatos Deportivos</h3>
-                <p class="descripcion-producto">Zapatos ideales para running y actividades deportivas, cómodos y resistentes.</p>
-                <div class="precio-producto">$89.900</div>
-                <button class="boton-comprar">Añadir al Carrito</button>
-            </article>
-            
-            <!-- Producto 3 -->
-            <article class="producto">
-                <img src="https://via.placeholder.com/250" alt="Producto 3" class="imagen-producto">
-                <h3 class="nombre-producto">Mochila Urbana</h3>
-                <p class="descripcion-producto">Mochila resistente al agua con múltiples compartimentos, perfecta para el día a día.</p>
-                <div class="precio-producto">$45.000</div>
-                <button class="boton-comprar">Añadir al Carrito</button>
-            </article>
-            
-            <!-- Producto 4 -->
-            <article class="producto">
-                <img src="https://via.placeholder.com/250" alt="Producto 4" class="imagen-producto">
-                <h3 class="nombre-producto">Reloj Inteligente</h3>
-                <p class="descripcion-producto">Reloj con monitor de actividad, notificaciones y resistencia al agua.</p>
-                <div class="precio-producto">$120.000</div>
-                <button class="boton-comprar">Añadir al Carrito</button>
-            </article>
-        </div>
-    </main>
+  <h1>Calculadora de Áreas</h1>
 
-    <!-- Pie de página -->
-    <footer class="pie-pagina">
-        <p>&copy; 2024 Mi Tienda Online. Todos los derechos reservados.</p>
-    </footer>
+  <label for="figura">Selecciona una figura:</label>
+  <select id="figura">
+    <option value="1">Triángulo</option>
+    <option value="2">Rectángulo</option>
+    <option value="3">Cuadrado</option>
+  </select>
+
+  <div id="inputs"></div>
+
+  <button onclick="calcularArea()">Calcular área</button>
+
+  <div id="resultado"></div>
+
+  <script>
+    const figura = document.getElementById("figura");
+    const inputsDiv = document.getElementById("inputs");
+    const resultadoDiv = document.getElementById("resultado");
+
+    // Cambia los campos de entrada según la figura seleccionada
+    figura.addEventListener("change", mostrarCampos);
+    mostrarCampos();
+
+    function mostrarCampos() {
+      let opcion = figura.value;
+      let html = "";
+
+      switch (opcion) {
+        case "1": // Triángulo
+          html = `
+            <input type="number" id="base" placeholder="Base">
+            <input type="number" id="altura" placeholder="Altura">
+          `;
+          break;
+        case "2": // Rectángulo
+          html = `
+            <input type="number" id="base" placeholder="Base">
+            <input type="number" id="altura" placeholder="Altura">
+          `;
+          break;
+        case "3": // Cuadrado
+          html = `<input type="number" id="lado" placeholder="Lado">`;
+          break;
+      }
+
+      inputsDiv.innerHTML = html;
+      resultadoDiv.textContent = "";
+    }
+
+    function calcularArea() {
+      let opcion = figura.value;
+      let area;
+
+      switch (opcion) {
+        case "1": // Triángulo
+          let baseT = parseFloat(document.getElementById("base").value);
+          let alturaT = parseFloat(document.getElementById("altura").value);
+          area = (baseT * alturaT) / 2;
+          resultadoDiv.textContent = `El área del triángulo es: ${area}`;
+          break;
+
+        case "2": // Rectángulo
+          let baseR = parseFloat(document.getElementById("base").value);
+          let alturaR = parseFloat(document.getElementById("altura").value);
+          area = baseR * alturaR;
+          resultadoDiv.textContent = `El área del rectángulo es: ${area}`;
+          break;
+
+        case "3": // Cuadrado
+          let lado = parseFloat(document.getElementById("lado").value);
+          area = lado * lado;
+          resultadoDiv.textContent = `El área del cuadrado es: ${area}`;
+          break;
+
+        default:
+          resultadoDiv.textContent = "Opción no válida.";
+      }
+    }
+  </script>
+
 </body>
 </html>

@@ -11,10 +11,10 @@ h1, h2, h3 {
 
 header {
     padding: 25px 0 25px;
-    background-color: black;
+    background-color: #000000;
     color: #ede8de;
-    border-top: 10px solid #848484;
-    border-bottom: 10px solid #848484;
+    border-top: 10px solid #ff041b;
+    border-bottom: 10px solid #0029ae;
     text-align: center;
 }
 
@@ -23,60 +23,9 @@ article {
     padding: 25px;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    border: 5px solid black;
+    border: 10px solid #000000;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-aside {
-    margin-bottom: 50px;
-    padding: 25px;
-    border-top: 5px dashed black;
-    border-bottom: 5px dashed black;
-    text-align: center;
-}
-
-aside a {
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: italic;
-}
-
-aside {
-    margin-bottom: 50px;
-    padding: 25px;
-    border-top: 5px dashed black;
-    border-bottom: 5px dashed black;
-}
-
-aside a {
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: italic;
-}
-
-footer {
-    padding: 25px 0 25px;
-    background-color: black;
-    color: #ede8de;
-    border-top: 10px solid #848484;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: italic;
-    text-align: center;
-}
-
-#a1 {
-    color: #fabb3b;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-#a2 {
-    color: #009c5a;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-#a3 {
-    color: #d74519;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
 }
 
 #s1 {
@@ -92,4 +41,15 @@ footer {
 #s3 {
     margin-top: 25px;
     border-bottom: 5px solid #d74519;
+}
+
+footer {
+    padding: 25px 0 25px;
+    background-color: #000000;
+    color: #ede8de;
+    border-top: 10px solid #ff041b;
+    border-bottom: 10px solid #0029ae;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-align: center;
 }

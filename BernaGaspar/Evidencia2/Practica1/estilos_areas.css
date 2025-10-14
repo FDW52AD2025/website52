@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-color: #ede8de;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+
+header {
+    padding: 25px 0 25px;
+    background-color: #000000;
+    color: #ede8de;
+    border-top: 10px solid #ff041b;
+    border-bottom: 10px solid #0029ae;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 25px;
+}
+
+input {
+    background-color: #ede8de;
+    font-size: 25px;
+    text-align: center;
+}
+
+select {
+    background-color: #ede8de;
+    font-size: 25px;
+    text-align: center;
+    width: 325px;
+}
+
+button {
+    margin: 25px;
+    background-color: #ede8de;
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 25px;
+}
+
+footer {
+    padding: 25px 0 25px;
+    background-color: #000000;
+    color: #ede8de;
+    border-top: 10px solid #ff041b;
+    border-bottom: 10px solid #0029ae;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-align: center;
+}

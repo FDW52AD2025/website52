@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    
+</head>
+<body>
+    <h1>Calculadoras de Areas: Rectangulo ▭ - Triangulo ▲ - Cuadrado □</h1>
+
+    <h2>Calcula el area de la figura seleccionada</h2>
+
+    <label for="figura">Elige una figura para calcular area:</label>
+    <select name="figura" id="figura">
+        <option value="1">Rectagulo</option>
+        <option value="2">Triangulo</option>
+        <option value="3">Cuadrado</option>
+    </select>
+
+    <form>
+        <label for="Num1">Numero 1</label>
+        <input type="number" name="Num1" id="Num1">
+    </form>
+
+    <form>
+        <label for="Num2">Numero 2</label>
+        <input type="number" name="Num2" id="Num2">
+    </form>
+
+    <label for="inputResultado">El area es de:</label>
+    <input readonly type="number" name="inputResultado" id="inputResultado">
+
+    <button id="boton">Calcular</button>
+
+    <script src="Practica7js.js" defer></script>
+</body>
+</html>
+

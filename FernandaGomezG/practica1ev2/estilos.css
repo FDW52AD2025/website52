@@ -1,0 +1,16 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(228, 172, 228);
+}
+
+h1 {
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30v;
+    margin: 0 auto;
+    gap: .3em;
+}
