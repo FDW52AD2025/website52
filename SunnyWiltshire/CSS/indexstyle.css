@@ -38,10 +38,6 @@ footer{
     margin: 20px 0;            
 }
 
-li, ul{
-    text-align: justify;
-}
-
 #Ev1 a{
     color: rgb(0, 0, 0);
 }
@@ -105,6 +101,10 @@ iframe , img{
 #Ev2 ul li::before{
     content: "🌀";
     margin-right: 8px;
+}
+
+#Ev2 a{
+    color: rgb(1, 47, 69);
 }
 
 aside a{
