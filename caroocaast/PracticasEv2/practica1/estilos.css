@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    color: rgb(248, 131, 186);
+   
+    
+}
+
+body {
+    text-align: center;
+    background-color: rgb(245, 227, 237);
+    margin: 100px;
+    border: 3px solid black;
+    padding: 10px;
+    color: rgb(243, 152, 208);
+    font-weight:bold;
+    display: inline-block;
+    align-content:center ;
+    width: 50%;
+    height: 50%;
+
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    margin: 0 auto;
+    gap: .3em;
+
+}
+
+#boton{
+    background-color: rgb(243, 178, 208);
+}
+
+form select option{
+    color: rgb(243, 146, 206);
+}
