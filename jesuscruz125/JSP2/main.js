@@ -21,7 +21,7 @@ boton.addEventListener("click", e => {
     let cont = 1;
     const tabla = document.getElementById("tabla");
     for(i = 1; i <= 3; i++){
-        const tr = document.createElement("tr")
+        const tr = document.createElement("tr");
         for(e = 1; e <=3; e++){
             const td = document.createElement("td");
             td.innerHTML = cont;

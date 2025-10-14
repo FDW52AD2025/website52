@@ -41,4 +41,20 @@ footer{
 h1{
     text-align: center;
 }
+
+#javatitulo{
+    justify-self: center;
+    border: 1px dashed gold;
+}
+
+#javatitulo:hover{
+    background-color: black;
+    color: yellow;
+}
+
+#Ev2P1, #Ev2P2{
+    border: 5px solid gold;
+    border-radius: 8px;
+    padding: 8px;
+}
   
