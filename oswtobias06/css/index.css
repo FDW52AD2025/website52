@@ -12,10 +12,11 @@ h1 {
 }
 
 h2 {
-   background-color: #061335;
-    color: white;
+   background-color: white;
+    color: #061335;
     padding: 1em;
     width: 7em;
+    border: 5px solid #061335;
 }
 
 article {
