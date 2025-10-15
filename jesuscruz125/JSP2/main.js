@@ -13,16 +13,16 @@
 
 const boton = document.getElementById("boton");
 
-
 boton.addEventListener("click", e => {
 
 
 
     let cont = 1;
     const tabla = document.getElementById("tabla");
-    for(i = 1; i <= 3; i++){
-        const tr = document.createElement("tr")
-        for(e = 1; e <=3; e++){
+    
+    for(let i = 1; i <= 3; i++){
+        const tr = document.createElement("tr");
+        for(let e = 1; e <=3; e++){
             const td = document.createElement("td");
             td.innerHTML = cont;
             cont += 1 
@@ -30,11 +30,9 @@ boton.addEventListener("click", e => {
         }
         tabla.appendChild(tr);
 
-        tabla.style.border = "1px solid black";
 
     }
 
-
-
+    tabla.style.border = "1px solid black";
 
 })
