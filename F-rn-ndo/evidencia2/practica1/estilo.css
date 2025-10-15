@@ -1,0 +1,39 @@
+body {
+    background-color: #cdcdcd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.contorno-calculadora {
+    background-color: #ffffff;
+    padding: 2rem;
+    width: 100%;
+    max-width: 24rem;
+}
+
+.inputs {
+    margin-bottom: 1rem;
+}
+
+.resultados {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+input[type="number"],
+input[type="text"],
+select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #cdcdcd;
+    box-sizing: border-box;
+}

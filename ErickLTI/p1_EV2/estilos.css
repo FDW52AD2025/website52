@@ -1,0 +1,39 @@
+body {
+    background-color: lightcyan;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: lightcyan;
+    background-color: black;
+    text-align: center;
+}
+
+
+input, select {
+    padding: 8px;        
+    width: 200px;        
+    margin: 8px 0;       
+    border: 1px solid black;
+    border-radius: 5px;     
+    text-align: center;     
+    font-size: 16px;        
+}
+
+button {
+    padding: 10px 20px;         
+    margin-top: 10px;            
+    margin: 10px auto;      
+    display: block;          
+    background-color: black;    
+    color: lightcyan;           
+    border: 1px solid black;    
+    border-radius: 5px;         
+    cursor: pointer;            
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: white; 
+    color: black;
+}

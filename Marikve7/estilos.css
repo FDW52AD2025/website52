@@ -5,6 +5,7 @@ h1 {
 }
 
 section{
+    margin: 10px;
     border:3px double rgb(162, 103, 162);
     background-color: rgb(231, 215, 231);
 }
@@ -14,6 +15,8 @@ h3 {
 }
 
 
-header {
-    color: rgb(11, 11, 11);
+header, p , h4 {
+    margin: 10px;
+    color: black;
 }
+

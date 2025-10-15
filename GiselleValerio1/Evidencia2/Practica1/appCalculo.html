@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Area</title>
+    <link rel ="stylesheet" href="appCalculo.css">
+</head>
+<body>
+    <h1>App Calcular Areas</h1>
+    <form action="">
+        <label for="valor1">Valor 1:</label>
+        <input type="text" name="valor1" id="valor1">
+
+        <label for="valor2">Valor 2:</label>
+        <input type="text" name="valor2" id="valor2">
+
+        <label for="figura">Area de figura a calcular</label>
+        <select name="figura" id="figura">
+            <option value="1">Triangulo</option>
+            <option value="2">Rectangulo</option>
+            <option value="3">Cuadrado</option>
+        </select>
+
+        <label for="resultado">Resultado</label>
+        <input readonly type="text" name="resultado" id="resultado">
+
+        <button id="boton">Calcular Area</button>
+    </form>
+   
+    <script src="appCalculo.js"></script>
+</body>
+</html>

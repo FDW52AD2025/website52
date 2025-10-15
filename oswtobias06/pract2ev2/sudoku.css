@@ -1,0 +1,17 @@
+body {
+    font-family: "Century Gothic", Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(15, 15, 70);
+    background-color: whitesmoke;
+    padding: 1em;
+}
+
+#tabla {
+    font-weight: bold;
+}
+
+

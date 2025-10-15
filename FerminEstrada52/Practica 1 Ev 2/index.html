@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evidencia 2 - Práctica 1</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="contorno-calculadora">
+        <!-- Valor 1 -->
+        <div class="inputs">
+            <label for="valor1"><strong>Valor 1</strong></label>
+            <input type="number" id="valor1">
+        </div>
+
+        <!-- Valor 2 -->
+        <div id="contenedor-valor2" class="inputs">
+            <label for="valor2"><strong>Valor 2</strong></label>
+            <input type="number" id="valor2">
+        </div>
+
+        <!-- Figura -->
+        <div class="inputs">
+            <label for="figura"><strong>Figura</strong></label>
+            <select id="figura">
+                <option value="rectangulo">Rectángulo</option>
+                <option value="triangulo">Triángulo</option>
+                <option value="cuadrado">Cuadrado</option>
+            </select>
+        </div>
+
+        <!-- Resultado -->
+        <div class="inputs resultados">
+            <label for="resultado"><strong>Resultado</strong></label>
+            <input type="text" id="resultado" readonly>
+        </div>
+
+        <!-- Botón -->
+        <button id="calcular">
+            Calcular
+        </button>
+    </div>
+</body>
+</html>

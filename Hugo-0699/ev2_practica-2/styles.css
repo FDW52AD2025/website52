@@ -1,0 +1,43 @@
+/* Estilos para el documento*/
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+body {
+    background: radial-gradient(rgb(24, 24, 24), rgb(0, 0, 0)) ;
+    margin: 50px 0px;
+}
+main {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 10px solid rgb(110, 110, 110);
+    border-radius: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 30px;
+    padding: 10px 0px 30px;
+}
+h1 {
+    background: transparent;
+    color: rgb(156, 4, 4);
+    font-size: 50px;
+    padding: 10px;
+    margin: 20px;
+}
+#tabla {
+    padding: 10px;
+    margin: auto;
+}
+td {
+    background-color: rgb(219, 181, 75);
+    border: 5px solid rgb(141, 108, 0);
+    color: rgb(77, 3, 3);
+    font-size: 40px;
+    width: 10vw;
+    height: 10vh;
+    padding: 0px 30px;
+}
+footer {
+    color: aliceblue;
+    font-weight: bold;
+}

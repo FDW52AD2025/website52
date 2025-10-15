@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generar Tabla</title>
+</head>
+<body>
+  <h2>Generar Tabla con JavaScript</h2>
+  <button onclick="generarTabla()">Generar tabla</button>
+  <div id="contenedor"></div>
+
+  <script>
+    function generarTabla() {
+      const contenedor = document.getElementById('contenedor');
+      contenedor.innerHTML = ""; // Limpiar contenido previo
+
+      const tabla = document.createElement('table');
+      tabla.style.borderCollapse = 'collapse';
+      tabla.style.marginTop = '10px';
+
+      let numero = 1;
+      for (let i = 0; i < 3; i++) {
+        const fila = document.createElement('tr');
+        for (let j = 0; j < 3; j++) {
+          const celda = document.createElement('td');
+          celda.textContent = numero++;
+          celda.style.border = "1px solid black";
+          celda.style.padding = "10px";
+          celda.style.textAlign = "center";
+          fila.appendChild(celda);
+        }
+        tabla.appendChild(fila);
+      }
+
+      contenedor.appendChild(tabla);
+    }
+  </script>
+</body>
+</html>
