@@ -26,6 +26,7 @@ boton.addEventListener("click", e => {
             const td = document.createElement("td");
             td.innerHTML = cont;
             cont += 1 
+            td.style.border = "1px solid black";
             tr.appendChild(td);
         }
         tabla.appendChild(tr);

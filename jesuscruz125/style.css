@@ -52,7 +52,7 @@ h1{
     color: yellow;
 }
 
-#Ev2P1, #Ev2P2{
+[id^="Ev2"]{
     border: 5px solid gold;
     border-radius: 8px;
     padding: 8px;

@@ -1,8 +1,6 @@
-table, td{
-    border: 1px solid black;
-    border-collapse: collapse;
-    margin: 5px;
-    padding: 5px;
+table{
+    margin: 1px;
+    padding: 1px;
 }
 
 button{
