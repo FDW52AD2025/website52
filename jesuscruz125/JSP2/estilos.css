@@ -1,11 +1,10 @@
-table, th, td {
+table, td{
     border: 1px solid black;
     border-collapse: collapse;
-    padding: 10px;
-  }
+    margin: 5px;
+    padding: 5px;
+}
 
-  button{
-    margin: 10px;
-  }
-  
-
+button{
+    margin: 5px;
+}
