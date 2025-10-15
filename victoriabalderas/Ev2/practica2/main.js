@@ -14,6 +14,7 @@ boton.addEventListener("click", e => {
         for(let j = 0; j < 3; j++){
         const celda = document.createElement("td");
         celda.textContent = datos[contador];
+        celda.style.border = "1px solid black";
         fila.appendChild(celda);
         contador++;
         }
