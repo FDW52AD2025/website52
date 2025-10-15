@@ -1,3 +1,17 @@
-h1{
-    border-radius: 1px color black;
+h1, h2, h3 {
+    border-radius: 15px;
+    margin: 15px;
+    background-color: rgb(115, 183, 228);
+    border: 3px solid rgb(30, 6, 162);
+    color: rgb(30, 6, 162);
+    text-align: center;
+    padding-left: 10px;
+}
+
+h2{
+    text-align: left;
+}
+
+body{
+    background-color: rgb(191, 224, 234);
 }
