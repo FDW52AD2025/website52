@@ -1,0 +1,8 @@
+body {
+    background-color: lightcyan;
+}
+
+button:hover {
+    background-color: white; 
+    color: black;
+}
