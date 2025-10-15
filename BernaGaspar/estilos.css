@@ -3,10 +3,12 @@ body {
     background-color: #ede8de;
 }
 
-h1, h2, h3 {
-    margin: 0;
+h1, h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: italic;
+}
+
+header p, footer p{
+    margin: 0;
 }
 
 header {
@@ -15,6 +17,28 @@ header {
     color: #ede8de;
     border-top: 10px solid #ff041b;
     border-bottom: 10px solid #0029ae;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    text-align: center;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 50px;
+}
+
+footer {
+    padding: 25px 0 25px;
+    background-color: #000000;
+    color: #ede8de;
+    border-top: 10px solid #ff041b;
+    border-bottom: 10px solid #0029ae;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    font-style: italic;
     text-align: center;
 }
 
@@ -41,15 +65,4 @@ article {
 #s3 {
     margin-top: 25px;
     border-bottom: 5px solid #d74519;
-}
-
-footer {
-    padding: 25px 0 25px;
-    background-color: #000000;
-    color: #ede8de;
-    border-top: 10px solid #ff041b;
-    border-bottom: 10px solid #0029ae;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: italic;
-    text-align: center;
 }
