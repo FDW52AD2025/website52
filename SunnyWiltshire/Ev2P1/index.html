@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de area</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Calculadora de area</h1>
+
+    <form action="">
+        <label for="num1">Valor 1</label>
+        <input type="text" name="num1" id="num1">
+
+        <label for="num2">Valor 2</label>
+        <input type="text" name="num2" id="num2">
+
+        <label for="figura">Figura</label>
+        <select name="figura" id="figura">
+            <option value="1">Triangulo</option>
+            <option value="2">Rectangulo</option>
+            <option value="3">Cuadrado</option>
+        </select>
+
+        <label for="resultado">Resultado</label>
+        <input readonly type="text" name="resultado" id="resultado">
+        <button id="calcular">Calcular</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
